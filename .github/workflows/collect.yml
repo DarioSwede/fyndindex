@@ -1,6 +1,6 @@
 # Schemalagd insamling. Kör insamlaren i GitHub Actions och committar
-# data/snapshot-latest.json tillbaka till repot, varefter pages.yml
-# publicerar den nya datan automatiskt.
+# data/snapshot-latest.json tillbaka till repot. Pages publicerar från main,
+# så en commit hit räcker för att sajten uppdateras.
 #
 # Ingen server, ingen databas, ingen kostnad. När du vill ha historik längre
 # tillbaka än en körning byter du målet till Supabase i stället -- se
@@ -17,6 +17,14 @@ on:
 permissions:
   contents: write
 
+# Två samtidiga insamlingar kan inte båda pusha -- den andra får "rejected
+# (fetch first)" och kraschar. Det hände på riktigt första dagen, när en
+# schemalagd körning och en manuell startade inom en minut. Kön ser till att
+# de går efter varandra i stället.
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
 jobs:
   collect:
     runs-on: ubuntu-latest
@@ -25,12 +33,30 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+
+      - name: Kontrollera kärnan
+        run: node --test collector/core.test.js
+
       - name: Kör insamlaren
         run: node collector/run.js --markets=SE
+
       - name: Committa ny data
         run: |
           git config user.name "fyndindex-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/snapshot-latest.json
-          git diff --staged --quiet || git commit -m "Insamling $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "Ingen förändring i datan -- inget att committa."
+            exit 0
+          fi
+          git commit -m "Insamling $(date -u +%Y-%m-%d\ %H:%M)"
+          # Även med concurrency-kön kan någon ha pushat under körningen,
+          # som tar ett par minuter. Rebase och försök igen i stället för
+          # att fälla jobbet på något som löser sig av sig självt.
+          for försök in 1 2 3; do
+            git push && exit 0
+            echo "Push avvisad (försök $försök) -- hämtar och rebasar."
+            git pull --rebase --autostash origin main
+          done
+          echo "Kunde inte pusha efter tre försök."
+          exit 1
