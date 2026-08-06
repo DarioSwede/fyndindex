@@ -37,8 +37,21 @@ jobs:
       - name: Kontrollera kärnan
         run: node --test collector/core.test.js
 
+      # --no-trends med flit. Den odokumenterade Trends-endpointen svarar 429
+      # från GitHub Actions IP-adresser -- de är delade och hårt trafikerade
+      # av skrapare, så Google stryper dem i praktiken alltid. Första
+      # nattkörningen bevisade det: 0 av 15 kategorier fick en siffra, alla
+      # 429. Att fortsätta försöka kostar ett par minuters väntan per körning
+      # för att garanterat få tillbaka femton felmeddelanden.
+      #
+      # Sökintresse kommer i stället in på två vägar:
+      #   - CSV-import i appen (Importera Trends), fungerar idag
+      #   - signals/google-trends-api.js, när alfa-nyckeln är på plats
+      #
+      # Heat viktar om sig automatiskt när signalen saknas, så korten blir
+      # inte fel av det -- budkvoten står då för hela talet.
       - name: Kör insamlaren
-        run: node collector/run.js --markets=SE
+        run: node collector/run.js --markets=SE --no-trends
 
       - name: Committa ny data
         run: |

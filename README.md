@@ -137,10 +137,21 @@ Ja, det går att använda — men med tre förbehåll:
    men `widgetdata/*` svarar 429 gång på gång — även med tio sekunders paus
    emellan. Räkna med att en del kategorier blir tomma.
 
+**Vad som faktiskt används idag:** ingenting automatiskt. Nattkörningen kör
+med `--no-trends`, för den odokumenterade endpointen svarar 429 från GitHub
+Actions IP-adresser — de är delade och hårt trafikerade av skrapare. Första
+nattkörningen bevisade det: 0 av 15 kategorier fick en siffra. Sökintresse
+kommer in via CSV-import tills alfa-nyckeln är på plats.
+
+Det betyder att **heat just nu är ren budkvot** — den fjärdedel som skulle
+vara sökintresse viktas bort automatiskt, så korten blir inte fel, men den
+delen bidrar inte med något.
+
 Därför två vägar:
 
-- **Automatiskt:** `collector/signals/google-trends.js`, en gång per dygn,
-  med lång backoff. Signalen rör sig i veckotakt ändå.
+- **Automatiskt:** `collector/signals/google-trends.js`, med lång backoff.
+  Finns kvar och funkar från en vanlig uppkoppling — kör `node
+  collector/run.js` utan `--no-trends` lokalt. Avstängd i nattkörningen.
 - **För hand:** ladda ner CSV från
   [trends.google.com](https://trends.google.com/trends/explore?geo=SE) och
   släpp den i appen via **Importera Trends**. Både "Intresse över tid" och
