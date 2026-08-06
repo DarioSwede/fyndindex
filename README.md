@@ -1,4 +1,4 @@
-# Fyndindex
+## Fyndindex
 
 **Live: <https://darioswede.github.io/fyndindex/>**
 
