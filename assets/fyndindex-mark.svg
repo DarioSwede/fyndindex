@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" role="img" aria-label="Fyndindex">
+  <!-- width och height maste sta ut: utan dem far <img> ingen inneboende
+       storlek och renderas som 0x0, oavsett vad CSS:en sager.
+
+       Motivet: forstoringsglas over en stigande stapelserie, alltsa leta upp
+       plus trend, vilket ar precis vad appen gor. Enfargat i samma grona ton
+       som packlistans ryggsacksmarke, som ocksa ar en enda linje.
+
+       Tva fallgropar som bada kostade en omgang felsokning: kommentaren ar
+       ASCII (en SVG som laddas via <img> tolkas som fristaende XML, och da
+       ar teckenkodningen inget att chansa pa), och den innehaller inget
+       dubbelbindestreck. XML forbjuder det inne i kommentarer, sa att skriva
+       CSS-variabelnamnet med sina tva inledande streck har far hela filen
+       att vagra parsa och bilden renderas som 0x0 utan felmeddelande i
+       konsolen. -->
+  <rect x="8" y="28" width="5" height="11" rx="1.5" fill="#9ae691" opacity=".45"/>
+  <rect x="16" y="22" width="5" height="17" rx="1.5" fill="#9ae691" opacity=".65"/>
+  <rect x="24" y="15" width="5" height="24" rx="1.5" fill="#9ae691" opacity=".85"/>
+  <circle cx="31.5" cy="16.5" r="9.5" stroke="#9ae691" stroke-width="3" fill="none"/>
+  <path d="M38.5 23.5 L44 29" stroke="#9ae691" stroke-width="3.4" stroke-linecap="round"/>
+</svg>

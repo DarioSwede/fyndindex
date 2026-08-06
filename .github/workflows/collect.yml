@@ -1,0 +1,36 @@
+# Schemalagd insamling. Kör insamlaren i GitHub Actions och committar
+# data/snapshot-latest.json tillbaka till repot, varefter pages.yml
+# publicerar den nya datan automatiskt.
+#
+# Ingen server, ingen databas, ingen kostnad. När du vill ha historik längre
+# tillbaka än en körning byter du målet till Supabase i stället -- se
+# supabase/migrations/0001_fyndindex.sql.
+name: Samla in trenddata
+
+on:
+  schedule:
+    # 05:12 UTC varje dag. Udda minut med flit: Actions köar upp allt som
+    # ligger på hel timme, och en jämn kvart ger längre väntetid.
+    - cron: "12 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Kör insamlaren
+        run: node collector/run.js --markets=SE
+      - name: Committa ny data
+        run: |
+          git config user.name "fyndindex-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/snapshot-latest.json
+          git diff --staged --quiet || git commit -m "Insamling $(date -u +%Y-%m-%d)"
+          git push

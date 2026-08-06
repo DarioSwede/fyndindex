@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#08140f">
+  <meta name="description" content="Överblick över vad som trendar på den svenska andrahandsmarknaden — Tradera, Myrorna, auktionshusen och Google-sökningar på ett ställe.">
+  <title>Fyndindex</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>
+    // Sätter sparat tema före första målningen, direkt från localStorage, så
+    // den som kör ljust läge slipper ett mörkt blink medan app.js (deferrad
+    // modul) laddas. Samma lösning som packlistan använder -- se applyTheme()
+    // i app.js för den riktiga implementationen.
+    try {
+      var stored = JSON.parse(localStorage.getItem("fyndindex-prefs") || "{}");
+      if (stored.theme === "light") document.documentElement.classList.add("theme-light");
+    } catch (e) { /* trasig eller blockerad storage -- strunt samma */ }
+  </script>
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+
+<!-- ============ Utloggat ============ -->
+<div id="signed-out">
+  <header class="site-header">
+    <a class="brand" href="./"><img src="assets/fyndindex-mark.svg?v=2" alt="">Fyndindex</a>
+    <div class="header-actions">
+      <div class="dropdown" data-dropdown>
+        <button class="icon-button header-control" id="settings-toggle-guest" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Inställningar"><span class="header-control-icon" aria-hidden="true">⚙</span><span class="header-control-label">Inställningar</span></button>
+        <div class="dropdown-panel" data-dropdown-panel hidden>
+          <p class="dropdown-heading">Inställningar</p>
+          <label class="dropdown-field switch-field">
+            <span>Mörkt läge</span>
+            <span class="switch">
+              <input type="checkbox" id="theme-toggle-guest" aria-label="Mörkt läge" checked>
+              <span class="switch-track"><span class="switch-thumb"></span></span>
+            </span>
+          </label>
+          <p class="dropdown-hint">Fyndindex visar bara publikt tillgänglig data. Ingen inloggning krävs för att titta.</p>
+        </div>
+      </div>
+      <button class="quiet-button" id="open-login">Logga in</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Samla · jämför · sälj rätt</p>
+        <h1>Se vad som<br>rör sig — innan<br>alla andra gör det.</h1>
+        <p class="lead">Fyndindex läser den svenska andrahandsmarknaden och Google-sökningarna bakom den, och lägger allt på ett kort per kategori. Titta fritt. Logga in när du vill bevaka dina egna annonser.</p>
+        <a class="primary-link" href="#oversikt">Till översikten</a>
+      </div>
+      <div class="hero-card" aria-label="Exempel på kategorikort">
+        <span>Hetast just nu</span>
+        <strong id="hero-heat">–</strong>
+        <div class="heat-bar"><i id="hero-bar" style="width:0"></i></div>
+        <dl>
+          <div><dt>Kategorier</dt><dd id="hero-categories">–</dd></div>
+          <div><dt>Annonser i indexet</dt><dd id="hero-count">–</dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- ============ Appen (visas alltid — inloggning krävs bara för Mina annonser) ============ -->
+<div id="app">
+  <header class="app-header" id="app-header" hidden>
+    <a class="brand" href="./"><img src="assets/fyndindex-mark.svg?v=2" alt="">Fyndindex</a>
+    <div class="header-actions">
+      <button class="quiet-button header-control" id="open-trends-import" type="button"><span class="header-control-icon" aria-hidden="true">📈</span><span class="header-control-label">Importera Trends</span></button>
+      <div class="dropdown" data-dropdown>
+        <button class="icon-button header-control" id="settings-toggle-app" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Inställningar"><span class="header-control-icon" aria-hidden="true">⚙</span><span class="header-control-label">Inställningar</span></button>
+        <div class="dropdown-panel" data-dropdown-panel hidden>
+          <p class="dropdown-heading">Inställningar</p>
+          <label class="dropdown-field switch-field">
+            <span>Mörkt läge</span>
+            <span class="switch">
+              <input type="checkbox" id="theme-toggle-app" aria-label="Mörkt läge" checked>
+              <span class="switch-track"><span class="switch-thumb"></span></span>
+            </span>
+          </label>
+          <label class="dropdown-field">
+            <span>Valuta</span>
+            <select id="currency-select"><option value="SEK">SEK</option><option value="EUR">EUR</option></select>
+          </label>
+          <p class="dropdown-hint">Utländska priser räknas om med en fast kurs. Se FX_TO_SEK i collector/core/normalize.js.</p>
+        </div>
+      </div>
+      <div class="dropdown" data-dropdown id="account-dropdown" hidden>
+        <button class="avatar-button header-control" id="account-toggle" type="button" aria-haspopup="true" aria-expanded="false">Konto</button>
+        <div class="dropdown-panel" data-dropdown-panel hidden>
+          <p class="dropdown-heading" id="account-email">–</p>
+          <button class="quiet-button" id="register-passkey" type="button">Registrera passkey</button>
+          <p class="dropdown-hint" id="passkey-status"></p>
+          <button class="quiet-button" id="sign-out" type="button">Logga ut</button>
+        </div>
+      </div>
+      <button class="quiet-button" id="open-login-app">Logga in</button>
+    </div>
+  </header>
+
+  <main id="app-main" hidden>
+    <!-- ---- nyckeltal ---- -->
+    <div class="top-stats">
+      <div class="stat"><span>Hetast</span><strong id="stat-hottest">–</strong><small id="stat-hottest-sub">ingen data ännu</small></div>
+      <div class="stat"><span>Annonser i indexet</span><strong id="stat-count">–</strong><small id="stat-count-sub">över alla källor</small></div>
+      <div class="stat"><span>Störst rörelse</span><strong id="stat-mover">–</strong><small id="stat-mover-sub">sedan förra körningen</small></div>
+      <div class="stat"><span>Uppdaterat</span><strong id="stat-updated">–</strong><small id="stat-updated-sub">senaste insamling</small></div>
+    </div>
+
+    <!-- ---- toppflyttare ---- -->
+    <section id="movers-section" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Rörelse</p>
+          <h2>Störst förändring</h2>
+        </div>
+        <p>Skillnad i heat mot föregående insamling, dämpad för kategorier med tunt underlag så att brus inte hamnar överst.</p>
+      </div>
+      <div class="movers" id="movers"></div>
+    </section>
+
+    <!-- ---- kategorier ---- -->
+    <section id="oversikt">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Översikt</p>
+          <h2>Kategorier</h2>
+        </div>
+        <p>Heat väger ihop budkvot, bevakningsordning och sökintresse till ett tal 0–100. Klicka på ett kort för detaljer.</p>
+      </div>
+
+      <div class="filters">
+        <button class="chip active" data-market="SE" type="button">Sverige</button>
+        <button class="chip" data-market="NORDIC" type="button">Norden</button>
+        <button class="chip" data-market="EU" type="button">Europa</button>
+        <button class="chip" data-market="ALL" type="button">Allt</button>
+        <span class="filters-spacer"></span>
+        <input type="search" id="filter-search" placeholder="Filtrera kategori eller varumärke" aria-label="Filtrera">
+        <select id="sort-select" aria-label="Sortering">
+          <option value="heat">Sortera: hetast</option>
+          <option value="delta">Sortera: störst rörelse</option>
+          <option value="supply">Sortera: mest utbud</option>
+          <option value="price">Sortera: högst medianpris</option>
+          <option value="name">Sortera: namn</option>
+        </select>
+      </div>
+
+      <div class="category-grid" id="category-grid"></div>
+      <div id="empty-state" hidden></div>
+    </section>
+
+    <!-- ---- mina annonser (bara inloggad) ---- -->
+    <section id="mine-section" style="margin-top:44px" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Dina objekt</p>
+          <h2>Mina annonser</h2>
+        </div>
+        <p>Ligger samma sak ute någon annanstans? Matchningen jämför normaliserade ordmängder ur titlarna — den tål att samma pryl beskrivs olika på två sajter.</p>
+      </div>
+      <div id="mine-body"></div>
+    </section>
+
+    <!-- ---- källor ---- -->
+    <section style="margin-top:44px">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Härifrån kommer siffrorna</p>
+          <h2>Källor</h2>
+        </div>
+        <p>Grön prick = robots.txt tillåter det vi gör. Gul = inget uttryckligt förbud men inte heller ett tydligt ja. Röd = sajten förbjuder automatiserad hämtning, och då hämtar vi inget.</p>
+      </div>
+      <div class="source-table" id="source-table"></div>
+      <p class="footnote" id="footnote"></p>
+    </section>
+  </main>
+</div>
+
+<!-- ============ Modaler ============ -->
+<div class="modal-backdrop" id="login-modal" hidden>
+  <section class="login-card" role="dialog" aria-modal="true" aria-labelledby="login-title">
+    <button class="close-button" id="close-login" aria-label="Stäng">×</button>
+    <p class="eyebrow">Bevaka dina egna annonser</p>
+    <h2 id="login-title">Logga in eller skapa konto</h2>
+    <form id="auth-form">
+      <label for="email">E-post</label>
+      <input id="email" type="email" autocomplete="email" required>
+      <label for="password">Lösenord</label>
+      <input id="password" type="password" autocomplete="current-password" minlength="6" required>
+      <button class="primary-button" type="submit">Logga in</button>
+    </form>
+    <button class="secondary-button" id="sign-up">Skapa konto</button>
+    <div class="auth-divider"><span>eller</span></div>
+    <button class="secondary-button" id="passkey-sign-in">Logga in med passkey</button>
+    <p class="form-message" id="auth-message" aria-live="polite"></p>
+  </section>
+</div>
+
+<div class="modal-backdrop" id="detail-modal" hidden>
+  <section class="login-card wide" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+    <button class="close-button" id="close-detail" aria-label="Stäng">×</button>
+    <p class="eyebrow" id="detail-eyebrow">Kategori</p>
+    <h2 id="detail-title">–</h2>
+    <div id="detail-body"></div>
+  </section>
+</div>
+
+<div class="modal-backdrop" id="trends-modal" hidden>
+  <section class="login-card" role="dialog" aria-modal="true" aria-labelledby="trends-title">
+    <button class="close-button" id="close-trends" aria-label="Stäng">×</button>
+    <p class="eyebrow">Reservväg</p>
+    <h2 id="trends-title">Importera från Google Trends</h2>
+    <p style="color:var(--muted);font-size:13px;line-height:1.55;margin:0 0 16px">
+      Google stryper den automatiska hämtningen hårt. När insamlaren inte får igenom
+      något öppnar du <a href="https://trends.google.com/trends/explore?geo=SE" target="_blank" rel="noopener" style="color:var(--green)">trends.google.com</a>,
+      laddar ner CSV-filen från valfri panel och släpper den här. Både
+      &bdquo;Intresse över tid&rdquo; och &bdquo;Relaterade sökningar&rdquo; funkar &mdash; formatet känns igen automatiskt.
+    </p>
+    <label for="trends-file">CSV-fil</label>
+    <input id="trends-file" type="file" accept=".csv,text/csv">
+    <label for="trends-category">Koppla till kategori</label>
+    <select id="trends-category"></select>
+    <button class="primary-button" id="trends-apply" type="button">Använd</button>
+    <p class="form-message" id="trends-message" aria-live="polite"></p>
+  </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.7/dist/umd/supabase.min.js"></script>
+<script src="config.js?v=1"></script>
+<script type="module" src="app.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "_om": "Traderas egen pressrapport 'Här är de 25 mest efterfrågade varumärkena på Tradera'. Publicerad data, ingen skrapning. Används som utgångspunkt för kategoriindelningen i collector/core/taxonomy.js och som referensram innan den första egna insamlingen gjorts.",
+  "kalla": "https://www.mynewsdesk.com/se/tradera/pressreleases/haer-aer-de-25-mest-efterfraagade-varumaerkena-paa-tradera-en-spegling-av-vad-som-cirkulerar-i-praktiken-3385039",
+  "matperiod": { "fran": "2024-03-01", "till": "2025-02-28" },
+  "metod": "Antal sökningar, antal sålda artiklar, genomsnittligt försäljningspris och genomförsäljningsgrad.",
+  "topp25": [
+    "Fjällräven", "Ralph Lauren", "Polarn O. Pyret", "ARKET", "Peak Performance",
+    "Rodebjer", "Totême", "Gant", "Our Legacy", "Patagonia",
+    "Carhartt", "H&M", "Haglöfs", "Acne Studios", "Houdini",
+    "Marimekko", "Barbour", "Levi's", "Lindex", "Stone Island",
+    "Didriksons", "ADOORE", "Odd Molly", "Gudrun Sjödén", "Mini Rodini"
+  ],
+  "segment": {
+    "dam": ["ARKET", "Totême", "Rodebjer", "Ralph Lauren", "ADOORE"],
+    "herr": ["Ralph Lauren", "Our Legacy", "Carhartt", "Stone Island", "Barbour"],
+    "barn": ["Polarn O. Pyret", "Didriksons", "Lindex", "Mini Rodini", "Kuling"],
+    "outdoor": ["Fjällräven", "Peak Performance", "Patagonia", "Haglöfs", "Houdini"],
+    "parfym": ["Byredo", "Chanel", "Dior", "Tom Ford", "YSL"]
+  },
+  "snabbast_genomforsaljning": ["Astrid Wild", "Woolpower", "Gramicci", "Ilouity", "Klättermusen"],
+  "hogst_snittpris": ["Moose Knuckles", "Moncler", "Loro Piana", "Canada Goose", "Maison Margiela"],
+  "mest_sokta": ["Ralph Lauren", "Fjällräven", "Gudrun Sjödén", "Peak Performance", "ARKET"],
+
+  "_notering_glas_porslin_antikt": "Rapporten täcker bara kläder, skor och accessoarer plus den nya parfymkategorin. Glas, porslin och antikt/design finns inte med -- de kategorierna är tillagda av dig och saknar alltså en publicerad referensranking. Deras heat kommer helt från den egna insamlingen (Tradera, Bukowskis, Auktionsverket) plus Google Trends."
+}
