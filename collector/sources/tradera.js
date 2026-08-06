@@ -24,6 +24,7 @@ export const id = "tradera";
 export const label = "Tradera";
 export const market = "SE";
 export const enabled = true;
+export const homepage = "https://www.tradera.com/";
 export const legal = {
   status: "ok",
   note: "robots.txt tillåter /search och /item. Officiellt API finns på api.tradera.com/v3 för den som vill ha en nyckel.",

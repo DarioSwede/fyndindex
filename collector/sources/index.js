@@ -48,6 +48,25 @@ export function activeSources({ markets = null } = {}) {
     (!markets || markets.includes(s.market)));
 }
 
+/**
+ * Fyra visningslägen, inte tre.
+ *
+ * `legal.status` svarar på "får vi?", `enabled` på "gör vi?". Att bara färga
+ * på det första gav Plick och Poshmark grön prick trots att de är avstängda,
+ * vilket läste som att de bidrog med data. Nu är det fyra tydligt skilda
+ * lägen med var sin färg:
+ *
+ *   active   grön    påslagen och tillåten -- bidrar med data
+ *   off      gul     tillåten men avstängd -- inget hindrar dig från att slå på
+ *   verify   orange  oklara villkor -- läs innan du kör den ofta
+ *   blocked  röd     sajten säger nej -- vi hämtar inget
+ */
+export function displayStatus(source) {
+  if (source.legal.status === "blocked") return "blocked";
+  if (source.legal.status === "verify") return "verify";
+  return source.enabled ? "active" : "off";
+}
+
 /** Sammanställning för källpanelen i gränssnittet. */
 export function sourceManifest() {
   return SOURCES.map((s) => ({
@@ -55,8 +74,10 @@ export function sourceManifest() {
     label: s.label,
     market: s.market,
     enabled: Boolean(s.enabled),
-    status: s.legal.status,
+    status: displayStatus(s),
+    legalStatus: s.legal.status,
     note: s.legal.note,
+    unblock: s.legal.unblock || null,
     url: s.homepage || null,
   }));
 }

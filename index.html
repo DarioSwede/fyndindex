@@ -17,7 +17,7 @@
       if (stored.theme === "light") document.documentElement.classList.add("theme-light");
     } catch (e) { /* trasig eller blockerad storage -- strunt samma */ }
   </script>
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
 
@@ -148,6 +148,7 @@
           <option value="name">Sortera: namn</option>
         </select>
       </div>
+      <p class="market-summary" id="market-summary" aria-live="polite"></p>
 
       <div class="category-grid" id="category-grid"></div>
       <div id="empty-state" hidden></div>
@@ -231,6 +232,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.7/dist/umd/supabase.min.js"></script>
 <script src="config.js?v=1"></script>
-<script type="module" src="app.js?v=2"></script>
+<script type="module" src="app.js?v=4"></script>
 </body>
 </html>

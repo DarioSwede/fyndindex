@@ -135,16 +135,44 @@ main{width:min(1400px,calc(100% - 40px));margin:0 auto 70px}
 .mover b.up{color:var(--green)}.mover b.down{color:var(--danger-text)}
 
 /* ---- källpanel ---- */
+/* Fyra statusfärger, med flit mättade och tydligt skilda åt. De tidigare
+   tonerna var hämtade ur temapaletten och gick i varandra -- särskilt i
+   ljust läge, där "verifiera" och "spärrad" bägge läste som brunt. De här
+   är egna värden som inte följer temat, eftersom en statusfärg ska betyda
+   samma sak oavsett bakgrund. */
+:root{--st-active:#3ddc84;--st-off:#ffd23f;--st-verify:#ff8c26;--st-blocked:#ff4d4d}
+html.theme-light{--st-active:#128a45;--st-off:#c99700;--st-verify:#d8631a;--st-blocked:#d32f2f}
+
 .source-table{display:grid;gap:6px}
-.source-row{display:grid;grid-template-columns:12px minmax(150px,1fr) 60px minmax(0,2.4fr) auto;align-items:center;gap:14px;border:1px solid var(--line);border-radius:11px;background:var(--card);padding:12px 15px}
-.source-dot{width:9px;height:9px;border-radius:50%}
-.source-dot.ok{background:var(--green);box-shadow:0 0 0 3px color-mix(in srgb,var(--green) 15%,transparent)}
-.source-dot.verify{background:var(--warn);box-shadow:0 0 0 3px color-mix(in srgb,var(--warn) 15%,transparent)}
-.source-dot.blocked{background:var(--danger-text);box-shadow:0 0 0 3px color-mix(in srgb,var(--danger-text) 15%,transparent)}
+.source-row{display:grid;grid-template-columns:12px minmax(160px,1fr) 74px minmax(0,2.4fr) auto;align-items:center;gap:14px;border:1px solid var(--line);border-radius:11px;background:var(--card);padding:12px 15px;color:inherit;text-decoration:none}
+.source-row:hover{border-color:var(--green);background:var(--hover)}
+.source-row:hover .source-go{opacity:1;transform:translateX(0)}
+.source-row:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+.source-dot{width:10px;height:10px;border-radius:50%}
+.source-dot.active{background:var(--st-active);box-shadow:0 0 0 3px color-mix(in srgb,var(--st-active) 22%,transparent)}
+.source-dot.off{background:var(--st-off);box-shadow:0 0 0 3px color-mix(in srgb,var(--st-off) 22%,transparent)}
+.source-dot.verify{background:var(--st-verify);box-shadow:0 0 0 3px color-mix(in srgb,var(--st-verify) 22%,transparent)}
+.source-dot.blocked{background:var(--st-blocked);box-shadow:0 0 0 3px color-mix(in srgb,var(--st-blocked) 22%,transparent)}
+.source-name{display:flex;align-items:center;gap:7px;min-width:0}
 .source-row strong{font-size:14px}
-.source-row .market{color:var(--green);font-size:11px;font-weight:800;letter-spacing:.08em}
+/* Pilen glider in vid hover -- den ska antyda att raden går att klicka utan
+   att ligga och skrika i en lista med tolv rader. */
+.source-go{color:var(--green);font-size:12px;opacity:0;transform:translateX(-3px);transition:.15s ease}
+.source-row .market{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.06em}
+.market-flag{font-size:15px;line-height:1}
 .source-row .note{color:var(--muted);font-size:12px;line-height:1.45}
-.source-row .state{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+.source-row .note .unblock{display:block;margin-top:4px;color:var(--st-off);font-style:normal;font-size:11px}
+.source-row .state{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+.source-row .state.active{color:var(--st-active)}
+.source-row .state.off{color:var(--st-off)}
+.source-row .state.verify{color:var(--st-verify)}
+.source-row .state.blocked{color:var(--st-blocked)}
+
+/* ---- marknadschips ---- */
+.chip-count{margin-left:7px;border-radius:99px;background:var(--well);padding:1px 7px;font-size:10px;font-weight:800}
+.chip.active .chip-count{background:color-mix(in srgb,var(--green) 22%,transparent)}
+.chip-empty{opacity:.45}
+.market-summary{margin:0 0 18px;color:var(--muted);font-size:12px;line-height:1.5}
 
 /* ---- detaljvy ---- */
 .detail-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:16px}

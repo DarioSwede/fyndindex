@@ -144,6 +144,10 @@ Därför två vägar:
   släpp den i appen via **Importera Trends**. Både "Intresse över tid" och
   "Relaterade sökningar" känns igen automatiskt.
 
+- **Officiella API:et:** `collector/signals/google-trends-api.js` är färdig så
+  när som på en nyckel. Byt import i `run.js` när du blivit antagen — samma
+  returform, inget annat behöver ändras.
+
 **Officiella API:et:** Google öppnade ett riktigt Trends-API i juli 2025. Det
 ligger fortfarande i ansökningsstyrd alfa (aug 2026), är gratis, och ger
 5 års data med konsekvent skalning — vilket löser förbehåll 3 helt. Ansök på
@@ -211,8 +215,8 @@ Slå på GitHub Pages (Settings → Pages → Source: GitHub Actions).
 committar ny data — som i sin tur triggar en ny publicering. Ingen server,
 ingen databas, ingen kostnad.
 
-Byt `CNAME` till din egen domän, eller ta bort filen om du kör på
-`*.github.io`.
+Ingen `CNAME` finns — sajten ligger på `darioswede.github.io/fyndindex/`.
+Lägg till en `CNAME`-fil med ditt domännamn när du skaffar ett.
 
 ### Supabase
 

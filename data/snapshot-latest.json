@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-08-06T12:27:48.320Z",
+ "collectedAt": "2026-08-06T12:41:34.361Z",
  "markets": [
   "SE"
  ],
@@ -328,17 +328,21 @@
    "label": "Tradera",
    "market": "SE",
    "enabled": true,
-   "status": "ok",
+   "status": "active",
+   "legalStatus": "ok",
    "note": "robots.txt tillåter /search och /item. Officiellt API finns på api.tradera.com/v3 för den som vill ha en nyckel.",
-   "url": null
+   "unblock": null,
+   "url": "https://www.tradera.com/"
   },
   {
    "id": "myrorna",
    "label": "Myrorna",
    "market": "SE",
    "enabled": true,
-   "status": "ok",
+   "status": "active",
+   "legalStatus": "ok",
    "note": "Hämtas inte från myrorna.se utan från deras Tradera-butik, som robots.txt tillåter. Utropspris är alltid 1 kr, så prisdata från Myrorna säger inget om värde -- bara budkvoten är meningsfull.",
+   "unblock": null,
    "url": "https://www.myrorna.se/shop/"
   },
   {
@@ -347,7 +351,9 @@
    "market": "SE",
    "enabled": true,
    "status": "verify",
+   "legalStatus": "verify",
    "note": "robots.txt spärrar bara wp-admin och sitemap är publicerad, men de saknar uttryckliga API-villkor. Hämtas långsamt och i liten skala -- läs deras användarvillkor innan du kör det ofta.",
+   "unblock": null,
    "url": "https://www.auktionsverket.se/"
   },
   {
@@ -355,8 +361,10 @@
    "label": "Bukowskis",
    "market": "SE",
    "enabled": true,
-   "status": "ok",
+   "status": "active",
+   "legalStatus": "ok",
    "note": "robots.txt spärrar bara /admin/, /cms/ och PDF. Katalogsidorna är öppna och server-renderade.",
+   "unblock": null,
    "url": "https://www.bukowskis.com/sv"
   },
   {
@@ -364,8 +372,10 @@
    "label": "Plick",
    "market": "SE",
    "enabled": false,
-   "status": "ok",
+   "status": "off",
+   "legalStatus": "ok",
    "note": "Tom robots.txt -- inga spärrar. Avstängd av tekniska skäl: träffarna laddas i en Turbo-frame och syns inte i första HTML-svaret.",
+   "unblock": null,
    "url": "https://plick.se/"
   },
   {
@@ -373,8 +383,10 @@
    "label": "Sellpy",
    "market": "SE",
    "enabled": true,
-   "status": "ok",
+   "status": "active",
+   "legalStatus": "ok",
    "note": "Sökvägarna är spärrade i robots.txt och används inte. Adaptern läser bara den sitemap Sellpy själva publicerar.",
+   "unblock": null,
    "url": "https://www.sellpy.se/"
   },
   {
@@ -382,8 +394,10 @@
    "label": "Poshmark",
    "market": "US",
    "enabled": false,
-   "status": "ok",
+   "status": "off",
+   "legalStatus": "ok",
    "note": "robots.txt tillåter /search (spärrar /listings, /users, /order m.fl. som vi inte rör). Priser är i USD och räknas om med en fast kurs -- se FX_TO_SEK i core/normalize.js.",
+   "unblock": null,
    "url": "https://poshmark.com/"
   },
   {
@@ -392,7 +406,9 @@
    "market": "SE",
    "enabled": false,
    "status": "blocked",
+   "legalStatus": "blocked",
    "note": "Blockets robots.txt förbjuder uttryckligen crawling: \"Crawling blocket.se is prohibited unless you have written permission.\" Ingen teknisk spärr att ta sig runt -- det är ett nej.",
+   "unblock": "Skriftligt tillstånd från Blocket, eller åtkomst till deras partner-/annons-API. Kontakta dem via blocket.se/om/kontakt.",
    "url": "https://www.blocket.se/"
   },
   {
@@ -401,7 +417,9 @@
    "market": "SE",
    "enabled": false,
    "status": "blocked",
+   "legalStatus": "blocked",
    "note": "Barnebys robots.txt inleds med \"Crawling Barnebys is prohibited unless you have express written permission\". Synd, för de aggregerar just auktionsdata för antikt och design.",
+   "unblock": "Barnebys har ett kommersiellt data-/API-erbjudande. Fråga dem -- det här är den källa som bäst hade täckt glas, porslin och design.",
    "url": "https://www.barnebys.se/"
   },
   {
@@ -410,7 +428,9 @@
    "market": "EU",
    "enabled": false,
    "status": "blocked",
+   "legalStatus": "blocked",
    "note": "Depop svarar 403 Forbidden på allt från datacenter-IP, till och med på /robots.txt. De blockerar aktivt.",
+   "unblock": "Officiell API-åtkomst via Etsy (Depops ägare) eller ett affiliate-flöde.",
    "url": "https://www.depop.com/"
   },
   {
@@ -419,7 +439,9 @@
    "market": "US",
    "enabled": false,
    "status": "blocked",
+   "legalStatus": "blocked",
    "note": "Svarar 403 via bot-skydd (Imperva) på produktlistningarna. robots.txt tillåter i sig en del, men det spelar ingen roll när svaret aldrig kommer fram.",
+   "unblock": "ThredUp har ett affiliate-program via Rakuten med produktflöde -- det är den lagliga och tekniskt hållbara vägen.",
    "url": "https://www.thredup.com/"
   },
   {
@@ -428,7 +450,9 @@
    "market": "EU",
    "enabled": false,
    "status": "blocked",
+   "legalStatus": "blocked",
    "note": "Det interna API:et (/api/v2/catalog/items) svarar 401 utan sessionstoken. Vinteds robots.txt tillåter crawling för sök och indexering men förbjuder uttryckligen användning för modellträning och dataset.",
+   "unblock": "Vinted har inget publikt API. En sessionstoken går att hämta, men då kringgår du en spärr de satt med flit -- gör det inte utan tillstånd. Fråga efter partneråtkomst i stället.",
    "url": "https://www.vinted.se/"
   }
  ],
@@ -439,7 +463,7 @@
    "market": "SE",
    "collected": 2387,
    "failed": 0,
-   "ms": 175
+   "ms": 158
   }
  ],
  "searchSignals": {},

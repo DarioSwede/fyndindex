@@ -45,12 +45,27 @@ const state = {
 };
 
 // Marknadsgrupper -- källorna deklarerar SE/EU/US, gränssnittet grupperar.
+// Grupperna är kumulativa: Sverige ⊂ Norden ⊂ Europa ⊂ Allt. Det betyder att
+// ett bredare val aldrig kan ta bort något, bara lägga till -- och lägger det
+// inte till någon påslagen källa blir resultatet identiskt. Det är korrekt
+// men såg ut som en trasig knapp, så marketSummary() nedan säger det rakt ut
+// i stället för att låta dig klicka och undra.
 const MARKET_GROUPS = {
   SE: ["SE"],
   NORDIC: ["SE", "NO", "DK", "FI"],
   EU: ["SE", "NO", "DK", "FI", "EU", "DE", "NL", "FR"],
   ALL: null,
 };
+
+// Flaggor gör källistan skummbar på ett sätt som "SE"/"US" i versaler inte
+// gör. EU får unionsflaggan eftersom Vinted och Depop är paneuropeiska och
+// inte hör hemma under ett enskilt land.
+const MARKET_FLAGS = {
+  SE: "🇸🇪", NO: "🇳🇴", DK: "🇩🇰", FI: "🇫🇮",
+  DE: "🇩🇪", NL: "🇳🇱", FR: "🇫🇷", EU: "🇪🇺", US: "🇺🇸", GB: "🇬🇧",
+};
+
+const marketFlag = (market) => MARKET_FLAGS[market] || "🌍";
 
 // ---------------------------------------------------------------------------
 // Tema
@@ -124,14 +139,50 @@ async function loadJson(path) {
   }
 }
 
-function currentSourceIds() {
-  const markets = MARKET_GROUPS[state.market];
-  const sources = state.snapshot?.sources || [];
+function allSources() {
+  return state.snapshot?.sources || fallbackSourceList();
+}
+
+function sourceIdsFor(marketKey) {
+  const markets = MARKET_GROUPS[marketKey];
   return new Set(
-    sources
+    allSources()
       .filter((s) => s.enabled && s.status !== "blocked" && (!markets || markets.includes(s.market)))
       .map((s) => s.id),
   );
+}
+
+function currentSourceIds() {
+  return sourceIdsFor(state.market);
+}
+
+/**
+ * Vad det valda marknadsfiltret faktiskt gör just nu.
+ *
+ * Utan den här texten ser filtret trasigt ut: eftersom grupperna är
+ * kumulativa och Tradera är enda påslagna källan ger Sverige, Norden, Europa
+ * och Allt exakt samma femton kort. Inget är fel -- det finns bara inga
+ * utländska källor påslagna att lägga till. Nu står det.
+ */
+function marketSummary() {
+  const active = [...currentSourceIds()];
+  const baseline = sourceIdsFor("SE");
+  const added = active.filter((id) => !baseline.has(id));
+
+  const labelFor = (id) => allSources().find((s) => s.id === id)?.label || id;
+
+  if (!active.length) return "Inga påslagna källor för det här valet.";
+  if (state.market === "SE") {
+    const word = active.length === 1 ? "påslagen källa" : "påslagna källor";
+    return `${active.length} ${word}: ${active.map(labelFor).join(", ")}.`;
+  }
+  if (!added.length) {
+    // Det vanliga fallet i POC:en, och det som såg ut som en bugg.
+    const off = allSources().filter((s) => s.status === "off" || s.status === "blocked");
+    return `Samma resultat som Sverige — inga påslagna källor utanför Sverige ännu. ` +
+      `${off.length} utländska och svenska källor är förberedda men avstängda (se listan nedan).`;
+  }
+  return `Lägger till ${added.map(labelFor).join(", ")} utöver de svenska källorna.`;
 }
 
 /** Kategorikorten filtrerade på marknad, sökning och sortering. */
@@ -192,6 +243,7 @@ function render() {
 
   renderStats();
   renderMovers();
+  renderMarketChips();
   renderCategories();
   renderMine();
   renderSources();
@@ -375,28 +427,75 @@ function renderCategories() {
   }
 }
 
+// Text och färg per visningsläge, på ett ställe så prick, etikett och
+// förklaringen ovanför listan aldrig kan säga olika saker.
+const STATUS_META = {
+  active:  { label: "aktiv",     hint: "påslagen och tillåten" },
+  off:     { label: "avstängd",  hint: "tillåten men inte påslagen" },
+  verify:  { label: "verifiera", hint: "oklara villkor" },
+  blocked: { label: "spärrad",   hint: "sajten tillåter inte hämtning" },
+};
+
 function renderSources() {
   const table = $("#source-table");
-  const sources = state.snapshot?.sources || fallbackSourceList();
   const runs = Object.fromEntries((state.snapshot?.sourceRuns || []).map((r) => [r.id, r]));
 
-  table.replaceChildren(...sources.map((source) => {
-    const row = el("div", "source-row");
-    const run = runs[source.id];
-    const stateText = source.status === "blocked" ? "avstängd"
-      : !source.enabled ? "ej påslagen"
-      : run ? `${run.collected} hämtade`
-      : "väntar";
+  table.replaceChildren(...allSources().map((source) => {
+    // Hela raden är en länk till tjänsten. <a> och inte en klickhanterare på
+    // en div, så att mittenklick, "öppna i ny flik" och tangentbord funkar
+    // som på vilken länk som helst.
+    const row = document.createElement("a");
+    row.className = "source-row";
+    row.href = source.url || "#";
+    row.target = "_blank";
+    row.rel = "noopener noreferrer";
 
-    row.append(
-      el("span", `source-dot ${source.status}`),
+    const run = runs[source.id];
+    const meta = STATUS_META[source.status] || STATUS_META.off;
+    const stateText = source.status === "active" && run ? `${run.collected} hämtade` : meta.label;
+
+    const dot = el("span", `source-dot ${source.status}`);
+    dot.title = meta.hint;
+
+    const name = el("span", "source-name");
+    name.append(
       el("strong", null, source.label),
-      el("span", "market", source.market),
-      el("span", "note", source.note || ""),
-      el("span", "state", stateText),
+      el("span", "source-go", "↗"),
     );
+
+    const market = el("span", "market");
+    market.append(
+      el("span", "market-flag", marketFlag(source.market)),
+      el("span", null, source.market),
+    );
+
+    // Spärrade källor har ett "unblock"-fält som säger vad som faktiskt
+    // krävs. Det är mer värt än upprepningen av att de är spärrade.
+    const note = el("span", "note", source.note || "");
+    if (source.unblock) {
+      note.append(el("em", "unblock", `Så här löser du det: ${source.unblock}`));
+    }
+
+    row.append(dot, name, market, note, el("span", `state ${source.status}`, stateText));
     return row;
   }));
+}
+
+/** Uppdaterar chipsen med hur många källor varje marknad faktiskt ger. */
+function renderMarketChips() {
+  for (const chip of $$(".chip[data-market]")) {
+    const count = sourceIdsFor(chip.dataset.market).size;
+    let badge = chip.querySelector(".chip-count");
+    if (!badge) {
+      badge = el("span", "chip-count");
+      chip.append(badge);
+    }
+    badge.textContent = String(count);
+    // Ett val som inte ger någon källa alls ska se dött ut, inte bara
+    // bete sig dött.
+    chip.classList.toggle("chip-empty", count === 0);
+  }
+  setText("#market-summary", marketSummary());
 }
 
 function renderFootnote() {
@@ -609,6 +708,11 @@ $("#sign-up").addEventListener("click", async () => {
   const { data, error } = await supabase.auth.signUp({
     email: $("#email").value.trim(),
     password: $("#password").value,
+    // Måste sättas explicit. Utan den skickar Supabase tillbaka till
+    // projektets Site URL, som pekar på Packlista -- vi delar projekt.
+    // origin + pathname i stället för hårdkodat, så det funkar både på
+    // localhost och under /fyndindex/ på github.io.
+    options: { emailRedirectTo: window.location.origin + window.location.pathname },
   });
   authMessage.textContent = error
     ? `Kunde inte skapa konto: ${error.message}`
@@ -757,21 +861,22 @@ function setText(selector, text) {
   if (node) node.textContent = text;
 }
 
-/** Visas innan första insamlingen, så källpanelen inte är tom vid start. */
+/** Visas innan första insamlingen, så källpanelen inte är tom vid start.
+ *  Håll `status` i synk med displayStatus() i collector/sources/index.js. */
 function fallbackSourceList() {
   return [
-    { id: "tradera", label: "Tradera", market: "SE", enabled: true, status: "ok", note: "Söksidorna är server-renderade och robots.txt tillåter /search." },
-    { id: "myrorna", label: "Myrorna", market: "SE", enabled: true, status: "ok", note: "Säljer allt via sin Tradera-butik — hämtas därifrån." },
-    { id: "auktionsverket", label: "Stockholms Auktionsverk", market: "SE", enabled: true, status: "verify", note: "Sitemap är öppen, men inga uttryckliga API-villkor." },
-    { id: "bukowskis", label: "Bukowskis", market: "SE", enabled: true, status: "ok", note: "robots.txt spärrar bara /admin/ och /cms/." },
-    { id: "sellpy", label: "Sellpy", market: "SE", enabled: true, status: "ok", note: "Sökvägarna är spärrade i robots.txt — vi läser bara sitemapen." },
-    { id: "plick", label: "Plick", market: "SE", enabled: false, status: "ok", note: "Inga spärrar, men träffarna laddas via Turbo-frame." },
-    { id: "poshmark", label: "Poshmark", market: "US", enabled: false, status: "ok", note: "Fungerar, avstängd tills du vill blanda in USD-priser." },
-    { id: "blocket", label: "Blocket", market: "SE", enabled: false, status: "blocked", note: "robots.txt förbjuder uttryckligen crawling utan skriftligt tillstånd." },
-    { id: "barnebys", label: "Barnebys", market: "SE", enabled: false, status: "blocked", note: "Förbjuder uttryckligen crawling. Har kommersiellt API — värt att fråga om." },
-    { id: "vinted", label: "Vinted", market: "EU", enabled: false, status: "blocked", note: "Interna API:et kräver sessionstoken (401)." },
-    { id: "depop", label: "Depop", market: "EU", enabled: false, status: "blocked", note: "403 på allt, även robots.txt." },
-    { id: "thredup", label: "ThredUp", market: "US", enabled: false, status: "blocked", note: "Bot-skydd svarar 403. Affiliate-flöde via Rakuten är vägen in." },
+    { id: "tradera", label: "Tradera", market: "SE", enabled: true, status: "active", url: "https://www.tradera.com/", note: "Söksidorna är server-renderade och robots.txt tillåter /search." },
+    { id: "myrorna", label: "Myrorna", market: "SE", enabled: true, status: "active", url: "https://www.myrorna.se/shop/", note: "Säljer allt via sin Tradera-butik — hämtas därifrån." },
+    { id: "auktionsverket", label: "Stockholms Auktionsverk", market: "SE", enabled: true, status: "verify", url: "https://www.auktionsverket.se/", note: "Sitemap är öppen, men inga uttryckliga API-villkor." },
+    { id: "bukowskis", label: "Bukowskis", market: "SE", enabled: true, status: "active", url: "https://www.bukowskis.com/sv", note: "robots.txt spärrar bara /admin/ och /cms/." },
+    { id: "sellpy", label: "Sellpy", market: "SE", enabled: true, status: "active", url: "https://www.sellpy.se/", note: "Sökvägarna är spärrade i robots.txt — vi läser bara sitemapen." },
+    { id: "plick", label: "Plick", market: "SE", enabled: false, status: "off", url: "https://plick.se/", note: "Inga spärrar, men träffarna laddas via Turbo-frame." },
+    { id: "poshmark", label: "Poshmark", market: "US", enabled: false, status: "off", url: "https://poshmark.com/", note: "Fungerar, avstängd tills du vill blanda in USD-priser." },
+    { id: "blocket", label: "Blocket", market: "SE", enabled: false, status: "blocked", url: "https://www.blocket.se/", note: "robots.txt förbjuder uttryckligen crawling utan skriftligt tillstånd.", unblock: "Skriftligt tillstånd från Blocket, eller deras partner-/annons-API." },
+    { id: "barnebys", label: "Barnebys", market: "SE", enabled: false, status: "blocked", url: "https://www.barnebys.se/", note: "Förbjuder uttryckligen crawling.", unblock: "Barnebys har ett kommersiellt data-/API-erbjudande — den här källan hade täckt glas, porslin och design bäst av alla." },
+    { id: "vinted", label: "Vinted", market: "EU", enabled: false, status: "blocked", url: "https://www.vinted.se/", note: "Interna API:et kräver sessionstoken (401).", unblock: "Fråga Vinted om partneråtkomst." },
+    { id: "depop", label: "Depop", market: "EU", enabled: false, status: "blocked", url: "https://www.depop.com/", note: "403 på allt, även robots.txt.", unblock: "Officiell API-åtkomst via Etsy, eller ett affiliate-flöde." },
+    { id: "thredup", label: "ThredUp", market: "US", enabled: false, status: "blocked", url: "https://www.thredup.com/", note: "Bot-skydd svarar 403.", unblock: "Affiliate-flöde via Rakuten." },
   ];
 }
 
