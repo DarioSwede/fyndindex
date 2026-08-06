@@ -1,5 +1,7 @@
 # Fyndindex
 
+**Live: <https://darioswede.github.io/fyndindex/>**
+
 Överblick över vad som rör sig på den svenska andrahandsmarknaden — Tradera,
 Myrorna, auktionshusen och Google-sökningarna bakom dem — på ett kort per
 kategori.
