@@ -206,19 +206,31 @@ svenska annonstitlar, inte en sanning — justera den när du sett utfallet.
 
 ## Publicera
 
-```bash
-git init && git add -A && git commit -m "Fyndindex"
-gh repo create fyndindex --public --source=. --push
-```
+Redan gjort — sajten ligger på <https://darioswede.github.io/fyndindex/>.
 
-Slå på GitHub Pages (Settings → Pages → Source: GitHub Actions).
-`.github/workflows/pages.yml` publicerar vid varje push, och
+Pages är satt till **Deploy from a branch** (`main`, `/`), inte till GitHub
+Actions. Det är ett medvetet byte: `actions/deploy-pages` timeoutade tre
+gånger i rad på handskakningen mot Pages (deploymenten skapades, fastnade på
+`in_progress` i tio minuter och avbröts), och för en statisk sajt utan
+byggsteg tillför det workflowet ingenting utom just den handskakningen.
+`pages.yml` är därför borttagen — ligger kvar i git-historiken om du vill ha
+tillbaka den.
+
+Publiceringen sker nu vid varje push till `main`.
 `.github/workflows/collect.yml` kör insamlaren 05:12 UTC varje dag och
-committar ny data — som i sin tur triggar en ny publicering. Ingen server,
-ingen databas, ingen kostnad.
+committar ny data, vilket i sin tur publicerar om sajten. Ingen server, ingen
+databas, ingen kostnad.
 
-Ingen `CNAME` finns — sajten ligger på `darioswede.github.io/fyndindex/`.
-Lägg till en `CNAME`-fil med ditt domännamn när du skaffar ett.
+`.nojekyll` ligger i roten så att Pages inte kör innehållet genom Jekyll —
+det hoppar annars tyst över filer och mappar som börjar med understreck.
+
+Ingen `CNAME` finns. Lägg till en fil med det namnet och ditt domännamn i när
+du skaffar en domän, så byter Pages adress.
+
+**Otestat:** `collect.yml` kör från GitHub Actions IP-adresser, och jag har
+inte kunnat kontrollera om Tradera svarar likadant därifrån som från en
+vanlig uppkoppling. Kolla utfallet av första nattkörningen innan du litar på
+att datan uppdaterar sig själv.
 
 ### Supabase
 
