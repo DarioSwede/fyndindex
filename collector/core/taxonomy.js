@@ -56,7 +56,12 @@ export const CATEGORIES = [
     icon: "🍸",
     color: "#7fd4e8",
     weight: 100,
-    queries: ["orrefors", "kosta boda", "iittala", "reijmyre", "pukeberg", "kristallglas", "vas glas"],
+    // De sista är generiska föremålsord, inte söktermer. De behövs för
+    // auktionshuskällor: en Bukowskis-lot heter "taklampa 1950 60 tal",
+    // aldrig "Orrefors". Utan dem klassades 3 av 100 lotter. Väger bara 2
+    // poäng mot varumärkenas 10, så ett känt märke vinner alltid.
+    queries: ["orrefors", "kosta boda", "iittala", "reijmyre", "pukeberg", "kristallglas", "vas glas",
+      "kristall", "karaff", "vinglas", "snapsglas", "glasskal"],
     brands: ["Orrefors", "Kosta Boda", "Iittala", "Reijmyre", "Pukeberg", "Skruf", "Holmegaard", "Nuutajärvi"],
   },
   {
@@ -65,7 +70,7 @@ export const CATEGORIES = [
     icon: "🫖",
     color: "#f0b8c8",
     weight: 98,
-    queries: ["rörstrand", "gustavsberg", "arabia", "höganäs keramik", "stig lindberg", "servis porslin"],
+    queries: ["rörstrand", "gustavsberg", "arabia", "höganäs keramik", "stig lindberg", "servis porslin", "servis", "tallrik", "kaffekopp", "terrin", "karott", "figurin", "stengods"],
     brands: ["Rörstrand", "Gustavsberg", "Arabia", "Höganäs", "Upsala-Ekeby", "Royal Copenhagen", "Stig Lindberg", "Berndt Friberg"],
   },
   {
@@ -74,7 +79,7 @@ export const CATEGORIES = [
     icon: "🪑",
     color: "#d9b382",
     weight: 96,
-    queries: ["svenskt tenn", "josef frank", "bruno mathsson", "dansk teak", "vintage lampa", "antik spegel"],
+    queries: ["svenskt tenn", "josef frank", "bruno mathsson", "dansk teak", "vintage lampa", "antik spegel", "fatolj", "fåtölj", "matbord", "byra", "byrå", "skap", "skåp", "taklampa", "bordslampa", "golvlampa", "spegel", "soffbord", "stol", "skrivbord"],
     brands: ["Svenskt Tenn", "Josef Frank", "Bruno Mathsson", "Källemo", "Artek", "Louis Poulsen", "Le Klint", "String"],
   },
   {
@@ -139,7 +144,7 @@ export const CATEGORIES = [
     icon: "💍",
     color: "#f5d778",
     weight: 82,
-    queries: ["silverarmband", "guldring", "efva attling", "vintage klocka", "seiko"],
+    queries: ["silverarmband", "guldring", "efva attling", "vintage klocka", "seiko", "brosch", "halsband", "armband", "fickur", "armbandsur"],
     brands: ["Efva Attling", "Georg Jensen", "Seiko", "Omega", "Kalevala", "Pandora"],
   },
   {
@@ -159,7 +164,7 @@ export const CATEGORIES = [
     icon: "🕯️",
     color: "#b8d99a",
     weight: 78,
-    queries: ["marimekko tyg", "vintage matta", "mässing ljusstake", "linnedukar", "vägglampa vintage"],
+    queries: ["marimekko tyg", "vintage matta", "mässing ljusstake", "linnedukar", "vägglampa vintage", "matta", "gobelang", "ljusstake", "skal massing", "vagglampa"],
     brands: ["Marimekko", "Almedahls", "Ikea vintage", "Höganäs", "Skultuna"],
   },
   {
@@ -177,7 +182,7 @@ export const CATEGORIES = [
     icon: "🎲",
     color: "#ef8f8f",
     weight: 72,
-    queries: ["lego vintage", "vinyl lp", "brio tåg", "serier samlarobjekt", "frimärken"],
+    queries: ["lego vintage", "vinyl lp", "brio tåg", "serier samlarobjekt", "frimärken", "dockskap", "tennsoldat", "modelltag"],
     brands: ["LEGO", "BRIO", "Playmobil", "Steiff", "Märklin"],
   },
   {

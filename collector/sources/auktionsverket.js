@@ -18,11 +18,24 @@ const BASE = "https://stockholmsauktionsverk.com";
 export const id = "auktionsverket";
 export const label = "Stockholms Auktionsverk";
 export const market = "SE";
-export const enabled = true;
+// AVSTÄNGD -- sitemapen innehåller inga objekt.
+//
+// Sitemap-indexet pekar på auktionsverket.com/{sv,en,fi,de}/sitemap.xml,
+// och de innehåller bara marknadsföringssidor: 142 kampanjer, 30
+// expertsidor, kontakt, nyheter och auktionernas landningssidor. Noll
+// lot-URL:er. Adaptern gav därför 0 hämtade i första skarpa körningen.
+//
+// Enskilda lotter laddas troligen i klienten på auktionssidorna
+// (/sv/auktioner/<slug>/). Det är inte verifierat, och att bygga vidare på
+// en gissning vore att upprepa misstaget. Nästa steg om du vill ha in dem:
+// öppna en auktionssida, se om lotterna finns i HTML-svaret, och skriv
+// parsern mot det i stället för mot sitemapen.
+export const enabled = false;
 export const homepage = "https://www.auktionsverket.se/";
 export const legal = {
   status: "verify",
-  note: "robots.txt spärrar bara wp-admin och sitemap är publicerad, men de saknar uttryckliga API-villkor. Hämtas långsamt och i liten skala -- läs deras användarvillkor innan du kör det ofta.",
+  note: "Sitemapen innehåller bara kampanj-, expert- och auktionslandningssidor, inga enskilda lotter. Adaptern hämtade noll och är avstängd tills den skrivits om mot auktionssidorna.",
+  unblock: "Kontrollera om lotterna renderas server-side på /sv/auktioner/<slug>/ och skriv om parsern mot det. Läs deras användarvillkor först -- de saknar uttryckliga API-villkor.",
 };
 
 export async function collect({ keywords = [], limit = 120 }) {

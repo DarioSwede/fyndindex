@@ -18,7 +18,11 @@
 
 import { collectSeller } from "./tradera.js";
 
-const SELLER = { id: "3532689", alias: "myrorna" };
+// Fältet MÅSTE heta sellerId -- collectSeller() i tradera.js destrukturerar
+// { sellerId, alias }. Hette det "id" tidigare, vilket gav URL:en
+// /profile/items/undefined/myrorna och 404 på varje körning utan att något
+// annat gick sönder. Det syntes först som "0 hämtade" i källpanelen.
+const SELLER = { sellerId: "3532689", alias: "myrorna" };
 
 export const id = "myrorna";
 export const label = "Myrorna";

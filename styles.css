@@ -222,6 +222,15 @@ html.theme-light{--st-active:#128a45;--st-off:#c99700;--st-verify:#d8631a;--st-b
 .footnote{margin:26px 0 0;color:var(--muted);font-size:12px;line-height:1.6}
 .footnote a{color:var(--green)}
 
+/* ---- sidfot ---- */
+.site-footer{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin:40px 0 0;border-top:1px solid var(--line);padding:16px 0 0;color:var(--muted);font-size:11px}
+/* Tabulära siffror så att bygg- och datumsiffrorna inte hoppar i sidled
+   när de uppdateras -- sidfoten ska vara tyst, inte pigg. */
+.version{font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.footer-links{display:flex;gap:16px}
+.footer-links a{color:var(--muted);text-decoration:none}
+.footer-links a:hover{color:var(--green)}
+
 /* ---- responsivt ---- */
 @media(max-width:1100px){
   .hero{grid-template-columns:1fr;gap:40px;min-height:auto;padding:30px 0 50px}

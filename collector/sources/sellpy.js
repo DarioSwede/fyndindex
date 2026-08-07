@@ -20,11 +20,24 @@ const SITEMAP = "https://d11b4fm2koijtd.cloudfront.net/SE/sitemap-index.xml";
 export const id = "sellpy";
 export const label = "Sellpy";
 export const market = "SE";
-export const enabled = true;
+// AVSTÄNGD -- och det går inte att koda sig ur.
+//
+// Sitemapen jag byggde adaptern mot innehåller bara sitemap-stores.xml,
+// sitemap-categories.xml, sitemap-blog.xml och sitemap-campaign.xml.
+// Ingen produktsitemap alls, alltså noll objekt-URL:er. Det syntes som
+// "0 hämtade" i källpanelen efter första skarpa körningen.
+//
+// Och den andra vägen är stängd: robots.txt spärrar uttryckligen sökningen
+// (Disallow: /store/*/*/search?*). Sellpy publicerar alltså inte sina
+// produkter i sitemapen OCH tillåter inte att man söker efter dem.
+// Kombinationen betyder att det inte finns någon tillåten väg till
+// objektdata härifrån.
+export const enabled = false;
 export const homepage = "https://www.sellpy.se/";
 export const legal = {
-  status: "ok",
-  note: "Sökvägarna är spärrade i robots.txt och används inte. Adaptern läser bara den sitemap Sellpy själva publicerar.",
+  status: "verify",
+  note: "Ingen produktsitemap publiceras (bara butiker, kategorier, blogg och kampanjer) och robots.txt spärrar sökningen. Det finns därför ingen tillåten väg till objektdata.",
+  unblock: "Fråga Sellpy om ett produktflöde eller API. Det går inte att lösa tekniskt utan att bryta mot deras robots.txt.",
 };
 
 export async function collect({ keywords = [], limit = 150 }) {

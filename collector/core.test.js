@@ -56,6 +56,23 @@ test("hint används bara när titeln inte räcker", () => {
   assert.equal(classify("Fjällräven Kånken", "glas").categoryId, "friluft");
 });
 
+test("auktionshussvenska klassas utan varumärke", () => {
+  // Regressionstest för Bukowskis: auktionshus beskriver saker med
+  // föremålsord, aldrig med varumärke. Innan de generiska orden lades till
+  // klassades 3 lotter av 100; nu 48.
+  assert.equal(classify("taklampa 1950 60 tal").categoryId, "antik-design");
+  assert.equal(classify("matbord sydeuropa 1900 talets senare del").categoryId, "antik-design");
+  assert.equal(classify("brosch silver 1800 tal").categoryId, "smycken");
+  assert.equal(classify("karaff med propp").categoryId, "glas");
+});
+
+test("varumärke slår generiskt föremålsord", () => {
+  // De generiska orden väger 2, varumärken 10 -- annars hade "Iittala
+  // tallrik" hamnat i porslin i stället för glas.
+  assert.equal(classify("Iittala tallrik").categoryId, "glas");
+  assert.equal(classify("Gustavsberg skål").categoryId, "porslin");
+});
+
 test("uteslutet slår igenom även med hint", () => {
   const result = classify("Volvo V70 kombi", "glas");
   assert.equal(result.excluded, true);

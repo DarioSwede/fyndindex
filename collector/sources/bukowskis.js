@@ -26,23 +26,35 @@ export const legal = {
 };
 
 /**
+ * Filtrerar INTE på nyckelord, till skillnad från de sökbaserade källorna.
+ *
+ * Första versionen gjorde det, och gav 3 träffar av 100 lotter. Orsaken är
+ * att auktionshus beskriver saker helt annorlunda än privatsäljare: en lot
+ * heter "taklampa 1950 60 tal" eller "italiensk skola 1700 tal", aldrig
+ * "Orrefors" eller "Fjällräven". Varumärkeslistorna är byggda för Tradera
+ * och passar helt enkelt inte här.
+ *
+ * I stället får alla lotter gå genom classify(), och vi behåller dem som
+ * landar i någon av våra kategorier. Det är precis vad klassificeraren är
+ * till för, och det fångar "taklampa" som hem/antik utan att någon behöver
+ * lista varje möjligt möbelord.
+ *
  * @param {object} ctx
- * @param {string[]} ctx.keywords  filtrerar lot-titlarna, t.ex. kategorins brands
  * @param {string} [ctx.auctionId] specifik auktion; utan den läses den som
  *                                 länkas från startsidan just nu
  */
-export async function collect({ keywords = [], auctionId = null }) {
+export async function collect({ auctionId = null } = {}) {
   const auction = auctionId || (await currentAuctionId());
   if (!auction) return [];
 
   const html = await fetchText(`${BASE}/sv/auctions/${auction}/lots`);
-  const lots = parseLots(html);
 
-  const wanted = keywords.map((k) => k.toLowerCase());
-  return lots
-    .filter((lot) => !wanted.length || wanted.some((k) => lot.title.toLowerCase().includes(k)))
+  return parseLots(html)
     .map((lot, i) => makeObservation({ ...lot, rank: i }, { source: id }))
-    .filter(Boolean);
+    .filter(Boolean)
+    // Oklassade lotter säger inget om någon kategori och skulle bara blåsa
+    // upp utbudssiffran.
+    .filter((o) => o.categoryId !== null);
 }
 
 /** Bukowskis auktions-id (t.ex. "E1406") ändras varje omgång -- läs det

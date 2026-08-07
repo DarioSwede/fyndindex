@@ -17,7 +17,7 @@
       if (stored.theme === "light") document.documentElement.classList.add("theme-light");
     } catch (e) { /* trasig eller blockerad storage -- strunt samma */ }
   </script>
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
 
@@ -178,6 +178,14 @@
       <div class="source-table" id="source-table"></div>
       <p class="footnote" id="footnote"></p>
     </section>
+
+    <footer class="site-footer">
+      <span class="version" id="version-line">Fyndindex</span>
+      <span class="footer-links">
+        <a href="https://github.com/DarioSwede/fyndindex" target="_blank" rel="noopener">Källkod</a>
+        <a href="https://github.com/DarioSwede/fyndindex/commits/main" target="_blank" rel="noopener">Ändringar</a>
+      </span>
+    </footer>
   </main>
 </div>
 
@@ -232,6 +240,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.7/dist/umd/supabase.min.js"></script>
 <script src="config.js?v=1"></script>
-<script type="module" src="app.js?v=4"></script>
+<script type="module" src="app.js?v=6"></script>
 </body>
 </html>

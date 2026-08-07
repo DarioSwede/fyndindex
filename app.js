@@ -248,6 +248,7 @@ function render() {
   renderMine();
   renderSources();
   renderFootnote();
+  renderVersion();
 
   if (!hasData) renderEmptyState();
 }
@@ -452,7 +453,13 @@ function renderSources() {
 
     const run = runs[source.id];
     const meta = STATUS_META[source.status] || STATUS_META.off;
-    const stateText = source.status === "active" && run ? `${run.collected} hämtade` : meta.label;
+    // Har källan kört visar vi vad den gav, oavsett status. Tidigare
+    // krävdes status "active", vilket dolde resultatet för Stockholms
+    // Auktionsverk -- den står som "verify" (oklara villkor) men körs, och
+    // visade därför ordet VERIFIERA där de andra visade sitt utfall.
+    // "0 hämtade" är dessutom den mest värdefulla raden i hela panelen:
+    // det är så man ser att en adapter är trasig.
+    const stateText = run ? `${run.collected} hämtade` : meta.label;
 
     const dot = el("span", `source-dot ${source.status}`);
     dot.title = meta.hint;
@@ -496,6 +503,43 @@ function renderMarketChips() {
     chip.classList.toggle("chip-empty", count === 0);
   }
   setText("#market-summary", marketSummary());
+}
+
+// Versionen läses ur app.js egen ?v=-parameter via import.meta.url.
+//
+// Ingen separat versionskonstant med flit: den hade behövt uppdateras för
+// hand vid sidan av cache-parametern i index.html, och den ena hade glidit
+// ifrån den andra första gången någon hade bråttom. ?v= MÅSTE redan bumpas
+// vid varje deploy för att webbläsaren ska hämta ny kod -- så den siffran
+// är den enda som garanterat är sann, och då är det den vi visar.
+const APP_BUILD = new URL(import.meta.url).searchParams.get("v") || "dev";
+
+function renderVersion() {
+  const line = $("#version-line");
+  if (!line) return;
+
+  const collected = state.snapshot?.collectedAt;
+  const parts = [`Fyndindex · bygge ${APP_BUILD}`];
+
+  if (collected) {
+    parts.push(`data ${new Date(collected).toLocaleString("sv-SE", {
+      dateStyle: "short", timeStyle: "short",
+    })}`);
+  } else {
+    parts.push("ingen data insamlad");
+  }
+
+  // Antal källor som faktiskt körs, inte antal som finns.
+  //
+  // Måste räknas med SAMMA villkor som marketSummary() och currentSourceIds()
+  // använder, annars säger sidfoten "4 aktiva källor" medan raden ovanför
+  // säger "5 påslagna källor" -- vilket den gjorde tills det här skrevs om.
+  // Skillnaden var Stockholms Auktionsverk: status "verify", men den körs.
+  // "verify" handlar om villkoren, inte om huruvida adaptern är igång.
+  const running = allSources().filter((s) => s.enabled && s.status !== "blocked").length;
+  parts.push(`${running} källor i drift`);
+
+  line.textContent = parts.join(" · ");
 }
 
 function renderFootnote() {
