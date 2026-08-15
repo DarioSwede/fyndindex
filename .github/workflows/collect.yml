@@ -66,9 +66,14 @@ jobs:
           # Även med concurrency-kön kan någon ha pushat under körningen,
           # som tar ett par minuter. Rebase och försök igen i stället för
           # att fälla jobbet på något som löser sig av sig självt.
-          for försök in 1 2 3; do
+          # Variabelnamnet MÅSTE vara ASCII. Hette den "försök" först, och
+          # bash svarade "`försök': not a valid identifier" -- insamlingen
+          # gick igenom men pushen dog på syntaxfelet. Samma fälla som
+          # user-agenten i core/fetch.js: svensk text hör hemma i strängar
+          # och kommentarer, aldrig i identifierare.
+          for attempt in 1 2 3; do
             git push && exit 0
-            echo "Push avvisad (försök $försök) -- hämtar och rebasar."
+            echo "Push avvisad (forsok $attempt) -- hamtar och rebasar."
             git pull --rebase --autostash origin main
           done
           echo "Kunde inte pusha efter tre försök."
