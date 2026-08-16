@@ -1,25 +1,25 @@
 {
  "version": 1,
- "collectedAt": "2026-08-15T07:45:41.797Z",
+ "collectedAt": "2026-08-16T05:41:46.683Z",
  "markets": [
   "SE"
  ],
  "categories": [
   {
    "categoryId": "glas",
-   "supply": 176,
-   "heat": 3,
-   "bidRate": 0.018404907975460124,
-   "weightedBidRate": 0.014221672592363578,
-   "priceMedian": 200,
-   "priceP10": 49,
-   "priceP90": 850,
+   "supply": 177,
+   "heat": 7,
+   "bidRate": 0.03125,
+   "weightedBidRate": 0.0326103916367608,
+   "priceMedian": 170.5,
+   "priceP10": 50,
+   "priceP90": 648,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 168,
-     "withBids": 2
+     "supply": 169,
+     "withBids": 4
     },
     {
      "source": "bukowskis",
@@ -32,25 +32,25 @@
      "withBids": 1
     }
    ],
-   "heatDelta": 0,
-   "priceDelta": 0.005025125628140704,
-   "supplyDelta": 0.023255813953488372
+   "heatDelta": 4,
+   "priceDelta": -0.1475,
+   "supplyDelta": 0.005681818181818182
   },
   {
    "categoryId": "porslin",
-   "supply": 152,
-   "heat": 8,
-   "bidRate": 0.04065040650406504,
-   "weightedBidRate": 0.041616161616161614,
-   "priceMedian": 169,
-   "priceP10": 40,
-   "priceP90": 1215,
+   "supply": 166,
+   "heat": 5,
+   "bidRate": 0.02027027027027027,
+   "weightedBidRate": 0.024538866930171283,
+   "priceMedian": 150,
+   "priceP10": 49,
+   "priceP90": 750,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 146,
-     "withBids": 4
+     "supply": 160,
+     "withBids": 2
     },
     {
      "source": "bukowskis",
@@ -63,25 +63,25 @@
      "withBids": 1
     }
    ],
-   "heatDelta": 3,
-   "priceDelta": -0.04519774011299435,
-   "supplyDelta": -0.07878787878787878
+   "heatDelta": -3,
+   "priceDelta": -0.11242603550295859,
+   "supplyDelta": 0.09210526315789473
   },
   {
    "categoryId": "antik-design",
-   "supply": 189,
-   "heat": 12,
-   "bidRate": 0.056179775280898875,
-   "weightedBidRate": 0.0592718035563082,
-   "priceMedian": 399.5,
-   "priceP10": 85,
-   "priceP90": 1300,
+   "supply": 162,
+   "heat": 5,
+   "bidRate": 0.03164556962025317,
+   "weightedBidRate": 0.024464342820594814,
+   "priceMedian": 750,
+   "priceP10": 125,
+   "priceP90": 3000,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 136,
-     "withBids": 10
+     "supply": 109,
+     "withBids": 5
     },
     {
      "source": "bukowskis",
@@ -89,46 +89,46 @@
      "withBids": 0
     }
    ],
-   "heatDelta": -5,
-   "priceDelta": 0.33166666666666667,
-   "supplyDelta": 0.03278688524590164
+   "heatDelta": -7,
+   "priceDelta": 0.8773466833541927,
+   "supplyDelta": -0.14285714285714285
   },
   {
    "categoryId": "friluft",
-   "supply": 157,
-   "heat": 16,
-   "bidRate": 0.08333333333333333,
-   "weightedBidRate": 0.07875322759129474,
-   "priceMedian": 360,
-   "priceP10": 41,
-   "priceP90": 1700,
+   "supply": 159,
+   "heat": 6,
+   "bidRate": 0.03968253968253968,
+   "weightedBidRate": 0.030499428135722453,
+   "priceMedian": 299,
+   "priceP10": 50,
+   "priceP90": 1100,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 157,
-     "withBids": 11
+     "supply": 159,
+     "withBids": 5
     }
    ],
-   "heatDelta": 7,
-   "priceDelta": 0.02857142857142857,
-   "supplyDelta": -0.030864197530864196
+   "heatDelta": -10,
+   "priceDelta": -0.16944444444444445,
+   "supplyDelta": 0.012738853503184714
   },
   {
    "categoryId": "damklader",
-   "supply": 162,
-   "heat": 10,
-   "bidRate": 0.050724637681159424,
-   "weightedBidRate": 0.04850399553986248,
+   "supply": 163,
+   "heat": 4,
+   "bidRate": 0.027777777777777776,
+   "weightedBidRate": 0.02041875757051393,
    "priceMedian": 395,
-   "priceP10": 15,
-   "priceP90": 2050,
+   "priceP10": 40,
+   "priceP90": 2300,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 161,
-     "withBids": 6
+     "supply": 162,
+     "withBids": 3
     },
     {
      "source": "myrorna",
@@ -136,51 +136,98 @@
      "withBids": 1
     }
    ],
-   "heatDelta": 5,
-   "priceDelta": -0.10227272727272728,
-   "supplyDelta": 0.03184713375796178
+   "heatDelta": -6,
+   "priceDelta": 0,
+   "supplyDelta": 0.006172839506172839
   },
   {
    "categoryId": "herrklader",
-   "supply": 172,
-   "heat": 44,
-   "bidRate": 0.1935483870967742,
-   "weightedBidRate": 0.22066179299730668,
-   "priceMedian": 435,
-   "priceP10": 99,
-   "priceP90": 1603,
+   "supply": 167,
+   "heat": 23,
+   "bidRate": 0.13636363636363635,
+   "weightedBidRate": 0.11292852341474342,
+   "priceMedian": 490,
+   "priceP10": 153,
+   "priceP90": 1800,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
      "supply": 166,
-     "withBids": 18
+     "withBids": 14
     },
     {
      "source": "myrorna",
-     "supply": 6,
-     "withBids": 6
+     "supply": 1,
+     "withBids": 1
     }
    ],
-   "heatDelta": 22,
-   "priceDelta": -0.11224489795918367,
-   "supplyDelta": 0.029940119760479042
+   "heatDelta": -21,
+   "priceDelta": 0.12643678160919541,
+   "supplyDelta": -0.029069767441860465
   },
   {
    "categoryId": "barnklader",
-   "supply": 160,
+   "supply": 161,
    "heat": 1,
-   "bidRate": 0.013793103448275862,
-   "weightedBidRate": 0.00629660314830157,
-   "priceMedian": 99,
-   "priceP10": 40,
-   "priceP90": 300,
+   "bidRate": 0.013888888888888888,
+   "weightedBidRate": 0.004335009537020981,
+   "priceMedian": 89,
+   "priceP10": 30,
+   "priceP90": 380,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 159,
-     "withBids": 1
+     "supply": 160,
+     "withBids": 2
+    },
+    {
+     "source": "myrorna",
+     "supply": 1,
+     "withBids": 0
+    }
+   ],
+   "heatDelta": 0,
+   "priceDelta": -0.10101010101010101,
+   "supplyDelta": 0.00625
+  },
+  {
+   "categoryId": "vaskor",
+   "supply": 198,
+   "heat": 24,
+   "bidRate": 0.1111111111111111,
+   "weightedBidRate": 0.12206047032474805,
+   "priceMedian": 500,
+   "priceP10": 90,
+   "priceP90": 4995,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 198,
+     "withBids": 18
+    }
+   ],
+   "heatDelta": -9,
+   "priceDelta": 0.02880658436213992,
+   "supplyDelta": 0.03664921465968586
+  },
+  {
+   "categoryId": "skor",
+   "supply": 162,
+   "heat": 11,
+   "bidRate": 0.05925925925925926,
+   "weightedBidRate": 0.0534887707869021,
+   "priceMedian": 520,
+   "priceP10": 150,
+   "priceP90": 1207,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 161,
+     "withBids": 7
     },
     {
      "source": "myrorna",
@@ -189,160 +236,24 @@
     }
    ],
    "heatDelta": 1,
-   "priceDelta": 0,
-   "supplyDelta": -0.012345679012345678
-  },
-  {
-   "categoryId": "vaskor",
-   "supply": 191,
-   "heat": 33,
-   "bidRate": 0.13138686131386862,
-   "weightedBidRate": 0.16255347153668973,
-   "priceMedian": 486,
-   "priceP10": 85,
-   "priceP90": 4900,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 191,
-     "withBids": 18
-    }
-   ],
-   "heatDelta": 20,
-   "priceDelta": 0.0752212389380531,
-   "supplyDelta": 0.0670391061452514
-  },
-  {
-   "categoryId": "skor",
-   "supply": 164,
-   "heat": 10,
-   "bidRate": 0.047244094488188976,
-   "weightedBidRate": 0.052199306442781535,
-   "priceMedian": 597,
-   "priceP10": 165,
-   "priceP90": 1213,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 162,
-     "withBids": 4
-    },
-    {
-     "source": "myrorna",
-     "supply": 2,
-     "withBids": 2
-    }
-   ],
-   "heatDelta": -10,
-   "priceDelta": -0.039420756234915526,
-   "supplyDelta": 0.012345679012345678
+   "priceDelta": -0.12897822445561138,
+   "supplyDelta": -0.012195121951219513
   },
   {
    "categoryId": "smycken",
-   "supply": 150,
-   "heat": 24,
-   "bidRate": 0.09565217391304348,
-   "weightedBidRate": 0.11764705882352944,
-   "priceMedian": 599.5,
+   "supply": 154,
+   "heat": 36,
+   "bidRate": 0.16379310344827586,
+   "weightedBidRate": 0.1783978017332488,
+   "priceMedian": 657,
    "priceP10": 79,
-   "priceP90": 6000,
+   "priceP90": 6200,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 150,
-     "withBids": 11
-    }
-   ],
-   "heatDelta": 4,
-   "priceDelta": -0.4005,
-   "supplyDelta": -0.09090909090909091
-  },
-  {
-   "categoryId": "parfym",
-   "supply": 162,
-   "heat": 42,
-   "bidRate": 0.1896551724137931,
-   "weightedBidRate": 0.21153846153846154,
-   "priceMedian": 750,
-   "priceP10": 110,
-   "priceP90": 1950,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 162,
-     "withBids": 22
-    }
-   ],
-   "heatDelta": -1,
-   "priceDelta": -0.15730337078651685,
-   "supplyDelta": 0
-  },
-  {
-   "categoryId": "hem",
-   "supply": 86,
-   "heat": 13,
-   "bidRate": 0.078125,
-   "weightedBidRate": 0.06366906474820144,
-   "priceMedian": 175,
-   "priceP10": 39,
-   "priceP90": 780,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 83,
-     "withBids": 5
-    },
-    {
-     "source": "bukowskis",
-     "supply": 3,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": -7,
-   "priceDelta": -0.2985971943887776,
-   "supplyDelta": -0.022727272727272728
-  },
-  {
-   "categoryId": "elektronik-foto",
-   "supply": 159,
-   "heat": 6,
-   "bidRate": 0.03937007874015748,
-   "weightedBidRate": 0.03005780346820808,
-   "priceMedian": 250,
-   "priceP10": 79,
-   "priceP90": 1550,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 159,
-     "withBids": 5
-    }
-   ],
-   "heatDelta": -1,
-   "priceDelta": 0.25,
-   "supplyDelta": 0
-  },
-  {
-   "categoryId": "samlarobjekt",
-   "supply": 136,
-   "heat": 15,
-   "bidRate": 0.08490566037735849,
-   "weightedBidRate": 0.07651912978244561,
-   "priceMedian": 100,
-   "priceP10": 19,
-   "priceP90": 750,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 135,
-     "withBids": 8
+     "supply": 153,
+     "withBids": 18
     },
     {
      "source": "myrorna",
@@ -350,19 +261,108 @@
      "withBids": 1
     }
    ],
-   "heatDelta": 8,
-   "priceDelta": -0.047619047619047616,
-   "supplyDelta": 0.13333333333333333
+   "heatDelta": 12,
+   "priceDelta": 0.09591326105087573,
+   "supplyDelta": 0.02666666666666667
+  },
+  {
+   "categoryId": "parfym",
+   "supply": 159,
+   "heat": 52,
+   "bidRate": 0.23478260869565218,
+   "weightedBidRate": 0.259198691741619,
+   "priceMedian": 625,
+   "priceP10": 118,
+   "priceP90": 1900,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 159,
+     "withBids": 27
+    }
+   ],
+   "heatDelta": 10,
+   "priceDelta": -0.16666666666666666,
+   "supplyDelta": -0.018518518518518517
+  },
+  {
+   "categoryId": "hem",
+   "supply": 91,
+   "heat": 25,
+   "bidRate": 0.09302325581395349,
+   "weightedBidRate": 0.12622036262203626,
+   "priceMedian": 239.5,
+   "priceP10": 42,
+   "priceP90": 999,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 88,
+     "withBids": 4
+    },
+    {
+     "source": "bukowskis",
+     "supply": 3,
+     "withBids": 0
+    }
+   ],
+   "heatDelta": 12,
+   "priceDelta": 0.36857142857142855,
+   "supplyDelta": 0.05813953488372093
+  },
+  {
+   "categoryId": "elektronik-foto",
+   "supply": 156,
+   "heat": 11,
+   "bidRate": 0.051470588235294115,
+   "weightedBidRate": 0.05432274099059115,
+   "priceMedian": 299.5,
+   "priceP10": 75,
+   "priceP90": 2483,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 156,
+     "withBids": 7
+    }
+   ],
+   "heatDelta": 5,
+   "priceDelta": 0.198,
+   "supplyDelta": -0.018867924528301886
+  },
+  {
+   "categoryId": "samlarobjekt",
+   "supply": 133,
+   "heat": 7,
+   "bidRate": 0.059322033898305086,
+   "weightedBidRate": 0.03326530612244897,
+   "priceMedian": 78,
+   "priceP10": 19,
+   "priceP90": 550,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 133,
+     "withBids": 7
+    }
+   ],
+   "heatDelta": -8,
+   "priceDelta": -0.22,
+   "supplyDelta": -0.022058823529411766
   },
   {
    "categoryId": "bocker-film-spel",
    "supply": 155,
-   "heat": 9,
-   "bidRate": 0.05063291139240506,
-   "weightedBidRate": 0.04619005589879376,
-   "priceMedian": 99,
-   "priceP10": 20,
-   "priceP90": 559,
+   "heat": 10,
+   "bidRate": 0.06060606060606061,
+   "weightedBidRate": 0.05245346869712352,
+   "priceMedian": 149,
+   "priceP10": 29,
+   "priceP90": 795,
    "searchInterest": null,
    "sources": [
     {
@@ -371,100 +371,27 @@
      "withBids": 4
     }
    ],
-   "heatDelta": 2,
-   "priceDelta": 0,
+   "heatDelta": 1,
+   "priceDelta": 0.5050505050505051,
    "supplyDelta": 0
   }
  ],
  "movers": [
   {
    "categoryId": "herrklader",
-   "supply": 172,
-   "heat": 44,
-   "bidRate": 0.1935483870967742,
-   "weightedBidRate": 0.22066179299730668,
-   "priceMedian": 435,
-   "priceP10": 99,
-   "priceP90": 1603,
+   "supply": 167,
+   "heat": 23,
+   "bidRate": 0.13636363636363635,
+   "weightedBidRate": 0.11292852341474342,
+   "priceMedian": 490,
+   "priceP10": 153,
+   "priceP90": 1800,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
      "supply": 166,
-     "withBids": 18
-    },
-    {
-     "source": "myrorna",
-     "supply": 6,
-     "withBids": 6
-    }
-   ],
-   "heatDelta": 22,
-   "priceDelta": -0.11224489795918367,
-   "supplyDelta": 0.029940119760479042
-  },
-  {
-   "categoryId": "vaskor",
-   "supply": 191,
-   "heat": 33,
-   "bidRate": 0.13138686131386862,
-   "weightedBidRate": 0.16255347153668973,
-   "priceMedian": 486,
-   "priceP10": 85,
-   "priceP90": 4900,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 191,
-     "withBids": 18
-    }
-   ],
-   "heatDelta": 20,
-   "priceDelta": 0.0752212389380531,
-   "supplyDelta": 0.0670391061452514
-  },
-  {
-   "categoryId": "skor",
-   "supply": 164,
-   "heat": 10,
-   "bidRate": 0.047244094488188976,
-   "weightedBidRate": 0.052199306442781535,
-   "priceMedian": 597,
-   "priceP10": 165,
-   "priceP90": 1213,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 162,
-     "withBids": 4
-    },
-    {
-     "source": "myrorna",
-     "supply": 2,
-     "withBids": 2
-    }
-   ],
-   "heatDelta": -10,
-   "priceDelta": -0.039420756234915526,
-   "supplyDelta": 0.012345679012345678
-  },
-  {
-   "categoryId": "samlarobjekt",
-   "supply": 136,
-   "heat": 15,
-   "bidRate": 0.08490566037735849,
-   "weightedBidRate": 0.07651912978244561,
-   "priceMedian": 100,
-   "priceP10": 19,
-   "priceP90": 750,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 135,
-     "withBids": 8
+     "withBids": 14
     },
     {
      "source": "myrorna",
@@ -472,46 +399,51 @@
      "withBids": 1
     }
    ],
-   "heatDelta": 8,
-   "priceDelta": -0.047619047619047616,
-   "supplyDelta": 0.13333333333333333
+   "heatDelta": -21,
+   "priceDelta": 0.12643678160919541,
+   "supplyDelta": -0.029069767441860465
   },
   {
-   "categoryId": "friluft",
-   "supply": 157,
-   "heat": 16,
-   "bidRate": 0.08333333333333333,
-   "weightedBidRate": 0.07875322759129474,
-   "priceMedian": 360,
-   "priceP10": 41,
-   "priceP90": 1700,
+   "categoryId": "smycken",
+   "supply": 154,
+   "heat": 36,
+   "bidRate": 0.16379310344827586,
+   "weightedBidRate": 0.1783978017332488,
+   "priceMedian": 657,
+   "priceP10": 79,
+   "priceP90": 6200,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 157,
-     "withBids": 11
+     "supply": 153,
+     "withBids": 18
+    },
+    {
+     "source": "myrorna",
+     "supply": 1,
+     "withBids": 1
     }
    ],
-   "heatDelta": 7,
-   "priceDelta": 0.02857142857142857,
-   "supplyDelta": -0.030864197530864196
+   "heatDelta": 12,
+   "priceDelta": 0.09591326105087573,
+   "supplyDelta": 0.02666666666666667
   },
   {
    "categoryId": "hem",
-   "supply": 86,
-   "heat": 13,
-   "bidRate": 0.078125,
-   "weightedBidRate": 0.06366906474820144,
-   "priceMedian": 175,
-   "priceP10": 39,
-   "priceP90": 780,
+   "supply": 91,
+   "heat": 25,
+   "bidRate": 0.09302325581395349,
+   "weightedBidRate": 0.12622036262203626,
+   "priceMedian": 239.5,
+   "priceP10": 42,
+   "priceP90": 999,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 83,
-     "withBids": 5
+     "supply": 88,
+     "withBids": 4
     },
     {
      "source": "bukowskis",
@@ -519,25 +451,109 @@
      "withBids": 0
     }
    ],
-   "heatDelta": -7,
-   "priceDelta": -0.2985971943887776,
-   "supplyDelta": -0.022727272727272728
+   "heatDelta": 12,
+   "priceDelta": 0.36857142857142855,
+   "supplyDelta": 0.05813953488372093
   },
   {
-   "categoryId": "antik-design",
-   "supply": 189,
-   "heat": 12,
-   "bidRate": 0.056179775280898875,
-   "weightedBidRate": 0.0592718035563082,
-   "priceMedian": 399.5,
-   "priceP10": 85,
-   "priceP90": 1300,
+   "categoryId": "friluft",
+   "supply": 159,
+   "heat": 6,
+   "bidRate": 0.03968253968253968,
+   "weightedBidRate": 0.030499428135722453,
+   "priceMedian": 299,
+   "priceP10": 50,
+   "priceP90": 1100,
    "searchInterest": null,
    "sources": [
     {
      "source": "tradera",
-     "supply": 136,
-     "withBids": 10
+     "supply": 159,
+     "withBids": 5
+    }
+   ],
+   "heatDelta": -10,
+   "priceDelta": -0.16944444444444445,
+   "supplyDelta": 0.012738853503184714
+  },
+  {
+   "categoryId": "parfym",
+   "supply": 159,
+   "heat": 52,
+   "bidRate": 0.23478260869565218,
+   "weightedBidRate": 0.259198691741619,
+   "priceMedian": 625,
+   "priceP10": 118,
+   "priceP90": 1900,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 159,
+     "withBids": 27
+    }
+   ],
+   "heatDelta": 10,
+   "priceDelta": -0.16666666666666666,
+   "supplyDelta": -0.018518518518518517
+  },
+  {
+   "categoryId": "vaskor",
+   "supply": 198,
+   "heat": 24,
+   "bidRate": 0.1111111111111111,
+   "weightedBidRate": 0.12206047032474805,
+   "priceMedian": 500,
+   "priceP10": 90,
+   "priceP90": 4995,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 198,
+     "withBids": 18
+    }
+   ],
+   "heatDelta": -9,
+   "priceDelta": 0.02880658436213992,
+   "supplyDelta": 0.03664921465968586
+  },
+  {
+   "categoryId": "samlarobjekt",
+   "supply": 133,
+   "heat": 7,
+   "bidRate": 0.059322033898305086,
+   "weightedBidRate": 0.03326530612244897,
+   "priceMedian": 78,
+   "priceP10": 19,
+   "priceP90": 550,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 133,
+     "withBids": 7
+    }
+   ],
+   "heatDelta": -8,
+   "priceDelta": -0.22,
+   "supplyDelta": -0.022058823529411766
+  },
+  {
+   "categoryId": "antik-design",
+   "supply": 162,
+   "heat": 5,
+   "bidRate": 0.03164556962025317,
+   "weightedBidRate": 0.024464342820594814,
+   "priceMedian": 750,
+   "priceP10": 125,
+   "priceP90": 3000,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "tradera",
+     "supply": 109,
+     "withBids": 5
     },
     {
      "source": "bukowskis",
@@ -545,35 +561,9 @@
      "withBids": 0
     }
    ],
-   "heatDelta": -5,
-   "priceDelta": 0.33166666666666667,
-   "supplyDelta": 0.03278688524590164
-  },
-  {
-   "categoryId": "damklader",
-   "supply": 162,
-   "heat": 10,
-   "bidRate": 0.050724637681159424,
-   "weightedBidRate": 0.04850399553986248,
-   "priceMedian": 395,
-   "priceP10": 15,
-   "priceP90": 2050,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "tradera",
-     "supply": 161,
-     "withBids": 6
-    },
-    {
-     "source": "myrorna",
-     "supply": 1,
-     "withBids": 1
-    }
-   ],
-   "heatDelta": 5,
-   "priceDelta": -0.10227272727272728,
-   "supplyDelta": 0.03184713375796178
+   "heatDelta": -7,
+   "priceDelta": 0.8773466833541927,
+   "supplyDelta": -0.14285714285714285
   }
  ],
  "sources": [
@@ -715,17 +705,17 @@
    "id": "tradera",
    "label": "Tradera",
    "market": "SE",
-   "collected": 2364,
+   "collected": 2380,
    "failed": 0,
-   "ms": 44155
+   "ms": 44559
   },
   {
    "id": "myrorna",
    "label": "Myrorna",
    "market": "SE",
-   "collected": 52,
+   "collected": 51,
    "failed": 0,
-   "ms": 1139
+   "ms": 840
   },
   {
    "id": "bukowskis",
@@ -733,249 +723,249 @@
    "market": "SE",
    "collected": 68,
    "failed": 0,
-   "ms": 2262
+   "ms": 2465
   }
  ],
  "searchSignals": {},
  "samples": {
   "glas": [
    {
-    "title": "Orrefors Vas",
-    "url": "https://www.tradera.com/item/301937/745302897/orrefors-vas",
-    "priceSek": 100,
+    "title": "2 st Skeppor ORREFORS skeppa av glas till kryddhylla ordning och reda i köket",
+    "url": "https://www.tradera.com/item/341198/745451108/2-st-skeppor-orrefors-skeppa-av-glas-till-kryddhylla-ordning-och-reda-i-koket",
+    "priceSek": 129,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/248/656000248_6e9c237f-1305-4431-b352-69a1aad467b2.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/164/644230164_207028f9-ae1b-466a-a8d0-3cc689fe1cc6.jpg",
     "brand": "orrefors"
    },
    {
-    "title": "Kosta Boda ljuslyktor i glas, 2 st",
-    "url": "https://www.tradera.com/item/301938/745302201/kosta-boda-ljuslyktor-i-glas-2-st",
-    "priceSek": 15,
+    "title": "Ljuslyktor \"Sunflower\" - Göran Wärff, Kosta boda (ljus, glaslyktor, ljusstakar)",
+    "url": "https://www.tradera.com/item/301938/745452447/ljuslyktor-sunflower-goran-warff-kosta-boda-ljus-glaslyktor-ljusstakar-",
+    "priceSek": 648,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/720/655999720_2d2a0e6a-0489-4dc1-845d-4343715e703e.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/038/656113038_88eadbcd-7832-41d9-8032-6f8fdc492e96.jpg",
     "brand": "kosta boda"
    },
    {
-    "title": "Orrefors 3642 – Nils Landberg – solitärvas i kristallglas – vintage",
-    "url": "https://www.tradera.com/item/301937/745302351/orrefors-3642-nils-landberg-solitarvas-i-kristallglas-vintage",
-    "priceSek": 149,
+    "title": "Vas Orrefors med fjärilsmotiv Sven Palmqvist P2683",
+    "url": "https://www.tradera.com/item/301937/745450987/vas-orrefors-med-fjarilsmotiv-sven-palmqvist-p2683",
+    "priceSek": 75,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/821/655999821_d80d5b37-5b7f-49fc-b6ba-3686115762dc.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/984/656111984_54973f8d-c65d-492f-ab87-31d892c5f5f4.jpg",
     "brand": "orrefors"
    },
    {
-    "title": "Kosta Boda Fat",
-    "url": "https://www.tradera.com/item/301938/745302061/kosta-boda-fat",
-    "priceSek": 750,
+    "title": "ANNA EHRNER skål Atoll Kosta boda",
+    "url": "https://www.tradera.com/item/301938/745452380/anna-ehrner-skal-atoll-kosta-boda",
+    "priceSek": 199,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/605/655999605_025c5994-c977-4729-8845-b63c9f7ac2a3.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/001/656113001_6923dd22-7ba4-4e5d-b634-8343a70fd25e.jpg",
     "brand": "kosta boda"
    },
    {
-    "title": "~*~ Snygg ring med Zirconia-kristall Hjärta, Stl 17,3 mm. Guldplt ~*~",
-    "url": "https://www.tradera.com/item/240503/745286496/-snygg-ring-med-zirconia-kristall-hjarta-stl-17-3-mm-guldplt-",
-    "priceSek": 39,
+    "title": "Orrefors Clown uppläggningsfat",
+    "url": "https://www.tradera.com/item/301937/745450461/orrefors-clown-upplaggningsfat",
+    "priceSek": 2000,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/958/655986958_88404690-e742-49a0-a051-131083030761.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/725/656111725_ec0d3aca-a43c-420c-84f6-738004df78b6.jpg",
+    "brand": "orrefors"
+   },
+   {
+    "title": "Göran Wärff, Kosta Boda, 1 ljuslykta ”polar” H 12cm, 1 par ljusstakar H 7cm",
+    "url": "https://www.tradera.com/item/301938/745452284/goran-warff-kosta-boda-1-ljuslykta-polar-h-12cm-1-par-ljusstakar-h-7cm",
+    "priceSek": 9,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/924/656112924_e27df6ac-fb8f-47b6-9ce8-7e39e8170d65.jpg",
+    "brand": "kosta boda"
+   },
+   {
+    "title": "Ljusstakar i kristall",
+    "url": "https://www.tradera.com/item/340962/745450436/ljusstakar-i-kristall",
+    "priceSek": 72,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/706/656111706_16340b46-a7f5-45e9-8c96-7e0d4db3ca20.jpg",
     "brand": null
    },
    {
-    "title": "Vicke Lindstrand * Orrefors * Vas",
-    "url": "https://www.tradera.com/item/301937/745301999/vicke-lindstrand-orrefors-vas",
-    "priceSek": 121,
+    "title": "Kosta Boda \"Atoll\" ljuslykta",
+    "url": "https://www.tradera.com/item/340961/745452251/kosta-boda-atoll-ljuslykta",
+    "priceSek": 130,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/318/654260318_e9c4592f-397c-4951-a1c3-686ca0447c26.jpg",
-    "brand": "orrefors"
-   },
-   {
-    "title": "Signerad Ulrica Hydman Vallien Ljuslykta Kosta Boda - Näckros",
-    "url": "https://www.tradera.com/item/301938/745301505/signerad-ulrica-hydman-vallien-ljuslykta-kosta-boda-nackros",
-    "priceSek": 89,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/160/655999160_e6315b98-8f87-49c5-a164-0185603ef0a7.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/898/656112898_d4a40797-5966-426a-8ffa-32a49a42a44d.jpg",
     "brand": "kosta boda"
    },
    {
-    "title": "~*~ Snygg ring med Zirconia-kristall Hjärta, Stl 18,1 mm. Guldplt ~*~",
-    "url": "https://www.tradera.com/item/240503/745286399/-snygg-ring-med-zirconia-kristall-hjarta-stl-18-1-mm-guldplt-",
-    "priceSek": 39,
+    "title": "Orrefors kristallvas \"Corona\" med tidlös estetik och elegans",
+    "url": "https://www.tradera.com/item/301937/745449368/orrefors-kristallvas-corona-med-tidlos-estetik-och-elegans",
+    "priceSek": 780,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/867/655986867_48b13234-954f-4e73-a537-3cffa7be3fed.jpg",
-    "brand": null
-   },
-   {
-    "title": "Likör glas Lisa,formgivet av Olle Alberius för Orrefors 1977,",
-    "url": "https://www.tradera.com/item/301937/745300412/likor-glas-lisa-formgivet-av-olle-alberius-for-orrefors-1977-",
-    "priceSek": 100,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/229/655998229_fbe96409-e4ef-47ee-9e91-9779c246c948.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/348/629202348_04349272-d011-4843-af89-55dcdb8d41a4.jpg",
     "brand": "orrefors"
    },
    {
-    "title": "Skål på fot \"Krinolin\" design Göran Wärff, Kosta Boda",
-    "url": "https://www.tradera.com/item/301938/745301076/skal-pa-fot-krinolin-design-goran-warff-kosta-boda",
+    "title": "Boda Vas i brunt och vitt glas",
+    "url": "https://www.tradera.com/item/301938/745451729/boda-vas-i-brunt-och-vitt-glas",
+    "priceSek": 180,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/465/656112465_d19b5c8c-0d85-4642-b5fb-067622203402.jpg",
+    "brand": null
+   },
+   {
+    "title": "Orrefors Skål",
+    "url": "https://www.tradera.com/item/301937/745448901/orrefors-skal",
+    "priceSek": 325,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/502/656110502_82127f87-f4bb-4454-8df0-d1868b39ff6d.jpg",
+    "brand": "orrefors"
+   },
+   {
+    "title": "Kosta Boda glas Mine designade av Ulrica Hydman Vallien",
+    "url": "https://www.tradera.com/item/301938/745451724/kosta-boda-glas-mine-designade-av-ulrica-hydman-vallien",
     "priceSek": 79,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/162/654393162_9933c021-363a-4e11-b644-1219426e9f5f.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/460/656112460_6dd7cb59-a671-4441-a007-8c6b09042eac.jpg",
     "brand": "kosta boda"
-   },
-   {
-    "title": "Guldring, Hjärta m Zirconia kristall, Stl 17,3mm, 18K guldplt.",
-    "url": "https://www.tradera.com/item/240503/745283560/guldring-hjarta-m-zirconia-kristall-stl-17-3mm-18k-guldplt-",
-    "priceSek": 48,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/815/655984815_a66c2a43-258a-41b6-bb6a-62ac1ee42565.jpg",
-    "brand": null
-   },
-   {
-    "title": "Dala helkristall skålar från Orrefors, 2 stycken",
-    "url": "https://www.tradera.com/item/301937/745300376/dala-helkristall-skalar-fran-orrefors-2-stycken",
-    "priceSek": 80,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/213/655998213_8ab89495-2e9e-4bce-b45f-08ca2e48f44b.jpg",
-    "brand": "orrefors"
    }
   ],
   "porslin": [
    {
-    "title": "Rörstrand Blåvinge Assietter Design Hertha Bengtson , Antal 2 Stycken",
-    "url": "https://www.tradera.com/item/341141/745302757/rorstrand-blavinge-assietter-design-hertha-bengtson-antal-2-stycken",
-    "priceSek": 50,
+    "title": "Stenkruka med blomdekor och med hänklar",
+    "url": "https://www.tradera.com/item/201108/745451783/stenkruka-med-blomdekor-och-med-hanklar",
+    "priceSek": 150,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/484/655134484_5096e4b9-a8c0-42f4-b877-51ade54cd29c.jpg",
-    "brand": "rörstrand"
+    "imageUrl": "https://img.tradera.net/250-square/514/656112514_b3e5879c-5cdc-432a-88a3-09dd34b1f530.jpg",
+    "brand": null
    },
    {
-    "title": "Gustavsberg Carrara flat tallrik ø ca 24,5 cm mattallrik CAQ",
-    "url": "https://www.tradera.com/item/302290/745302898/gustavsberg-carrara-flat-tallrik-%C3%B8-ca-24-5-cm-mattallrik-caq",
-    "priceSek": 125,
+    "title": "Gustavsberg Stina tallrikar Assietter Stig Lindberg",
+    "url": "https://www.tradera.com/item/302282/745452484/gustavsberg-stina-tallrikar-assietter-stig-lindberg",
+    "priceSek": 279,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/249/656000249_d0b6bb60-9e3b-41cc-b6c5-7c8e068f2867.jpg",
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "Rörstrand FORMA skål / sockerskål Olle Alberius",
-    "url": "https://www.tradera.com/item/341144/745302696/rorstrand-forma-skal-sockerskal-olle-alberius",
-    "priceSek": 30,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/087/656000087_dbc6938a-35d2-4dd3-a829-cd5f354ca5ef.jpg",
-    "brand": "rörstrand"
-   },
-   {
-    "title": "2 st djupa tallrikar Flint Porslin GUN Gustavsberg",
-    "url": "https://www.tradera.com/item/302290/745302544/2-st-djupa-tallrikar-flint-porslin-gun-gustavsberg",
-    "priceSek": 50,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/979/655999979_c2285777-6855-419d-9fdc-de549f88c93e.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/579/650575579_491ac5c9-8719-41ce-8e3d-4b33c0985fc3.jpg",
     "brand": "gustavsberg"
    },
    {
     "title": "Koppar på fat, Salix, Stig Lindberg, Gustavsberg. Samfraktas ej.",
     "url": "https://www.tradera.com/item/302282/744124488/koppar-pa-fat-salix-stig-lindberg-gustavsberg-samfraktas-ej-",
-    "priceSek": 510,
+    "priceSek": 575,
     "bids": 1,
     "source": "myrorna",
     "imageUrl": "https://img.tradera.net/250-square/662/655086662_bd5e7ee2-fb62-46d2-9829-a220b934e593.jpg",
     "brand": "gustavsberg"
    },
    {
-    "title": "Höganäs Keramik Rörstrand skålar",
-    "url": "https://www.tradera.com/item/341156/745302620/hoganas-keramik-rorstrand-skalar",
-    "priceSek": 50,
+    "title": "Rörstrand \"Fasan\" tallrik",
+    "url": "https://www.tradera.com/item/341144/745451469/rorstrand-fasan-tallrik",
+    "priceSek": 150,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/047/656000047_c314939a-c226-49d7-ace1-7c4ff1c0a4df.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/225/656112225_3713f97d-1110-47a1-b33f-7243071c3a40.jpg",
     "brand": "rörstrand"
    },
    {
-    "title": "Gustavsberg Carrara flat tallrik ø ca 24,5 cm mattallrik CAQ",
-    "url": "https://www.tradera.com/item/302290/745302525/gustavsberg-carrara-flat-tallrik-%C3%B8-ca-24-5-cm-mattallrik-caq",
-    "priceSek": 125,
+    "title": "3 st Gustavsberg Graphite Assietter tallrikar Karin Björquist",
+    "url": "https://www.tradera.com/item/302288/745452471/3-st-gustavsberg-graphite-assietter-tallrikar-karin-bjorquist",
+    "priceSek": 239,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/960/655999960_1ba075be-94b4-4f18-8e22-8bb300c36608.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/973/649092973_57363ea7-90a1-4202-8100-15a3949a8c61.jpg",
     "brand": "gustavsberg"
    },
    {
-    "title": "Förrättstallrik assiette swedish grace",
-    "url": "https://www.tradera.com/item/341137/745302329/forrattstallrik-assiette-swedish-grace",
-    "priceSek": 800,
+    "title": "Rörstrand äggkopp",
+    "url": "https://www.tradera.com/item/341144/745451433/rorstrand-aggkopp",
+    "priceSek": 70,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/815/655999815_b0b8e7d9-2810-4f1e-890a-fdf71df16c79.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/190/656112190_0282fe61-97d8-4190-ab44-4a8ccf1b802d.jpg",
+    "brand": "rörstrand"
+   },
+   {
+    "title": "2 st Gustavsberg Arena Tekoppar med fat",
+    "url": "https://www.tradera.com/item/302282/745452469/2-st-gustavsberg-arena-tekoppar-med-fat",
+    "priceSek": 279,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/818/653230818_092420f0-3b6c-433b-a539-a1ce9c8b0899.jpg",
+    "brand": "gustavsberg"
+   },
+   {
+    "title": "Retro runt fat Rörstrand Sarek Olle Alberius",
+    "url": "https://www.tradera.com/item/341142/745451100/retro-runt-fat-rorstrand-sarek-olle-alberius",
+    "priceSek": 99,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/355/642580355_4cf51629-16b1-43c2-96d2-4531c5e0b660.jpg",
+    "brand": "rörstrand"
+   },
+   {
+    "title": "Vit desserttallrik med svart/grått mönster",
+    "url": "https://www.tradera.com/item/201108/745452163/vit-desserttallrik-med-svart-gratt-monster",
+    "priceSek": 49,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/830/656112830_560d6b8f-850a-423d-9db2-65b44d64420b.jpg",
     "brand": null
    },
    {
-    "title": "Kopp Stig Lindberg Gustavsberg Tahiti",
-    "url": "https://www.tradera.com/item/302282/745301125/kopp-stig-lindberg-gustavsberg-tahiti",
-    "priceSek": 300,
+    "title": "Två fina Keramiktavlor från Rörstrand Design Carl Anton",
+    "url": "https://www.tradera.com/item/341144/745450522/tva-fina-keramiktavlor-fran-rorstrand-design-carl-anton",
+    "priceSek": 100,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/835/655998835_eda117b1-573a-480e-9351-d4eee052b3bf.jpg",
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "Rörstrand Balett 6 st. Djupa tallrikar. Retro vintage.",
-    "url": "https://www.tradera.com/item/341144/745302132/rorstrand-balett-6-st-djupa-tallrikar-retro-vintage-",
-    "priceSek": 275,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/658/655999658_899ff9d1-c961-47ee-9542-fdbc418dfabc.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/780/656111780_f9c3f2a5-84f5-4af3-9936-344f9c76d20c.jpg",
     "brand": "rörstrand"
    },
    {
-    "title": "Gustavsberg - Lisa Larson - Tupp - Påsk - Stengods - Nyskick",
-    "url": "https://www.tradera.com/item/302283/745300949/gustavsberg-lisa-larson-tupp-pask-stengods-nyskick",
-    "priceSek": 1500,
+    "title": "Rörstrand Filippa K muggar 4st fint skick",
+    "url": "https://www.tradera.com/item/341144/745450503/rorstrand-filippa-k-muggar-4st-fint-skick",
+    "priceSek": 125,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/740/649401740_0c98c4c1-55b0-4f2a-95c5-584fe7f2a051.jpg",
-    "brand": "gustavsberg"
+    "imageUrl": "https://img.tradera.net/250-square/764/656111764_1cfad5f2-58e4-4579-a76d-870a1be9c0db.jpg",
+    "brand": "rörstrand"
    },
    {
-    "title": "Rörstrand krus",
-    "url": "https://www.tradera.com/item/342953/745302013/rorstrand-krus",
-    "priceSek": 850,
+    "title": "Vardag Gustavsberg kanna",
+    "url": "https://www.tradera.com/item/302290/745451076/vardag-gustavsberg-kanna",
+    "priceSek": 150,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/561/655999561_cb96fa35-0b19-4a72-b25a-866f2ff4b4a1.jpg",
-    "brand": "rörstrand"
+    "imageUrl": "https://img.tradera.net/250-square/034/656112034_262f4fd7-5129-41d6-823f-b67ae130aef5.jpg",
+    "brand": "gustavsberg"
    }
   ],
   "antik-design": [
    {
-    "title": "Svenskt Tenn tennmugg 1969 | MKS 1954 | Vintage samlarmugg | Sverige",
-    "url": "https://www.tradera.com/item/202501/745300943/svenskt-tenn-tennmugg-1969-mks-1954-vintage-samlarmugg-sverige",
-    "priceSek": 29,
+    "title": "Svenskt Tenn Axelremsväska elefantmönster - Bag Elefant Estrid Ericson Blå linne",
+    "url": "https://www.tradera.com/item/302662/745451353/svenskt-tenn-axelremsvaska-elefantmonster-bag-elefant-estrid-ericson-bla-linne",
+    "priceSek": 1300,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/691/655998691_b6475037-95b4-4929-9ad3-ab2568fa7188.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/126/656112126_1302d328-32be-4717-bf31-98abf49da9d2.jpg",
     "brand": "svenskt tenn"
    },
    {
-    "title": "JOSEF FRANK \"Pax\" Affisch 50x70 cm NY",
-    "url": "https://www.tradera.com/item/291002/745288908/josef-frank-pax-affisch-50x70-cm-ny",
-    "priceSek": 350,
+    "title": "Kuddfodral i tyg från Svenskt Tenn, mönster Hawaii, design Josef Frank, brun",
+    "url": "https://www.tradera.com/item/340905/745438524/kuddfodral-i-tyg-fran-svenskt-tenn-monster-hawaii-design-josef-frank-brun",
+    "priceSek": 1100,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/893/655988893_c116f756-ed41-454d-a893-38c32159539f.jpg",
-    "brand": "josef frank"
+    "imageUrl": "https://img.tradera.net/250-square/043/656102043_eec9c1cd-bad9-47b1-b666-b001262d60f1.jpg",
+    "brand": "svenskt tenn"
    },
    {
     "title": "arne jacobsen fatolj svanen fritz hansen danmark",
@@ -987,22 +977,22 @@
     "brand": null
    },
    {
-    "title": "Retro ljuslykta i tenn • Tennsmeden Varberg • Violdekor",
-    "url": "https://www.tradera.com/item/202501/745300808/retro-ljuslykta-i-tenn-tennsmeden-varberg-violdekor",
-    "priceSek": 129,
+    "title": "Dopgåva: tennmugg med elefant",
+    "url": "https://www.tradera.com/item/202501/745448390/dopgava-tennmugg-med-elefant",
+    "priceSek": 299,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/580/655998580_3cd636e7-4c65-4681-903c-f11bd1e48edf.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/030/656110030_c440ec56-8271-428e-8f40-36f3f5c807e0.jpg",
     "brand": null
    },
    {
-    "title": "Två kuddar Josef Frank",
-    "url": "https://www.tradera.com/item/340905/745286375/tva-kuddar-josef-frank",
-    "priceSek": 998,
+    "title": "Kuddfodral i tyg från Svenskt Tenn, mönster Teheran, design Josef Frank",
+    "url": "https://www.tradera.com/item/340905/745438440/kuddfodral-i-tyg-fran-svenskt-tenn-monster-teheran-design-josef-frank",
+    "priceSek": 1000,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/640/654373640_575457ab-7b46-41a4-adb7-a4ba350b1604.jpg",
-    "brand": "josef frank"
+    "imageUrl": "https://img.tradera.net/250-square/010/656102010_6a57882f-0ef3-4bd3-acbe-21022468e011.jpg",
+    "brand": "svenskt tenn"
    },
    {
     "title": "arne jacobsen stolar 8 st masen liljan fritz hansen danmark",
@@ -1014,21 +1004,21 @@
     "brand": null
    },
    {
-    "title": "Svenskt Tenn väska med Manhattan tryck",
-    "url": "https://www.tradera.com/item/302664/745295723/svenskt-tenn-vaska-med-manhattan-tryck",
-    "priceSek": 800,
+    "title": "Tennvas Rödöurna Olle Ohlsson - Östersund 1969 T9 - Hamrad",
+    "url": "https://www.tradera.com/item/202501/745447066/tennvas-rodourna-olle-ohlsson-ostersund-1969-t9-hamrad",
+    "priceSek": 195,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/434/655994434_d26b1730-263b-453c-aa21-d88be8fdd326.jpg",
-    "brand": "svenskt tenn"
+    "imageUrl": "https://img.tradera.net/250-square/980/656108980_cd557a3b-dd9b-4ee6-868e-b7efb15702ed.jpg",
+    "brand": null
    },
    {
-    "title": "Kuddfodral i tyg från Svenskt Tenn, mönster Anakreon, Josef Frank",
-    "url": "https://www.tradera.com/item/340905/745276125/kuddfodral-i-tyg-fran-svenskt-tenn-monster-anakreon-josef-frank",
-    "priceSek": 900,
+    "title": "Kuddfodral i tyg från Svenskt Tenn, mönster Italian dinner, Design Josef Frank",
+    "url": "https://www.tradera.com/item/340905/745438381/kuddfodral-i-tyg-fran-svenskt-tenn-monster-italian-dinner-design-josef-frank",
+    "priceSek": 1000,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/112/655979112_1ecdaf7c-a4ff-48da-855d-01762a327ad2.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/981/656101981_4c5197f2-9094-466c-985c-d94bb4b4f9bb.jpg",
     "brand": "svenskt tenn"
    },
    {
@@ -1041,491 +1031,572 @@
     "brand": null
    },
    {
-    "title": "Dubbelsidig komplett prydnadskudde svenskt tenn",
-    "url": "https://www.tradera.com/item/340905/745292862/dubbelsidig-komplett-prydnadskudde-svenskt-tenn",
-    "priceSek": 1250,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/261/655992261_bc189ef3-7503-486d-98a5-4857d5bda27e.jpg",
-    "brand": "svenskt tenn"
-   },
-   {
-    "title": "Kuddfodral i tyg från Svenskt Tenn, mönster Hawaii, design Josef Frank, brun",
-    "url": "https://www.tradera.com/item/340905/745276107/kuddfodral-i-tyg-fran-svenskt-tenn-monster-hawaii-design-josef-frank-brun",
+    "title": "Kuddfodral i tyg från Svenskt Tenn, mönster Window, Josef Frank",
+    "url": "https://www.tradera.com/item/340905/745438347/kuddfodral-i-tyg-fran-svenskt-tenn-monster-window-josef-frank",
     "priceSek": 900,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/098/655979098_b7a169c6-7d41-4ebb-b5d8-56d8bae8d2b8.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/950/656101950_fe5901b1-6ec1-4bc3-8eec-aa565d6181d9.jpg",
     "brand": "svenskt tenn"
    },
    {
-    "title": "Vintage bordslampa i mässing och rött glas",
-    "url": "https://www.tradera.com/item/1000001/745302721/vintage-bordslampa-i-massing-och-rott-glas",
-    "priceSek": 399,
+    "title": "axel larsson fatoljer ett par funkis svenska mobelfabrikerna bodafors 1930 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1387/lots/1732550-axel-larsson-fatoljer-ett-par-funkis-svenska-mobelfabrikerna-bodafors-1930-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "Svenskt modernistiskt tennsmycke: Ring av Stig Schützer, Arvika – Vintage",
+    "url": "https://www.tradera.com/item/240503/745446600/svenskt-modernistiskt-tennsmycke-ring-av-stig-sch%C3%BCtzer-arvika-vintage",
+    "priceSek": 299,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/112/656000112_1533c1ec-5148-4980-b216-1a4a6a2c3575.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/587/656108587_bb3eadda-4507-4a86-9d1d-c2d879f4434b.jpg",
     "brand": null
    }
   ],
   "friluft": [
    {
-    "title": "Fjällräven jacka",
-    "url": "https://www.tradera.com/item/1000733/745301488/fjallraven-jacka",
+    "title": "Fjällräven blå keps, storlek S/M Vidda Cap",
+    "url": "https://www.tradera.com/item/340753/745442162/fjallraven-bla-keps-storlek-s-m-vidda-cap",
+    "priceSek": 300,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/805/656104805_65aea433-48b2-4daf-8f19-7fd693cd91f2.jpg",
+    "brand": "Fjällräven"
+   },
+   {
+    "title": "400W RMS PA-topp / studiomonitor med DSP EQ USB-koppling till dator, dubbla steg",
+    "url": "https://www.tradera.com/item/301972/745448105/400w-rms-pa-topp-studiomonitor-med-dsp-eq-usb-koppling-till-dator-dubbla-steg",
+    "priceSek": 3775,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/071/654375071_3ac3b221-3170-4db7-87e1-7afbffbeecb9.jpg",
+    "brand": null
+   },
+   {
+    "title": "Fjällräven Kaipak Curved W Regular Length-fritidsbyxor",
+    "url": "https://www.tradera.com/item/342746/745440820/fjallraven-kaipak-curved-w-regular-length-fritidsbyxor",
+    "priceSek": 810,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/739/656103739_0c859a5d-9bb3-4bba-9e53-6bf4600f71ab.jpg",
+    "brand": "Fjällräven"
+   },
+   {
+    "title": "Vintage Peak Performance Röda Utsvängda Byxor - Storlek W31 L32 / EU 42 / XL",
+    "url": "https://www.tradera.com/item/1631/745448054/vintage-peak-performance-roda-utsvangda-byxor-storlek-w31-l32-eu-42-xl",
+    "priceSek": 399,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/769/649499769_ce7945ca-39b8-49f8-b289-2e359842941c.jpg",
+    "brand": "Peak Performance"
+   },
+   {
+    "title": "Ett Kraftfullt Ryggstöd för Haglöfs ryggsäck",
+    "url": "https://www.tradera.com/item/344582/745439846/ett-kraftfullt-ryggstod-for-haglofs-ryggsack",
     "priceSek": 149,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/144/655999144_08998eb1-15cb-4be0-834e-6acd89868711.jpg",
-    "brand": "Fjällräven"
+    "imageUrl": "https://img.tradera.net/250-square/945/656102945_524c3bf6-b92a-42de-a93b-434fb79e1540.jpg",
+    "brand": "haglöfs"
    },
    {
-    "title": "Peak Performance svarta friluftsbyxor, storlek S",
-    "url": "https://www.tradera.com/item/1000768/745301851/peak-performance-svarta-friluftsbyxor-storlek-s",
-    "priceSek": 75,
+    "title": "Peak Performance röd långärmad tröja",
+    "url": "https://www.tradera.com/item/1629/745445735/peak-performance-rod-langarmad-troja",
+    "priceSek": 40,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/418/655999418_8e64f9bf-e05c-46ee-a6f9-73c120e83289.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/878/656107878_4e1d05f5-8ded-4103-a193-13185fb4b263.jpg",
     "brand": "Peak Performance"
    },
    {
-    "title": "Fjällräven svarta Keb Trousers, storlek EU:54 US:37",
-    "url": "https://www.tradera.com/item/1000713/745299997/fjallraven-svarta-keb-trousers-storlek-eu-54-us-37",
-    "priceSek": 900,
+    "title": "Kraftigt Haglöfs Bälte/midjestöd",
+    "url": "https://www.tradera.com/item/344582/745439797/kraftigt-haglofs-balte-midjestod",
+    "priceSek": 199,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/875/655997875_4980a29b-73d7-4e11-b385-9918de20a897.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/900/656102900_b3bc8d48-9e94-400b-bc46-d4297c840bbb.jpg",
+    "brand": "haglöfs"
+   },
+   {
+    "title": "Uncharted Legacy of Thieves Collection",
+    "url": "https://www.tradera.com/item/1000007/744330574/uncharted-legacy-of-thieves-collection",
+    "priceSek": 560,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/531/655244531_e8ba1f02-d378-4722-8522-8746384c6e0a.jpg",
+    "brand": null
+   },
+   {
+    "title": "Fjällräven Expedition down lite jacket W, storlek S",
+    "url": "https://www.tradera.com/item/1000733/745438796/fjallraven-expedition-down-lite-jacket-w-storlek-s",
+    "priceSek": 2700,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/167/656102167_0350f9cb-8db8-4787-9946-9f44e23ce3a9.jpg",
     "brand": "Fjällräven"
    },
    {
-    "title": "Peak Performance Gold Glow jacka - storlek M",
-    "url": "https://www.tradera.com/item/1000736/745301319/peak-performance-gold-glow-jacka-storlek-m",
-    "priceSek": 150,
+    "title": "Peak Performance Helium Hybrid Hood-dunjacka NWOT",
+    "url": "https://www.tradera.com/item/1000734/745442772/peak-performance-helium-hybrid-hood-dunjacka-nwot",
+    "priceSek": 870,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/992/655998992_76ccaf35-7c1b-4743-ba29-58b64a9e0d8f.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/298/656105298_0749adf4-dcc6-448c-b24b-8fc160be9e25.jpg",
     "brand": "Peak Performance"
    },
    {
-    "title": "Fjällräven Räven Lite Jacket W XS, men mer som S",
-    "url": "https://www.tradera.com/item/1000733/745299283/fjallraven-raven-lite-jacket-w-xs-men-mer-som-s",
-    "priceSek": 849,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/383/655997383_3668e3a9-7deb-4bbb-9cad-fc4c5c93f8f7.jpg",
-    "brand": "Fjällräven"
-   },
-   {
-    "title": "PEAK PERFORMANCE - LEGGINGS / PANTS -BLÅ/VIT - BRA BEG. STRL S - CA 36",
-    "url": "https://www.tradera.com/item/1000754/745300331/peak-performance-leggings-pants-bla-vit-bra-beg-strl-s-ca-36",
-    "priceSek": 69,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/169/655998169_af14fb74-8210-4b88-a284-c58718bf1a71.jpg",
-    "brand": "Peak Performance"
-   },
-   {
-    "title": "Fjällräven beiga byxor, storlek 48",
-    "url": "https://www.tradera.com/item/1000713/745297123/fjallraven-beiga-byxor-storlek-48",
+    "title": "Fjällräven Ryggsäck Grön",
+    "url": "https://www.tradera.com/item/340750/745437286/fjallraven-ryggsack-gron",
     "priceSek": 100,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/476/655995476_f8921951-4385-4934-82b0-7661b8e169c8.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/115/656101115_9a042a9a-13bd-40af-9ab7-0625aac05f49.jpg",
     "brand": "Fjällräven"
    },
    {
-    "title": "Peak Performance svart dunjacka, strlk 150 - fint skick!",
-    "url": "https://www.tradera.com/item/1000398/745298553/peak-performance-svart-dunjacka-strlk-150-fint-skick-",
-    "priceSek": 1700,
+    "title": "Peak Performance Wg Lite P-fritidsbyxor",
+    "url": "https://www.tradera.com/item/342746/745442690/peak-performance-wg-lite-p-fritidsbyxor",
+    "priceSek": 170,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/809/655996809_b11341fe-0cbc-4a97-adce-d09cbe3cda65.jpg",
-    "brand": "Peak Performance"
-   },
-   {
-    "title": "Blå Fjällrävenryggsäck retro sliten fjällräven",
-    "url": "https://www.tradera.com/item/340750/745296525/bla-fjallravenryggsack-retro-sliten-fjallraven",
-    "priceSek": 60,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/029/655995029_43c9da47-0cf9-4d1f-9f4c-8af380466720.jpg",
-    "brand": "Fjällräven"
-   },
-   {
-    "title": "(Ny) Peak Performance (Large Dam) Rivel Vinterjacka Dunjacka svart",
-    "url": "https://www.tradera.com/item/1000734/745297819/-ny-peak-performance-large-dam-rivel-vinterjacka-dunjacka-svart",
-    "priceSek": 3195,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/124/655996124_1a25ea04-aaf1-41c7-8d2e-c467279cca55.jpg",
-    "brand": "Peak Performance"
-   },
-   {
-    "title": "Fjällräven blå ryggsäck",
-    "url": "https://www.tradera.com/item/340750/745296114/fjallraven-bla-ryggsack",
-    "priceSek": 391,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/731/655994731_adb59f7f-b07f-4f2a-828e-b9e3c927d3f8.jpg",
-    "brand": "Fjällräven"
-   },
-   {
-    "title": "(Ny) Peak Performance (Dam medium) Rivel Damjacka Vinterjacka",
-    "url": "https://www.tradera.com/item/1000734/745297760/-ny-peak-performance-dam-medium-rivel-damjacka-vinterjacka",
-    "priceSek": 3195,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/066/655996066_18b84ca8-02a0-48f9-aa88-4c281e2129a2.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/219/656105219_0c1bf634-3a70-4d2b-9e96-b8222609516d.jpg",
     "brand": "Peak Performance"
    }
   ],
   "damklader": [
    {
-    "title": "Arket",
-    "url": "https://www.tradera.com/item/1000721/745302719/arket",
-    "priceSek": 250,
+    "title": "ARKET ljusgrå t-shirt, storlek S",
+    "url": "https://www.tradera.com/item/1624/745451532/arket-ljusgra-t-shirt-storlek-s",
+    "priceSek": 125,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/110/656000110_f5fbd6fc-6a33-4dc2-99eb-56ac1b981a8a.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/280/656112280_0b138bfb-8a5b-43d3-99bd-df2057ecdfd0.jpg",
     "brand": "Arket"
    },
    {
-    "title": "Totême vit skjorta, storlek 30",
-    "url": "https://www.tradera.com/item/1630/745302490/tot%C3%AAme-vit-skjorta-storlek-30",
-    "priceSek": 1400,
+    "title": "Toteme Monogram Silk Pj Bottoms-sidenbyxor",
+    "url": "https://www.tradera.com/item/1631/745442853/toteme-monogram-silk-pj-bottoms-sidenbyxor",
+    "priceSek": 3460,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/926/655999926_17f30fed-7518-400e-8e72-9478eb73ee0a.jpg",
-    "brand": "Totême"
-   },
-   {
-    "title": "Arket Bucket Hat L/58 Lavendel – Satinlook Solhatt Fiskarhatt Ljuslila",
-    "url": "https://www.tradera.com/item/1001006/745301283/arket-bucket-hat-l-58-lavendel-satinlook-solhatt-fiskarhatt-ljuslila",
-    "priceSek": 120,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/964/655998964_22270956-2561-41ab-b8f5-4a6f1096e122.jpg",
-    "brand": "Arket"
-   },
-   {
-    "title": "Toteme Chelsea boots i svart, storlek 37",
-    "url": "https://www.tradera.com/item/340303/745302130/toteme-chelsea-boots-i-svart-storlek-37",
-    "priceSek": 750,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/656/655999656_041758cb-c186-402a-8362-a4f0c2fced54.jpg",
-    "brand": "Totême"
-   },
-   {
-    "title": "7 For All Mankind bootcut jeans",
-    "url": "https://www.tradera.com/item/340326/745301216/7-for-all-mankind-bootcut-jeans",
-    "priceSek": 390,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/915/655998915_2f1f943d-9787-48cd-bcae-59eb036d37a1.jpg",
-    "brand": "7 For All Mankind"
-   },
-   {
-    "title": "Totême svarta jeans, storlek 25/30",
-    "url": "https://www.tradera.com/item/340326/745302099/tot%C3%AAme-svarta-jeans-storlek-25-30",
-    "priceSek": 280,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/954/649485954_3d139f7f-e884-4b70-8b9f-ba927bf6e5bb.jpg",
-    "brand": "Totême"
-   },
-   {
-    "title": "Arket - blommig klänning med volanger - storlek 36 oversize",
-    "url": "https://www.tradera.com/item/1000721/745301140/arket-blommig-klanning-med-volanger-storlek-36-oversize",
-    "priceSek": 140,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/849/655998849_a5d34f7f-ad86-446a-b692-e348da6f326e.jpg",
-    "brand": "Arket"
-   },
-   {
-    "title": "Toteme Wool Wrap Blazer-kavaj",
-    "url": "https://www.tradera.com/item/340295/745283709/toteme-wool-wrap-blazer-kavaj",
-    "priceSek": 1730,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/969/655984969_2eb3ce1b-07f5-488a-bb27-b61a45e8dc7b.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/366/656105366_cb42df15-fdfc-481f-9d42-a8527312c926.jpg",
     "brand": null
    },
    {
-    "title": "ARKET klänning i viskos - puderrosa satin - storlek 40",
-    "url": "https://www.tradera.com/item/1000722/745300967/arket-klanning-i-viskos-puderrosa-satin-storlek-40",
-    "priceSek": 140,
+    "title": "ARKET beige jacka i storlek 38",
+    "url": "https://www.tradera.com/item/1000736/745450182/arket-beige-jacka-i-storlek-38",
+    "priceSek": 200,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/710/655998710_842db11f-df06-46f9-898c-2e7202489aab.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/498/656111498_83a1bc80-5db6-4cb0-89d9-d7924a169d81.jpg",
     "brand": "Arket"
    },
    {
-    "title": "Toteme Double-breasted Vent-kavaj NWOT",
-    "url": "https://www.tradera.com/item/340295/745275843/toteme-double-breasted-vent-kavaj-nwot",
-    "priceSek": 2710,
+    "title": "Toteme-skinnloafers",
+    "url": "https://www.tradera.com/item/340303/745442728/toteme-skinnloafers",
+    "priceSek": 1120,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/927/655978927_2c78cc42-87c8-48b7-a2ba-1c5f7141d849.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/288/656105288_a932ae0c-4a8f-48ae-a5e6-586991f706f7.jpg",
     "brand": null
    },
    {
-    "title": "Kjol från Arket, storlek 38",
-    "url": "https://www.tradera.com/item/1001282/745300818/kjol-fran-arket-storlek-38",
-    "priceSek": 250,
+    "title": "Arket Vit t-shirt, med tryck storlek 134/140",
+    "url": "https://www.tradera.com/item/344093/745449522/arket-vit-t-shirt-med-tryck-storlek-134-140",
+    "priceSek": 19,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/587/655998587_60893330-3e1b-4e07-8d5f-7e5b32919b71.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/979/656110979_a8044962-85aa-4bf4-b81d-f0a0e39c28c3.jpg",
     "brand": "Arket"
    },
    {
-    "title": "Toteme Sandaler Svarta EUR 40",
-    "url": "https://www.tradera.com/item/340303/745246208/toteme-sandaler-svarta-eur-40",
-    "priceSek": 1200,
+    "title": "Toteme Vinci Rib In Tobacco-kofta",
+    "url": "https://www.tradera.com/item/343836/745441771/toteme-vinci-rib-in-tobacco-kofta",
+    "priceSek": 1300,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/907/655956907_ccd48838-db3f-4324-b0d7-ea4e36541eca.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/490/656104490_4affaab2-1f5e-4ee8-bff2-986d8bba742a.jpg",
+    "brand": null
+   },
+   {
+    "title": "Pokémonkort",
+    "url": "https://www.tradera.com/item/1001337/745449021/pok%C3%A9monkort",
+    "priceSek": 250,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/605/656110605_101f0cee-afe5-4f56-bc1d-578ee005125d.jpg",
+    "brand": null
+   },
+   {
+    "title": "Toteme Fluid V--klänning",
+    "url": "https://www.tradera.com/item/301741/745440700/toteme-fluid-v-klanning",
+    "priceSek": 970,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/625/656103625_13e49219-24b6-48ab-b5f9-d17779d5bdb8.jpg",
+    "brand": null
+   },
+   {
+    "title": "Arket Poloullklänning-klänning",
+    "url": "https://www.tradera.com/item/301741/745446775/arket-poloullklanning-klanning",
+    "priceSek": 230,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/748/656108748_0b5cdc93-b1e2-4730-9a71-f28ff8f21ca4.jpg",
+    "brand": "Arket"
+   },
+   {
+    "title": "Toteme kavaj",
+    "url": "https://www.tradera.com/item/1000729/745438771/toteme-kavaj",
+    "priceSek": 1750,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/146/656102146_f7823929-832a-4826-a953-d2e3333c5162.jpg",
+    "brand": "Totême"
+   },
+   {
+    "title": "Arket denimblus storlek 38",
+    "url": "https://www.tradera.com/item/1000726/745446469/arket-denimblus-storlek-38",
+    "priceSek": 250,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/511/656108511_bbcc91a5-ede0-4da8-99ea-58d869cf2990.jpg",
+    "brand": "Arket"
+   },
+   {
+    "title": "Toteme Clutch Beige",
+    "url": "https://www.tradera.com/item/341715/745421378/toteme-clutch-beige",
+    "priceSek": 3500,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/053/656090053_1cc16cac-d6c7-4a8f-aee5-1a866adefedc.jpg",
     "brand": "Totême"
    }
   ],
   "herrklader": [
    {
-    "title": "Our Legacy-jacka NWOT",
-    "url": "https://www.tradera.com/item/340274/745285035/our-legacy-jacka-nwot",
-    "priceSek": 1520,
+    "title": "Helt nya Our Legacy Splinter – Sneakers Vita EU 42",
+    "url": "https://www.tradera.com/item/340304/745426168/helt-nya-our-legacy-splinter-sneakers-vita-eu-42",
+    "priceSek": 1550,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/863/655985863_76e3b04e-d362-41c3-afa5-9c27709c19ad.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/611/656092611_842570cf-abd0-4169-98f4-f7a2db2c6e46.jpg",
     "brand": "Our Legacy"
    },
    {
-    "title": "Carhartt WIP OG Chore Jacka Black One Wash Size M WorkWear Denim Jacka",
-    "url": "https://www.tradera.com/item/340327/745302285/carhartt-wip-og-chore-jacka-black-one-wash-size-m-workwear-denim-jacka",
-    "priceSek": 789,
+    "title": "Carhartt WIP - Sid Pant - Svarta Byxor - Storlek W31 L34",
+    "url": "https://www.tradera.com/item/1000664/745448046/carhartt-wip-sid-pant-svarta-byxor-storlek-w31-l34",
+    "priceSek": 299,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/772/655999772_cde041a2-396a-40b5-8505-74dfdbc431a5.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/247/642265247_2d53d304-82b4-4df1-8ee8-f66f7e2658e9.jpg",
     "brand": "Carhartt"
    },
    {
-    "title": "Neighborhood Logger Technical Flannel Shirt",
-    "url": "https://www.tradera.com/item/1000673/745245813/neighborhood-logger-technical-flannel-shirt",
-    "priceSek": 950,
+    "title": "Our Legacy Popover Roundneck",
+    "url": "https://www.tradera.com/item/1000656/745410118/our-legacy-popover-roundneck",
+    "priceSek": 1166,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/655/655956655_46084366-81f0-4a50-ad53-9efca156202f.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/608/649470608_d6e9864c-9640-468f-8153-3eff45bbd5bf.jpg",
     "brand": "Our Legacy"
    },
    {
-    "title": "Carhartt svarta leggings, storlek 4",
-    "url": "https://www.tradera.com/item/1000393/745298853/carhartt-svarta-leggings-storlek-4",
-    "priceSek": 149,
+    "title": "Carhartt WIP - Dustin Shirt - Blå Mönstrad Skjorta / Overshirt - Storlek S",
+    "url": "https://www.tradera.com/item/1000678/745448035/carhartt-wip-dustin-shirt-bla-monstrad-skjorta-overshirt-storlek-s",
+    "priceSek": 399,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/036/655997036_9e708bc6-7781-4bd4-b74f-1aba6f513c74.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/419/642252419_67b06fb6-4af8-41ac-aa59-074537e87d50.jpg",
     "brand": "Carhartt"
    },
    {
-    "title": "Skjorta, Our Legacy, beige, stl. 50.",
-    "url": "https://www.tradera.com/item/1000678/745240308/skjorta-our-legacy-beige-stl-50-",
-    "priceSek": 1,
+    "title": "Our Legacy Camion 46",
+    "url": "https://www.tradera.com/item/340304/745396127/our-legacy-camion-46",
+    "priceSek": 2500,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/600/655952600_e578c70c-cb95-4126-bd04-b620335e42bf.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/602/656071602_d179b274-009b-4879-8c09-a71aa9a73d1f.jpg",
     "brand": "Our Legacy"
    },
    {
-    "title": "Carhartt michigan kamouflage jacka, storlek M",
-    "url": "https://www.tradera.com/item/1000694/745298647/carhartt-michigan-kamouflage-jacka-storlek-m",
-    "priceSek": 799,
+    "title": "Carhartt WIP - Sid Pant - Mörkblå Byxor - Storlek W30 L32",
+    "url": "https://www.tradera.com/item/1000664/745448023/carhartt-wip-sid-pant-morkbla-byxor-storlek-w30-l32",
+    "priceSek": 299,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/898/655996898_0ea971a0-6f11-4399-a023-ec61c5641d1d.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/979/642251979_7db34e25-8cd8-4f99-bd1a-5aa9eb37796c.jpg",
     "brand": "Carhartt"
    },
    {
-    "title": "Vans x Our Legacy Sneakers, Orange",
-    "url": "https://www.tradera.com/item/340304/745218871/vans-x-our-legacy-sneakers-orange",
-    "priceSek": 1,
-    "bids": 1,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/611/655936611_4c11ec0b-b189-4c7b-bb64-4198db121e26.jpg",
-    "brand": "Our Legacy/Vans"
-   },
-   {
-    "title": "1990s | Carhartt | S02 | DNM | weatern denim shirt | medium weight | 1998",
-    "url": "https://www.tradera.com/item/340327/745286390/1990s-carhartt-s02-dnm-weatern-denim-shirt-medium-weight-1998",
-    "priceSek": 1495,
+    "title": "Elegant guldring med diamanter, 2.4g 14K",
+    "url": "https://www.tradera.com/item/240503/745433792/elegant-guldring-med-diamanter-2-4g-14k",
+    "priceSek": 3290,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/205/649389205_5a545c1e-3636-4590-80f0-eb011cede985.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/291/656098291_8aa2c136-ff45-444d-8a9a-b93e01f37956.jpg",
+    "brand": "gant"
+   },
+   {
+    "title": "Taito Milestones",
+    "url": "https://www.tradera.com/item/344630/571027931/taito-milestones",
+    "priceSek": 407,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/944/510364944_25c59a5e-1ab7-41f9-ab48-ac0f6acf5318.jpg",
+    "brand": null
+   },
+   {
+    "title": "2011 | Carhartt | C003 | black | hood is included | duck canvas jacket",
+    "url": "https://www.tradera.com/item/1000695/745446906/2011-carhartt-c003-black-hood-is-included-duck-canvas-jacket",
+    "priceSek": 1695,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/019/629518019_4f7aa70b-a6b6-4238-8a2a-267fbc9f789a.jpg",
+    "brand": "Carhartt"
+   },
+   {
+    "title": "Our Legacy-skjorta",
+    "url": "https://www.tradera.com/item/1639/745376950/our-legacy-skjorta",
+    "priceSek": 560,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/157/656057157_5f4657fd-4fff-4977-b969-0f0d154da91f.jpg",
+    "brand": "Our Legacy"
+   },
+   {
+    "title": "Rare! | 1990s | vintage Carhartt | CB1065 | only 2-year-production |",
+    "url": "https://www.tradera.com/item/1000694/745446905/rare-1990s-vintage-carhartt-cb1065-only-2-year-production-",
+    "priceSek": 3995,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/579/629518579_82d420ad-e65b-49ba-adb8-ca880614a4e7.jpg",
     "brand": "Carhartt/Vintage"
    },
    {
-    "title": "Our Legacy Overdyed Full Cut-jeans",
-    "url": "https://www.tradera.com/item/340326/745210622/our-legacy-overdyed-full-cut-jeans",
-    "priceSek": 620,
+    "title": "Our Legacy-ullrock",
+    "url": "https://www.tradera.com/item/1000690/745376914/our-legacy-ullrock",
+    "priceSek": 1480,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/167/655391167_d9e3d7d5-421b-4665-8237-bc1c37ac67fd.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/122/656057122_a78ee73c-dd90-4682-ad6e-9ee4fb98072e.jpg",
     "brand": "Our Legacy"
-   },
-   {
-    "title": "Jacka, Carhartt, stl. L",
-    "url": "https://www.tradera.com/item/1000694/745275566/jacka-carhartt-stl-l",
-    "priceSek": 6,
-    "bids": 1,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/749/655978749_f1b64e29-8540-48c8-9666-4a891fbdf3ed.jpg",
-    "brand": "Carhartt"
-   },
-   {
-    "title": "Our Legacy Workshop x All blues x Artek-skjorta *väldigt sällsynt, endast ett fåtal exemplar!*",
-    "url": "https://www.tradera.com/item/1000652/745205280/our-legacy-workshop-x-all-blues-x-artek-skjorta-valdigt-sallsynt-endast-ett-fatal-exemplar-",
-    "priceSek": 2412,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/797/655926797_066d3aa8-2038-4079-b316-7744aa7e18a5.jpg",
-    "brand": "Our Legacy"
-   },
-   {
-    "title": "Fodrad väst, Carhartt \"loose fit\", stl. XL",
-    "url": "https://www.tradera.com/item/1000655/745275323/fodrad-vast-carhartt-loose-fit-stl-xl",
-    "priceSek": 265,
-    "bids": 1,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/526/655978526_629ae502-ab45-48da-b50a-7b6c59d8b272.jpg",
-    "brand": "Carhartt"
    }
   ],
   "barnklader": [
    {
-    "title": "Polarn O. Pyret lila/vit byxor, storlek 98",
-    "url": "https://www.tradera.com/item/1000393/745302784/polarn-o-pyret-lila-vit-byxor-storlek-98",
-    "priceSek": 40,
+    "title": "Polarn O. Pyret turkosa byxor, storlek 62",
+    "url": "https://www.tradera.com/item/342803/745452591/polarn-o-pyret-turkosa-byxor-storlek-62",
+    "priceSek": 30,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/164/656000164_c50c4277-c362-40a0-a399-70341ca4ec20.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/142/656113142_746640bb-6f3a-46ac-99da-dfc196d1bdd4.jpg",
     "brand": "Polarn O. Pyret"
    },
    {
-    "title": "Klädpaket med tröja, huvtröja och t-shirt 98/104",
-    "url": "https://www.tradera.com/item/342807/745301850/kladpaket-med-troja-huvtroja-och-t-shirt-98-104",
-    "priceSek": 39,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/848/655133848_e5c57c57-b973-4f30-9c0d-4106ed80ea03.jpg",
-    "brand": "KappAhl/Mini Rodini"
-   },
-   {
-    "title": "Polarn O. Pyret t-shirt, stl 86",
-    "url": "https://www.tradera.com/item/344093/745302316/polarn-o-pyret-t-shirt-stl-86",
-    "priceSek": 10,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/802/655999802_fef57506-8795-4c7d-9c1a-70d33acf6430.jpg",
-    "brand": "Polarn O. Pyret"
-   },
-   {
-    "title": "Mini Rodini baddräkt 116/ 122",
-    "url": "https://www.tradera.com/item/1000417/745289619/mini-rodini-baddrakt-116-122",
-    "priceSek": 50,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/556/655989556_ad938b36-bd13-4ead-93f4-cefb6828fff1.jpg",
-    "brand": "Mini Rodini"
-   },
-   {
-    "title": "Polarn O. Pyret gul t-shirt, storlek 104",
-    "url": "https://www.tradera.com/item/344093/745301507/polarn-o-pyret-gul-t-shirt-storlek-104",
-    "priceSek": 40,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/162/655999162_35614cfa-8f44-472f-96ec-6e15734dbc6a.jpg",
-    "brand": "Polarn O. Pyret"
-   },
-   {
-    "title": "NY Mini Rodini vit mössa, storlek 52/54",
-    "url": "https://www.tradera.com/item/302977/745288940/ny-mini-rodini-vit-mossa-storlek-52-54",
-    "priceSek": 100,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/924/655988924_571fcfa2-efb0-477e-b2bf-46385ed4e8b0.jpg",
-    "brand": "Mini Rodini"
-   },
-   {
-    "title": "Klädpaket polarn och pyret storlek 92",
-    "url": "https://www.tradera.com/item/342807/745301145/kladpaket-polarn-och-pyret-storlek-92",
-    "priceSek": 175,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/854/655998854_2e0f43d8-7111-4bf0-9a04-ff3ca8f59d80.jpg",
-    "brand": "Polarn O. Pyret"
-   },
-   {
-    "title": "Stort klädpaket med blandade barnkläder 110-116",
-    "url": "https://www.tradera.com/item/342807/745288872/stort-kladpaket-med-blandade-barnklader-110-116",
-    "priceSek": 220,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/858/655988858_7dd791a3-dcda-496a-b7f5-36c9315fd173.jpg",
-    "brand": "Gap/Mini Rodini"
-   },
-   {
-    "title": "Polarn O. Pyret blå leggings, storlek 98",
-    "url": "https://www.tradera.com/item/1000393/745300724/polarn-o-pyret-bla-leggings-storlek-98",
-    "priceSek": 64,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/503/655998503_744be9e9-35d7-49fa-84d7-09f8a021c5a1.jpg",
-    "brand": "Polarn O. Pyret"
-   },
-   {
-    "title": "NY Mini Rodini offwhite mössa, storlek 48/50",
-    "url": "https://www.tradera.com/item/302977/745288731/ny-mini-rodini-offwhite-mossa-storlek-48-50",
-    "priceSek": 100,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/745/655988745_3ecec63d-af1d-406a-92f6-bd7c96144a0b.jpg",
-    "brand": "Mini Rodini"
-   },
-   {
-    "title": "Polarn & pyret Gröna byxor, storlek 104",
-    "url": "https://www.tradera.com/item/342803/745300637/polarn-pyret-grona-byxor-storlek-104",
+    "title": "Mini rodini Set Tröja och Byxor Strl 80-86",
+    "url": "https://www.tradera.com/item/1000980/745451577/mini-rodini-set-troja-och-byxor-strl-80-86",
     "priceSek": 75,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/422/655998422_89280c5f-cec2-477a-b9ea-a07674a278f1.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/324/656112324_5280f51a-65d7-4bd0-90be-33b0672eb760.jpg",
+    "brand": "Mini Rodini"
+   },
+   {
+    "title": "Polarn O. Pyret vit och blå skjorta, storlek 110",
+    "url": "https://www.tradera.com/item/344449/745452234/polarn-o-pyret-vit-och-bla-skjorta-storlek-110",
+    "priceSek": 99,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/885/656112885_1aecdbd3-994e-4a9d-8b34-c21730c85225.jpg",
     "brand": "Polarn O. Pyret"
    },
    {
-    "title": "Set - Mini Rodini - print av liljekonvaljer - leggings 104-110 och tröja 116-122",
-    "url": "https://www.tradera.com/item/1000980/745282867/set-mini-rodini-print-av-liljekonvaljer-leggings-104-110-och-troja-116-122",
-    "priceSek": 475,
+    "title": "Mini Rodini 80/86 röda rutiga leggings, check",
+    "url": "https://www.tradera.com/item/1000393/745449573/mini-rodini-80-86-roda-rutiga-leggings-check",
+    "priceSek": 89,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/321/655984321_4c693543-cda9-488f-97dc-45995856eca0.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/028/656111028_0399d8bc-a191-4df1-9a1a-d12ea92dd660.jpg",
+    "brand": "Mini Rodini"
+   },
+   {
+    "title": "Polarn O. Pyret lila långärmad tröja, storlek 68",
+    "url": "https://www.tradera.com/item/342868/745451984/polarn-o-pyret-lila-langarmad-troja-storlek-68",
+    "priceSek": 35,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/671/656112671_9020837d-a607-45be-bc4c-06f4760a3df6.jpg",
+    "brand": "Polarn O. Pyret"
+   },
+   {
+    "title": "Mini Rodini 80/86 grå tröja Peacock, jättefin",
+    "url": "https://www.tradera.com/item/342868/745449489/mini-rodini-80-86-gra-troja-peacock-jattefin",
+    "priceSek": 99,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/947/656110947_5ac120cc-ba21-4d56-a5ed-0b017cfb97eb.jpg",
+    "brand": "Mini Rodini"
+   },
+   {
+    "title": "Polarn O. Pyret grå body, storlek 62",
+    "url": "https://www.tradera.com/item/342793/745451952/polarn-o-pyret-gra-body-storlek-62",
+    "priceSek": 30,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/641/656112641_13bcf3c9-2abf-474d-9921-f0ffffbe91ac.jpg",
+    "brand": "Polarn O. Pyret"
+   },
+   {
+    "title": "Mini Rodini 80/86 ny blå jacka, Swan soft ski jacket",
+    "url": "https://www.tradera.com/item/1000398/745449330/mini-rodini-80-86-ny-bla-jacka-swan-soft-ski-jacket",
+    "priceSek": 562,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/810/656110810_57823422-85dd-429f-a91f-ba722cbfcd67.jpg",
+    "brand": "Mini Rodini"
+   },
+   {
+    "title": "Ljusblå jacka jacka från polarn och pyret storlek 128",
+    "url": "https://www.tradera.com/item/1000979/745451852/ljusbla-jacka-jacka-fran-polarn-och-pyret-storlek-128",
+    "priceSek": 50,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/582/656112582_9b4caa9f-fe52-4c1e-8389-e271679b383d.jpg",
+    "brand": "Polarn O. Pyret"
+   },
+   {
+    "title": "Mini Rodini 92/98 rosa kjol monkey",
+    "url": "https://www.tradera.com/item/1000396/745449307/mini-rodini-92-98-rosa-kjol-monkey",
+    "priceSek": 45,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/787/656110787_b4ee0299-def0-42f3-b3f8-9fe3e9cec2e0.jpg",
+    "brand": "Mini Rodini"
+   },
+   {
+    "title": "Polarn O. Pyret mörkblå långärmad tröja, storlek 98",
+    "url": "https://www.tradera.com/item/342868/745451683/polarn-o-pyret-morkbla-langarmad-troja-storlek-98",
+    "priceSek": 35,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/427/656112427_891e10bd-1470-476d-a2ab-6c769c7c363e.jpg",
+    "brand": "Polarn O. Pyret"
+   },
+   {
+    "title": "Mini Rodini body och byxor med kattmönster",
+    "url": "https://www.tradera.com/item/342807/745427011/mini-rodini-body-och-byxor-med-kattmonster",
+    "priceSek": 110,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/938/642252938_ff165ab8-08c6-4828-8853-ec3078395753.jpg",
     "brand": "Mini Rodini"
    }
   ],
   "vaskor": [
    {
-    "title": "Retro Stående klädhängare med färgglada krokar \"KROKIG\"Ikea A.Huldén, S. Dahlman",
-    "url": "https://www.tradera.com/item/340959/745302651/retro-staende-kladhangare-med-fargglada-krokar-krokig-ikea-a-huld%C3%A9n-s-dahlman",
-    "priceSek": 899,
+    "title": "Givenchy beige axelremsväska, vintage",
+    "url": "https://www.tradera.com/item/302662/745452630/givenchy-beige-axelremsvaska-vintage",
+    "priceSek": 350,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/054/656000054_0524ad0c-ae68-4b2e-9504-8d5e92266ee6.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/008/654249008_2efc640b-d75d-483d-83cb-77a34303bc4a.jpg",
+    "brand": "Givenchy"
+   },
+   {
+    "title": "handväska från Tiger of Sweden",
+    "url": "https://www.tradera.com/item/302664/745452457/handvaska-fran-tiger-of-sweden",
+    "priceSek": 620,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/048/656113048_7e313fd4-cca0-4561-a62a-1c3c18e3c767.jpg",
+    "brand": "Tiger of Sweden"
+   },
+   {
+    "title": "Marimekko &#x27;keidas&#x27; 100% linne tyg 100cmx60cm",
+    "url": "https://www.tradera.com/item/342964/745369941/marimekko-keidas-100-linne-tyg-100cmx60cm",
+    "priceSek": 89,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/430/656051430_0cb4f8b6-3d85-498a-8dcb-c533838c3d33.jpg",
+    "brand": "marimekko"
+   },
+   {
+    "title": "Longchamp Cosmos Kudu medium Vinted Leather",
+    "url": "https://www.tradera.com/item/302664/745450960/longchamp-cosmos-kudu-medium-vinted-leather",
+    "priceSek": 5400,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/957/656111957_f1296d50-6e87-4afb-a7a5-123f0ec166cd.jpg",
+    "brand": "Longchamp"
+   },
+   {
+    "title": "Burberry-skinnhandväska",
+    "url": "https://www.tradera.com/item/302664/745442562/burberry-skinnhandvaska",
+    "priceSek": 5360,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/101/656105101_8fb3f059-2142-4711-9742-8100de4eafd6.jpg",
+    "brand": "Burberry"
+   },
+   {
+    "title": "Marimekko Maija Isola",
+    "url": "https://www.tradera.com/item/302990/745349356/marimekko-maija-isola",
+    "priceSek": 550,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/733/656035733_c9e5a341-9e29-43c6-ad59-d19215cf8cf7.jpg",
+    "brand": "marimekko"
+   },
+   {
+    "title": "Vintage Y2K denim axelremsväska med pärlbroderi • Boho jeansväska retro",
+    "url": "https://www.tradera.com/item/302662/745450604/vintage-y2k-denim-axelremsvaska-med-parlbroderi-boho-jeansvaska-retro",
+    "priceSek": 120,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/847/656111847_70586b44-d34c-4923-8baf-d37294133a39.jpg",
     "brand": null
    },
    {
-    "title": "Polene Numero Neuf East-West",
-    "url": "https://www.tradera.com/item/302664/745300628/polene-numero-neuf-east-west",
-    "priceSek": 4720,
+    "title": "Dolce & Gabbana Small Sicily-skinnhandväska",
+    "url": "https://www.tradera.com/item/302664/745440551/dolce-gabbana-small-sicily-skinnhandvaska",
+    "priceSek": 6160,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/413/655998413_e8e63f4b-2fe6-4d77-aa4a-fd977967478f.jpg",
-    "brand": "Polène"
+    "imageUrl": "https://img.tradera.net/250-square/498/656103498_12b83ab7-c139-415d-91b5-083cf01770c2.jpg",
+    "brand": "Dolce &amp; Gabbana"
+   },
+   {
+    "title": "Marimekko Bottna tyg (ca 4,5 m)",
+    "url": "https://www.tradera.com/item/340911/745327466/marimekko-bottna-tyg-ca-4-5-m-",
+    "priceSek": 1250,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/824/656018824_3cada5a6-c6b8-4165-bd7f-d0d5856eb1af.jpg",
+    "brand": "marimekko"
+   },
+   {
+    "title": "Beckmann Ryggsäck Brun",
+    "url": "https://www.tradera.com/item/340750/745449485/beckmann-ryggsack-brun",
+    "priceSek": 300,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/943/656110943_2373d964-42a2-4393-853d-a9a7bb10bc69.jpg",
+    "brand": null
+   },
+   {
+    "title": "Beige Handväska i Läder DKNY Beige Handväska",
+    "url": "https://www.tradera.com/item/302664/745431830/beige-handvaska-i-lader-dkny-beige-handvaska",
+    "priceSek": 399,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/225/651273225_f0f66d1e-3846-4982-9f87-a294388093ee.jpg",
+    "brand": "DKNY"
    },
    {
     "title": "Converse Marimekko Låga Sneakers EUR 38 - Unikko mönster",
@@ -1535,445 +1606,373 @@
     "source": "tradera",
     "imageUrl": "https://img.tradera.net/250-square/855/655966855_ef02078b-770b-4a48-9f8c-0ebe308d04a6.jpg",
     "brand": "Converse/Marimekko"
-   },
-   {
-    "title": "See By Chloé Handväska i sandfärgat läder",
-    "url": "https://www.tradera.com/item/302662/745300502/see-by-chlo%C3%A9-handvaska-i-sandfargat-lader",
-    "priceSek": 1400,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/310/655998310_e4144a27-4992-4124-89f4-9472852ab029.jpg",
-    "brand": "Chloé"
-   },
-   {
-    "title": "Vintage Marimekko Bomullstyget \"Bottina\"***",
-    "url": "https://www.tradera.com/item/302990/745233525/vintage-marimekko-bomullstyget-bottina-",
-    "priceSek": 790,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/645/655947645_3b325e98-0e5d-41af-bed0-dd70263b7599.jpg",
-    "brand": "marimekko"
-   },
-   {
-    "title": "Vintage necessär i galon från 60-talet.",
-    "url": "https://www.tradera.com/item/340746/745298640/vintage-necessar-i-galon-fran-60-talet-",
-    "priceSek": 75,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/892/655996892_63018ec7-5ef2-4693-88c7-f03a44f50d85.jpg",
-    "brand": "Vintage"
-   },
-   {
-    "title": "Michael Kors Barncroft Handväska i Svart Läder",
-    "url": "https://www.tradera.com/item/302664/745296960/michael-kors-barncroft-handvaska-i-svart-lader",
-    "priceSek": 9995,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/357/655995357_addfb47e-0bca-49b5-b3e0-119f17589670.jpg",
-    "brand": "Michael Kors"
-   },
-   {
-    "title": "Marimekko \"Kaiku\" tyg panel 246x144 cm – Maija Louekari 2004",
-    "url": "https://www.tradera.com/item/302990/745191441/marimekko-kaiku-tyg-panel-246x144-cm-maija-louekari-2004",
-    "priceSek": 550,
-    "bids": 1,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/208/655916208_9f9831ee-2839-41c4-8ed5-4e7c670b909e.jpg",
-    "brand": "marimekko"
-   },
-   {
-    "title": "Unik sommarväska broderad, vintage",
-    "url": "https://www.tradera.com/item/302664/745296861/unik-sommarvaska-broderad-vintage",
-    "priceSek": 199,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/279/655995279_38bc6bdb-e350-4469-90e2-23efde040f3e.jpg",
-    "brand": null
-   },
-   {
-    "title": "Louis Vuitton Speedy 30 Monogram Canvas Handväska",
-    "url": "https://www.tradera.com/item/302664/745284677/louis-vuitton-speedy-30-monogram-canvas-handvaska",
-    "priceSek": 5199,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/546/655985546_71a5f30f-561b-47d0-8f55-c60061e29eb6.jpg",
-    "brand": "Louis Vuitton"
-   },
-   {
-    "title": "Vintage Damväska i Äkta Skinnslingsväska – Axelväska – ut 1:-",
-    "url": "https://www.tradera.com/item/302662/745296158/vintage-damvaska-i-akta-skinnslingsvaska-axelvaska-ut-1-",
-    "priceSek": 1,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/771/655994771_3c4082df-5c94-4331-9463-1aa704aa0c24.jpg",
-    "brand": null
-   },
-   {
-    "title": "Brandahl mork brun läder handväska retro 50tal",
-    "url": "https://www.tradera.com/item/302664/745280617/brandahl-mork-brun-lader-handvaska-retro-50tal",
-    "priceSek": 180,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/493/655982493_459e5b90-7ebf-4235-a0b0-64cc51cfbc8b.jpg",
-    "brand": null
    }
   ],
   "skor": [
    {
-    "title": "Birkenstock Boston Clogs Blå Storlek 39",
-    "url": "https://www.tradera.com/item/340303/745288632/birkenstock-boston-clogs-bla-storlek-39",
-    "priceSek": 650,
+    "title": "Birkenstock Gizeh sandaler - slitna",
+    "url": "https://www.tradera.com/item/340303/745452327/birkenstock-gizeh-sandaler-slitna",
+    "priceSek": 49,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/655/655988655_b5dcf0bf-b67a-40fc-bf87-eeda70803906.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/963/656112963_57c2fb89-fe9c-429a-8b57-e25139a46866.jpg",
     "brand": "Birkenstock"
    },
    {
-    "title": "Dr. Martens Kängor /skor Svarta Strl 37",
-    "url": "https://www.tradera.com/item/340303/745299946/dr-martens-kangor-skor-svarta-strl-37",
-    "priceSek": 490,
+    "title": "Rick Owens Dr. Martens 1460 DMXL Jumbo Lace Boots EU 46",
+    "url": "https://www.tradera.com/item/340304/745446871/rick-owens-dr-martens-1460-dmxl-jumbo-lace-boots-eu-46",
+    "priceSek": 1800,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/833/655997833_c06cc434-59a0-4744-980c-2977e209fa26.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/831/656108831_aab5cba4-4112-4be0-84df-1bff3b5cdf70.jpg",
+    "brand": "Dr Martens/Rick Owens"
+   },
+   {
+    "title": "Birkenstock UJI Faded Lime, maat 37 Narrow Fit",
+    "url": "https://www.tradera.com/item/340303/745451226/birkenstock-uji-faded-lime-maat-37-narrow-fit",
+    "priceSek": 883,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/075/656112075_bb0207a1-517e-480c-8554-c3c80b4cfa0c.jpg",
+    "brand": "Birkenstock"
+   },
+   {
+    "title": "Dr. Martens-skinnloafers",
+    "url": "https://www.tradera.com/item/340303/745446704/dr-martens-skinnloafers",
+    "priceSek": 1030,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/691/656108691_51d9fbba-1f3b-458f-9523-32faca89e8ed.jpg",
     "brand": "Dr Martens"
    },
    {
-    "title": "Adidas rosa retro axelväska – Y2K / vintage",
-    "url": "https://www.tradera.com/item/302662/745301925/adidas-rosa-retro-axelvaska-y2k-vintage",
-    "priceSek": 199,
+    "title": "Birkenstock Linz Klompen Wit EU 40 Narrow Fit",
+    "url": "https://www.tradera.com/item/340303/745446294/birkenstock-linz-klompen-wit-eu-40-narrow-fit",
+    "priceSek": 827,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/487/655999487_91b3cf4e-9be3-43c3-a9df-1d6cb235192a.jpg",
-    "brand": "Adidas"
+    "imageUrl": "https://img.tradera.net/250-square/344/656108344_df9bab6e-56b0-4ada-bf29-fa4aababbf3f.jpg",
+    "brand": "Birkenstock"
    },
    {
-    "title": "Birkenstock Utti Lace Basalt Gray – stl 46 – Regular Fit",
-    "url": "https://www.tradera.com/item/340304/745275478/birkenstock-utti-lace-basalt-gray-stl-46-regular-fit",
+    "title": "Dr. Martens Clarissa II Quad Sandaler Rosa EU 37",
+    "url": "https://www.tradera.com/item/340303/745445435/dr-martens-clarissa-ii-quad-sandaler-rosa-eu-37",
+    "priceSek": 1599,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/591/656107591_bbc9ecbb-740d-41ab-b1e5-3c433c3932a8.jpg",
+    "brand": "Dr Martens"
+   },
+   {
+    "title": "Birkenstock Boston Svarta",
+    "url": "https://www.tradera.com/item/340303/745433637/birkenstock-boston-svarta",
+    "priceSek": 400,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/182/656098182_ecf6a20d-2e60-4f9d-8c58-0f1d73f0c0fb.jpg",
+    "brand": "Birkenstock"
+   },
+   {
+    "title": "Dr Martens - Boots - Tattoo art",
+    "url": "https://www.tradera.com/item/340304/745440256/dr-martens-boots-tattoo-art",
+    "priceSek": 500,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/293/656103293_f984b7c6-9b55-4470-9113-7c1b2f28a968.jpg",
+    "brand": "Dr Martens"
+   },
+   {
+    "title": "Birkenstock Arizona Sandaler i Brun, Storlek 39",
+    "url": "https://www.tradera.com/item/340303/745423132/birkenstock-arizona-sandaler-i-brun-storlek-39",
+    "priceSek": 700,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/272/656091272_194ebf0a-9dff-4179-9f05-0286d19db3a5.jpg",
+    "brand": "Birkenstock"
+   },
+   {
+    "title": "Dr Martens Chelsea Marten 2976 Doctor Doktor Stövlar Boots Snör Kängor Känga",
+    "url": "https://www.tradera.com/item/340304/745439611/dr-martens-chelsea-marten-2976-doctor-doktor-stovlar-boots-snor-kangor-kanga",
     "priceSek": 799,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/663/655978663_c69b5031-93a0-492d-abfa-afd2d73834cb.jpg",
-    "brand": "Birkenstock"
-   },
-   {
-    "title": "Dr. Martens Chelsea Boots Svarta EU 38",
-    "url": "https://www.tradera.com/item/340303/745297238/dr-martens-chelsea-boots-svarta-eu-38",
-    "priceSek": 340,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/578/655995578_37858dcf-42f1-4e85-8adc-2323c4d69f55.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/752/649633752_9afba6e4-46b2-403d-a521-dfdc3da031af.jpg",
     "brand": "Dr Martens"
    },
    {
-    "title": "Birkenstock Gizeh Big Buckle-skinnsandaler",
-    "url": "https://www.tradera.com/item/340303/745239129/birkenstock-gizeh-big-buckle-skinnsandaler",
-    "priceSek": 370,
+    "title": "Birkenstock Utti Lace stl 42",
+    "url": "https://www.tradera.com/item/340304/745421894/birkenstock-utti-lace-stl-42",
+    "priceSek": 299,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/626/655251626_ba0f1313-a1d4-4c32-b862-eca120b383b9.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/444/656090444_8d4c89a7-b097-49a3-8ba8-25c70d4f27c2.jpg",
     "brand": "Birkenstock"
    },
    {
-    "title": "Dr. Martens sandaler/tofflor strl 38",
-    "url": "https://www.tradera.com/item/340303/745296087/dr-martens-sandaler-tofflor-strl-38",
-    "priceSek": 800,
+    "title": "Dr Martens Tarik Extra Tough Doctor Doktor Stövlar Boots Snör Kängor Känga Skor",
+    "url": "https://www.tradera.com/item/340304/745439607/dr-martens-tarik-extra-tough-doctor-doktor-stovlar-boots-snor-kangor-kanga-skor",
+    "priceSek": 999,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/504/655129504_9df7290a-54f9-4d7d-ae8b-686f65eba847.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/534/649633534_29490473-b601-439b-b4a7-6ac838d9cb64.jpg",
     "brand": "Dr Martens"
-   },
-   {
-    "title": "Birkenstock Lågskor Beige Storlek 39",
-    "url": "https://www.tradera.com/item/340303/745222707/birkenstock-lagskor-beige-storlek-39",
-    "priceSek": 250,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/759/655939759_720a6355-4a2a-452a-b04f-94adbaffe080.jpg",
-    "brand": "Birkenstock"
-   },
-   {
-    "title": "Dr. Martens Kängor Svarta",
-    "url": "https://www.tradera.com/item/162313/745293198/dr-martens-kangor-svarta",
-    "priceSek": 10000,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/536/655992536_551033ec-a8e8-4776-96a9-7b0226c3442f.jpg",
-    "brand": "Dr Martens"
-   },
-   {
-    "title": "Birkenstock Arizona Kids sandaler, storlek 30",
-    "url": "https://www.tradera.com/item/340155/745214545/birkenstock-arizona-kids-sandaler-storlek-30",
-    "priceSek": 149,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/444/655933444_b74962d2-f1c2-4d7b-aea5-170cae6a3a2b.jpg",
-    "brand": "Birkenstock"
-   },
-   {
-    "title": "Dr Martens Highlander 1490",
-    "url": "https://www.tradera.com/item/340304/745281510/dr-martens-highlander-1490",
-    "priceSek": 799,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/228/655983228_a34aadeb-1f8f-4954-9089-6f1dfc07de97.jpg",
-    "brand": "Dr Martens"
-   },
-   {
-    "title": "Birkenstock Arizona Sandaler Svarta 43/44",
-    "url": "https://www.tradera.com/item/340304/745214241/birkenstock-arizona-sandaler-svarta-43-44",
-    "priceSek": 549,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/233/655933233_bf0c2375-90e7-43cd-ae5d-ab3f5c485c39.jpg",
-    "brand": "Birkenstock"
    }
   ],
   "smycken": [
    {
-    "title": "SÅÅ VACKERT SILVERARMBAND FR ITALY. DESIGNMÄRKT *1124Vl. VINTAGE, PATINA.-",
-    "url": "https://www.tradera.com/item/240104/745299979/saa-vackert-silverarmband-fr-italy-designmarkt-1124vl-vintage-patina-",
-    "priceSek": 399,
+    "title": "Äldre mexikanskt silverarmband",
+    "url": "https://www.tradera.com/item/302608/745443929/aldre-mexikanskt-silverarmband",
+    "priceSek": 450,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/857/655997857_d458132f-d101-4347-9fb8-de7a580f36ac.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/296/656106296_474a25c4-1cf4-4e70-a8b8-5510de8fda85.jpg",
     "brand": null
    },
    {
-    "title": "Guldring i 18K guld med sten - Curmark Bruno",
-    "url": "https://www.tradera.com/item/240503/745299390/guldring-i-18k-guld-med-sten-curmark-bruno",
+    "title": "Guldring 14K/585 – stl ca 53 (1,18g)",
+    "url": "https://www.tradera.com/item/240503/745443365/guldring-14k-585-stl-ca-53-1-18g-",
     "priceSek": 900,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/417/655997417_98979ffb-679b-4555-9a2e-d948deedad5b.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/822/656105822_7701e492-f963-413a-9598-2873c2a534b2.jpg",
     "brand": null
    },
    {
-    "title": "Design silver armband",
-    "url": "https://www.tradera.com/item/240104/745283835/design-silver-armband",
-    "priceSek": 320,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/903/655119903_d3918116-fccf-4dbd-8dbd-0fc24494e271.jpg",
-    "brand": null
-   },
-   {
-    "title": "Silverarmband med blommor",
-    "url": "https://www.tradera.com/item/240104/745283032/silverarmband-med-blommor",
-    "priceSek": 900,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/327/655119327_20e0ba3c-1e9b-41ae-8334-2dcdf649bdbb.jpg",
-    "brand": null
-   },
-   {
-    "title": "Äkta 925 Sterling Silver armband – Italy – 15,5 g",
-    "url": "https://www.tradera.com/item/341832/745277978/akta-925-sterling-silver-armband-italy-15-5-g",
-    "priceSek": 499,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/427/655980427_f8179cc6-b3df-4b56-868b-0238d496e213.jpg",
-    "brand": null
-   },
-   {
-    "title": "Vackert silverarmband 925 silver",
-    "url": "https://www.tradera.com/item/240104/745261395/vackert-silverarmband-925-silver",
+    "title": "s925 sterling Silverarmband med svart sten",
+    "url": "https://www.tradera.com/item/341828/745429829/s925-sterling-silverarmband-med-svart-sten",
     "priceSek": 199,
-    "bids": 1,
+    "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/385/655968385_31ec445f-20c0-436d-bef4-60543d0d01c5.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/303/656095303_457e5c56-65b1-4761-a455-e5069b7a266f.jpg",
     "brand": null
    },
    {
-    "title": "HELT NYTT Silverarmband med fjärilsmotiv - smyckad med zirkoner - 17+5 cm",
-    "url": "https://www.tradera.com/item/302608/745259711/helt-nytt-silverarmband-med-fjarilsmotiv-smyckad-med-zirkoner-17-5-cm",
+    "title": "Guldring med John F. Kennedy Motiv",
+    "url": "https://www.tradera.com/item/240504/745439103/guldring-med-john-f-kennedy-motiv",
+    "priceSek": 13500,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/351/656102351_67f9f7be-2fd0-4436-964d-26e4bcb34b69.jpg",
+    "brand": null
+   },
+   {
+    "title": "2 st silverarmband",
+    "url": "https://www.tradera.com/item/341832/745424486/2-st-silverarmband",
     "priceSek": 100,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/655/641826655_6181ca02-1061-480b-82f8-4ade28cf9413.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/666/656091666_dcd817e0-3be1-436a-a155-51d9de038ee3.jpg",
     "brand": null
    },
    {
-    "title": "Så vackert . Art Nouveau stil. Romantist armband. Brett Silverarmband. Armband.",
-    "url": "https://www.tradera.com/item/240104/745256292/sa-vackert-art-nouveau-stil-romantist-armband-brett-silverarmband-armband-",
-    "priceSek": 499,
+    "title": "Silverarmband, Blommor, 925, Petersson Guldsmed Sten, Helsingborg! 1948",
+    "url": "https://www.tradera.com/item/341832/745422927/silverarmband-blommor-925-petersson-guldsmed-sten-helsingborg-1948",
+    "priceSek": 350,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/411/655964411_d094552a-c5b7-402c-ad13-e62027667b7e.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/156/656091156_748ffb98-2308-4c1e-b689-1897e512166a.jpg",
     "brand": null
    },
    {
-    "title": "Guldring med Diamant 18K",
-    "url": "https://www.tradera.com/item/240503/745273613/guldring-med-diamant-18k",
-    "priceSek": 3222,
+    "title": "Guldring med Diamanter, 18K Guld, 3.7 gram",
+    "url": "https://www.tradera.com/item/240503/745433770/guldring-med-diamanter-18k-guld-3-7-gram",
+    "priceSek": 5590,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/177/655977177_5339741b-e2cd-463f-b273-0b5e60b95b83.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/271/656098271_f62415fb-6b9e-4022-b801-48e75716e558.jpg",
     "brand": null
    },
    {
-    "title": "Jugendstil. Romantiskt armband. Silverarmband. Armband. Blommor. Vintage. Retro",
-    "url": "https://www.tradera.com/item/240104/745256124/jugendstil-romantiskt-armband-silverarmband-armband-blommor-vintage-retro",
-    "priceSek": 549,
+    "title": "Rosa Pärlhalsband Lås Sterling Silver",
+    "url": "https://www.tradera.com/item/1001045/745451720/rosa-parlhalsband-las-sterling-silver",
+    "priceSek": 299,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/268/655964268_869713cd-50c5-4fed-916a-8e930968dd6f.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/461/656112461_5c4c4d24-2fa8-4643-aeea-92a517fa681d.jpg",
     "brand": null
    },
    {
-    "title": "Skal • AirPods 1 / 2 • Guess Leopard",
-    "url": "https://www.tradera.com/item/301788/745265450/skal-airpods-1-2-guess-leopard",
-    "priceSek": 98,
+    "title": "Gediget armband i äkta 925 sterling silver - 4.69g - unisex",
+    "url": "https://www.tradera.com/item/341832/745411048/gediget-armband-i-akta-925-sterling-silver-4-69g-unisex",
+    "priceSek": 749,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/914/655970914_1a38cc46-88a8-459b-91b9-b5e1e1ddbdce.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/484/656082484_112fb7e8-d66d-4d3f-9b21-dee04850f269.jpg",
     "brand": null
    },
    {
-    "title": "Silverarmband med Dödskallemotiv",
-    "url": "https://www.tradera.com/item/240104/745254680/silverarmband-med-dodskallemotiv",
-    "priceSek": 1700,
+    "title": "!8k Guldring med Diamanter.",
+    "url": "https://www.tradera.com/item/240503/745432259/-8k-guldring-med-diamanter-",
+    "priceSek": 3850,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/031/614592031_e054874c-62a7-472d-8b33-1e4d58510a99.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/044/656097044_6c87ecfa-5dff-41b3-94a4-7df0a6bc2a54.jpg",
+    "brand": null
+   },
+   {
+    "title": "Vintage Gedigen Silverarmband Med Stjärnor – Äkta 925 Sterling Silver!",
+    "url": "https://www.tradera.com/item/341832/745411006/vintage-gedigen-silverarmband-med-stjarnor-akta-925-sterling-silver-",
+    "priceSek": 949,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/451/656082451_3c18ab40-7a21-4bb1-bb98-115c7d6b5b66.jpg",
+    "brand": null
+   },
+   {
+    "title": "Maanesten nya guldring vågdesign 925 silver 18K guldpläterad storlek 45 / 14,3 m",
+    "url": "https://www.tradera.com/item/240504/745413261/maanesten-nya-guldring-vagdesign-925-silver-18k-guldplaterad-storlek-45-14-3-m",
+    "priceSek": 129,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/053/656084053_6c91c15d-0d22-48a1-8549-7f4e608c9713.jpg",
     "brand": null
    }
   ],
   "parfym": [
    {
-    "title": "Byredo Slow Dance Eau de Parfum 100 ml",
-    "url": "https://www.tradera.com/item/1001323/745299641/byredo-slow-dance-eau-de-parfum-100-ml",
-    "priceSek": 1900,
+    "title": "Ny! Beredo Bal D&#x27;Afrique Eau de Parfum Ej Begagnad PERFECT GIFT",
+    "url": "https://www.tradera.com/item/1001316/745444273/ny-beredo-bal-d-afrique-eau-de-parfum-ej-begagnad-perfect-gift",
+    "priceSek": 500,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/596/655997596_ccab66c1-e7ae-4de4-afbb-306401efc706.jpg",
-    "brand": "byredo"
+    "imageUrl": "https://img.tradera.net/250-square/605/656106605_89f5d913-8cdc-4867-981a-7805e7fc6c35.jpg",
+    "brand": null
    },
    {
-    "title": "Chanel Platinum Egoiste 100 ml",
-    "url": "https://www.tradera.com/item/1001321/745282296/chanel-platinum-egoiste-100-ml",
-    "priceSek": 749,
+    "title": "Chanel N°5 Eau de Cologne sällsynt vintage fynd.",
+    "url": "https://www.tradera.com/item/1001316/745428481/chanel-n-5-eau-de-cologne-sallsynt-vintage-fynd-",
+    "priceSek": 811,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/899/655983899_d852d703-362c-463c-ba72-bb7dcdca7acd.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/232/656094232_4d97cf88-267f-47a6-a7dc-b5b0647e350f.jpg",
     "brand": "chanel"
    },
    {
-    "title": "Byredo Black Saffron Absolu de Parfum 100 ml",
-    "url": "https://www.tradera.com/item/1001316/745282334/byredo-black-saffron-absolu-de-parfum-100-ml",
-    "priceSek": 1900,
+    "title": "Använd 70 ml BYREDO ” Casablanca Lily ” Parfym / Fragrance / Extract",
+    "url": "https://www.tradera.com/item/1001323/745440152/anvand-70-ml-byredo-casablanca-lily-parfym-fragrance-extract",
+    "priceSek": 899,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/936/655983936_63e80182-1f4e-4e81-aa3b-a827db3d9068.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/204/656103204_d81db175-e77a-4a98-835d-2027394eabcc.jpg",
     "brand": "byredo"
    },
    {
-    "title": "Chanel No 5 - Parfym",
-    "url": "https://www.tradera.com/item/1001316/745249835/chanel-no-5-parfym",
-    "priceSek": 1499,
+    "title": "Chanel Chance Eau Tendre EdT 50ml",
+    "url": "https://www.tradera.com/item/1001316/745423056/chanel-chance-eau-tendre-edt-50ml",
+    "priceSek": 500,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/755/655959755_7006316b-bdd3-4ae6-bd6d-4b01aa82bbcc.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/237/656091237_5bb12dca-29dc-4644-b392-b66ef2a542a6.jpg",
     "brand": "chanel"
    },
    {
-    "title": "Byredo Inflorescence Eau de Parfum",
-    "url": "https://www.tradera.com/item/1001316/745259205/byredo-inflorescence-eau-de-parfum",
+    "title": "Byredo Rose of No Man&#x27;s Land Absolu 100 ml de Parfum",
+    "url": "https://www.tradera.com/item/1001323/745437387/byredo-rose-of-no-man-s-land-absolu-100-ml-de-parfum",
     "priceSek": 1000,
-    "bids": 1,
+    "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/794/655966794_5584d2fe-925a-4957-b6b2-3aad3e9f649f.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/188/656101188_403d3508-d86e-427d-9aa6-524a984533f8.jpg",
     "brand": "byredo"
    },
    {
-    "title": "Bleu de Chanel Eau de Parfum 100 ml",
-    "url": "https://www.tradera.com/item/1001321/745238561/bleu-de-chanel-eau-de-parfum-100-ml",
-    "priceSek": 1200,
+    "title": "Chanel Allure Eau de Parfum | parfym | EDP",
+    "url": "https://www.tradera.com/item/1001316/745421907/chanel-allure-eau-de-parfum-parfym-edp",
+    "priceSek": 850,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/381/655951381_aa56922b-42ea-4fc9-9eae-f5af8c15aaad.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/456/656090456_a93c5448-63ef-4e52-aee7-0a2714d25f28.jpg",
     "brand": "chanel"
    },
    {
-    "title": "Byredo Black Saffron EdP 12 ml",
-    "url": "https://www.tradera.com/item/341490/745257263/byredo-black-saffron-edp-12-ml",
-    "priceSek": 349,
+    "title": "BYREDO Future Memories Eau de Parfum Natural Spray 2ml",
+    "url": "https://www.tradera.com/item/1001323/745435089/byredo-future-memories-eau-de-parfum-natural-spray-2ml",
+    "priceSek": 55,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/235/655965235_8af1855c-03c6-47a2-93c3-67fd958119ff.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/317/656099317_3b6206a4-cfa2-43ef-8c44-b92d089beb4a.jpg",
     "brand": "byredo"
    },
    {
-    "title": "Chanel Coromandel L&#x27;Huile Parfymerad Kroppsolja",
-    "url": "https://www.tradera.com/item/1001316/745221088/chanel-coromandel-l-huile-parfymerad-kroppsolja",
-    "priceSek": 1,
-    "bids": 1,
+    "title": "Chanel N°5 L&#x27;EAU och Gucci Flora Gorgeous Gardenia Eau de Parfum - 5ml",
+    "url": "https://www.tradera.com/item/1001316/745421013/chanel-n-5-l-eau-och-gucci-flora-gorgeous-gardenia-eau-de-parfum-5ml",
+    "priceSek": 132,
+    "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/491/655938491_ee9e958f-bed0-422c-843a-5168e858e067.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/778/656089778_1e1143be-8abc-4be4-b6e5-e74cb1d41506.jpg",
     "brand": "chanel"
    },
    {
-    "title": "Byredo Bois Obscur Extrait de Parfum",
-    "url": "https://www.tradera.com/item/1001323/745230194/byredo-bois-obscur-extrait-de-parfum",
-    "priceSek": 2500,
+    "title": "Byredo La Découverte Nomade Eau de Parfum - 6 x 2 ml",
+    "url": "https://www.tradera.com/item/1001323/745434627/byredo-la-d%C3%A9couverte-nomade-eau-de-parfum-6-x-2-ml",
+    "priceSek": 295,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/373/655945373_1cec75ba-f5e3-421e-92bc-bdb52569485e.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/956/656098956_00656c41-7f52-427c-a79f-ec7a9022c8f4.jpg",
     "brand": "byredo"
    },
    {
-    "title": "Bleu de Chanel L&#x27;Exclusif Parfum 60 ml",
-    "url": "https://www.tradera.com/item/1001321/745220155/bleu-de-chanel-l-exclusif-parfum-60-ml",
-    "priceSek": 280,
-    "bids": 1,
+    "title": "Chanel N°5 och Coco Mademoiselle Eau de Parfum - 7,5 ml",
+    "url": "https://www.tradera.com/item/1001316/745420831/chanel-n-5-och-coco-mademoiselle-eau-de-parfum-7-5-ml",
+    "priceSek": 132,
+    "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/698/655937698_953f7fdc-610a-43c4-86e1-5063dd4bfed2.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/628/656089628_496620bb-c5b8-45a5-b76f-16d1b7c1e62a.jpg",
     "brand": "chanel"
    },
    {
-    "title": "Byredo Bal D&#x27;Afrique Eau de Parfum, 100 ml",
-    "url": "https://www.tradera.com/item/1001316/745229069/byredo-bal-d-afrique-eau-de-parfum-100-ml",
-    "priceSek": 813,
+    "title": "Byredo Future Memories Eau de Parfum 50 ml (NY 2026)",
+    "url": "https://www.tradera.com/item/1001323/745430572/byredo-future-memories-eau-de-parfum-50-ml-ny-2026-",
+    "priceSek": 120,
     "bids": 1,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/478/655944478_1ad3f989-ab6d-420d-86db-d50400544dab.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/864/656095864_fc4ecfe7-b165-4464-a544-a351e77e89a6.jpg",
     "brand": "byredo"
    },
    {
-    "title": "Chanel No 19 EdT miniatyr – Vintage samlarobjekt",
-    "url": "https://www.tradera.com/item/1001316/745210956/chanel-no-19-edt-miniatyr-vintage-samlarobjekt",
-    "priceSek": 24,
+    "title": "Chanel Coco Mademoiselle L&#x27;Eau Privée en Coco Noir Eau de Parfum - 7.5 ml",
+    "url": "https://www.tradera.com/item/1001316/745420585/chanel-coco-mademoiselle-l-eau-priv%C3%A9e-en-coco-noir-eau-de-parfum-7-5-ml",
+    "priceSek": 132,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/882/653320882_0b57263f-60de-40a9-a9eb-09dbb953ef70.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/432/656089432_04a24c3f-31fe-48c4-bd24-d09a130ca68c.jpg",
     "brand": "chanel"
    }
   ],
   "hem": [
    {
-    "title": "Vintage IKEA Mammut lamp - Morten Kjelstrup & Allan Østgaard design lamp retro",
-    "url": "https://www.tradera.com/item/302531/745303019/vintage-ikea-mammut-lamp-morten-kjelstrup-allan-%C3%B8stgaard-design-lamp-retro",
-    "priceSek": 368,
+    "title": "Vestiti al Dandy Randig Kavaj / Herr M–L – Made in Italy / Svart",
+    "url": "https://www.tradera.com/item/1000679/745442750/vestiti-al-dandy-randig-kavaj-herr-m-l-made-in-italy-svart",
+    "priceSek": 750,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/340/656000340_3e633178-4c3d-489b-97ff-107377af919a.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/276/656105276_54f08f3b-4d91-40e8-a77c-d77a6dccbe35.jpg",
+    "brand": "Vintage"
+   },
+   {
+    "title": "Söt liten kakelugn/ Vintage ljuslykta i keramik i fint skick",
+    "url": "https://www.tradera.com/item/340963/745452508/sot-liten-kakelugn-vintage-ljuslykta-i-keramik-i-fint-skick",
+    "priceSek": 100,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/072/656113072_da2c0960-f298-4e75-ae36-f7891d06e7b1.jpg",
     "brand": null
    },
    {
-    "title": "Vintage British royal navy army shorts vit (W36-37)",
-    "url": "https://www.tradera.com/item/1000663/745302922/vintage-british-royal-navy-army-shorts-vit-w36-37-",
-    "priceSek": 399,
+    "title": "Burberrys Stickad Väst / Herr L / Senapsgul",
+    "url": "https://www.tradera.com/item/1000655/745442748/burberrys-stickad-vast-herr-l-senapsgul",
+    "priceSek": 1599,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/501/649312501_5a05ae45-8a1e-4605-bef8-81b7222f051f.jpg",
-    "brand": null
+    "imageUrl": "https://img.tradera.net/250-square/273/656105273_84a93f51-e3bf-496d-a538-b0918606282e.jpg",
+    "brand": "Burberry"
    },
    {
-    "title": "Vintage klädkrok Rexite Unposto väggkrok set Memphis design Barbieri Marianelli",
-    "url": "https://www.tradera.com/item/1607/745302849/vintage-kladkrok-rexite-unposto-vaggkrok-set-memphis-design-barbieri-marianelli",
-    "priceSek": 438,
+    "title": "Blå Opal Sterling Silver Hänge",
+    "url": "https://www.tradera.com/item/240404/745451374/bla-opal-sterling-silver-hange",
+    "priceSek": 499,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/227/656000227_14a5728d-cf82-4628-8ccb-94294c8da455.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/135/656112135_cd8fd7e6-4417-4797-8b8a-0eaf6424675b.jpg",
     "brand": null
    },
    {
@@ -1986,6 +1985,15 @@
     "brand": "marimekko"
    },
    {
+    "title": "Vintage plåtburk PUCK Nr 207 – Svenska Tobaksmonopolet Funkis",
+    "url": "https://www.tradera.com/item/293001/745450968/vintage-platburk-puck-nr-207-svenska-tobaksmonopolet-funkis",
+    "priceSek": 70,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/965/656111965_24c3001a-9d49-49d5-b26e-0848dbba3867.jpg",
+    "brand": null
+   },
+   {
     "title": "Marimekko tyg tote bag väska",
     "url": "https://www.tradera.com/item/1001029/745124793/marimekko-tyg-tote-bag-vaska",
     "priceSek": 331,
@@ -1993,15 +2001,6 @@
     "source": "tradera",
     "imageUrl": "https://img.tradera.net/250-square/861/655864861_78ad47c9-3358-4d2c-b827-f23b01c2dc8f.jpg",
     "brand": "Marimekko"
-   },
-   {
-    "title": "Guy Degrenne rostfritt stål coupe vintage fransk glasskål set om 6, coupe à glace inox",
-    "url": "https://www.tradera.com/item/200707/745302313/guy-degrenne-rostfritt-stal-coupe-vintage-fransk-glasskal-set-om-6-coupe-%C3%A0-glace-inox",
-    "priceSek": 712,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/801/655999801_07784abf-a8de-4bae-931a-83fecb187e63.jpg",
-    "brand": null
    },
    {
     "title": "Marimekko tyg ”Kassiopeia” Maija Louekari 2006",
@@ -2013,272 +2012,281 @@
     "brand": "marimekko"
    },
    {
-    "title": "Eng-Lys Denmark | Signerat triangulärt keramikfat, retro dansk design",
-    "url": "https://www.tradera.com/item/340959/745302294/eng-lys-denmark-signerat-triangulart-keramikfat-retro-dansk-design",
-    "priceSek": 35,
+    "title": "Vintage retro Picknick korg i rotting rottingväska",
+    "url": "https://www.tradera.com/item/1001079/745450851/vintage-retro-picknick-korg-i-rotting-rottingvaska",
+    "priceSek": 179,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/782/655999782_0cc2d838-bb87-445e-ae5a-1e38d0c5d4f2.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/920/656111920_da9c0ae8-6650-4fcd-ab44-d435931c0141.jpg",
     "brand": null
    },
    {
-    "title": "3 st Vintage keramiklyktor / ljuslyktor retro 60/70-tal – Fint skick!",
-    "url": "https://www.tradera.com/item/201108/745302260/3-st-vintage-keramiklyktor-ljuslyktor-retro-60-70-tal-fint-skick-",
-    "priceSek": 59,
+    "title": "Vintage Mixed Die-Cut Kiiltokuvat Set with Angels & World Costume Girls",
+    "url": "https://www.tradera.com/item/293314/745450614/vintage-mixed-die-cut-kiiltokuvat-set-with-angels-world-costume-girls",
+    "priceSek": 86,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/762/655999762_f36c3cc9-f146-4ce6-8b95-c90ce89e6317.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/857/656111857_1ac96bde-9e62-4ac5-acee-df3c67df8d2c.jpg",
     "brand": null
    },
    {
-    "title": "Retro tavla LEJON 70-tal vintage djupram guld metall 24x30 cm",
-    "url": "https://www.tradera.com/item/342932/745302168/retro-tavla-lejon-70-tal-vintage-djupram-guld-metall-24x30-cm",
-    "priceSek": 79,
+    "title": "Vintage japansk Sosaku Kokeshi par studsbollshuvuden MCM träpar",
+    "url": "https://www.tradera.com/item/341388/745450609/vintage-japansk-sosaku-kokeshi-par-studsbollshuvuden-mcm-trapar",
+    "priceSek": 232,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/688/655999688_631c1733-e82e-4714-9986-6158f48ab72a.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/852/656111852_ead05537-34ba-41a7-be21-c676e6bcaa4d.jpg",
     "brand": null
    },
    {
-    "title": "Stor broderad tavla Kvinna vid hav Skagenmålarna retro vintage 60x45cm",
-    "url": "https://www.tradera.com/item/302987/745302067/stor-broderad-tavla-kvinna-vid-hav-skagenmalarna-retro-vintage-60x45cm",
-    "priceSek": 159,
+    "title": "Vintage Japanese Kewpie New Year Postcard Javelin Thrower, Pin Up Co Tokyo 1950s",
+    "url": "https://www.tradera.com/item/270302/745450606/vintage-japanese-kewpie-new-year-postcard-javelin-thrower-pin-up-co-tokyo-1950s",
+    "priceSek": 96,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/611/655999611_be2d1d67-116a-4d9d-a360-8dec5cc8bfd0.jpg",
-    "brand": null
-   },
-   {
-    "title": "Rymdålderns svamp-lampa grön, vintage glaslampa glas, Prisma Leuchten stil",
-    "url": "https://www.tradera.com/item/302531/745302033/rymdalderns-svamp-lampa-gron-vintage-glaslampa-glas-prisma-leuchten-stil",
-    "priceSek": 1433,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/580/655999580_491d9708-73d5-426d-acc8-2eee77aee26f.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/849/656111849_c4899f7b-1147-4cdd-a3eb-694d8ded5f89.jpg",
     "brand": null
    }
   ],
   "elektronik-foto": [
    {
-    "title": "Bright Hours - fotobok av Karl Henrik Edlund",
-    "url": "https://www.tradera.com/item/1412/745292358/bright-hours-fotobok-av-karl-henrik-edlund",
-    "priceSek": 99,
+    "title": "Hasselblad 500 EL/M + Planar 80/2.8 + A12 + PME45",
+    "url": "https://www.tradera.com/item/1409/745443857/hasselblad-500-el-m-planar-80-2-8-a12-pme45",
+    "priceSek": 12500,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/786/655991786_272e0164-fc87-43e8-a833-be532309be19.jpg",
-    "brand": null
-   },
-   {
-    "title": "Canon Digital IXUS 900 Ti (Titanium) – Vintage Y2K Digicam Kit",
-    "url": "https://www.tradera.com/item/342564/745299564/canon-digital-ixus-900-ti-titanium-vintage-y2k-digicam-kit",
-    "priceSek": 999,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/536/655997536_4562227f-09cf-4666-b027-0ef4fc77fb8b.jpg",
-    "brand": "canon"
-   },
-   {
-    "title": "Hasselblad objektivväska i läder",
-    "url": "https://www.tradera.com/item/342576/745289319/hasselblad-objektivvaska-i-lader",
-    "priceSek": 295,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/548/652616548_7bca26ee-ce36-4d13-badb-56c29caf5d0d.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/232/656106232_39a465a1-0c06-4a1a-90dd-1f0cb257669b.jpg",
     "brand": "hasselblad"
    },
    {
-    "title": "Vintage Ljusmätare",
-    "url": "https://www.tradera.com/item/342590/745295911/vintage-ljusmatare",
-    "priceSek": 100,
+    "title": "?Unik Polaroid 50th Anniversary Bordsklocka 1987",
+    "url": "https://www.tradera.com/item/301993/745448894/-unik-polaroid-50th-anniversary-bordsklocka-1987",
+    "priceSek": 445,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/605/655994605_a08e3308-94f0-4314-b012-f2581230ab2b.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/495/656110495_33edbdca-54c8-4c92-a581-2e86e8db82b2.jpg",
     "brand": null
    },
    {
-    "title": "För Hasselblad: Motljusskydd B50/100-250, nytt",
-    "url": "https://www.tradera.com/item/340871/745267329/for-hasselblad-motljusskydd-b50-100-250-nytt",
-    "priceSek": 329,
+    "title": "Agfa Anastigmat Vintage Analog Kamera Bälgkamera Svart Metall Läder Väska",
+    "url": "https://www.tradera.com/item/1408/745446004/agfa-anastigmat-vintage-analog-kamera-balgkamera-svart-metall-lader-vaska",
+    "priceSek": 301,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/271/655972271_bb948181-f26a-437c-8bd2-8c9471eb3fe4.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/128/656108128_8d65d66a-5982-4849-84e9-941f8da0ed1a.jpg",
+    "brand": null
+   },
+   {
+    "title": "DJI Mavic 4 Pro Fly More Combo",
+    "url": "https://www.tradera.com/item/344528/745443236/dji-mavic-4-pro-fly-more-combo",
+    "priceSek": 8750,
+    "bids": 1,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/703/656105703_29b860cf-1c8b-4d23-9b26-5afbce6df20e.jpg",
+    "brand": null
+   },
+   {
+    "title": "Kameragrepp Hasselblad (för 500c/m)",
+    "url": "https://www.tradera.com/item/140203/745442278/kameragrepp-hasselblad-for-500c-m-",
+    "priceSek": 400,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/860/656104860_66b025a5-cff6-47bc-84a7-5f3689153622.jpg",
     "brand": "hasselblad"
    },
    {
-    "title": "Bilora Box kamera. Tillverkades i Tyskland mellan 1935 och 1950. Vintage.",
-    "url": "https://www.tradera.com/item/1408/745292790/bilora-box-kamera-tillverkades-i-tyskland-mellan-1935-och-1950-vintage-",
-    "priceSek": 90,
+    "title": "Haka Autoknips Mod. I - mekanisk självutlösare",
+    "url": "https://www.tradera.com/item/340869/745439764/haka-autoknips-mod-i-mekanisk-sjalvutlosare",
+    "priceSek": 70,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/191/655992191_7aff5f44-3d29-4f46-90ae-ce8a4f61db13.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/870/656102870_aa40e09c-1485-4b0f-9167-9fe2434c54c0.jpg",
     "brand": null
    },
    {
-    "title": "Pelarstativ",
-    "url": "https://www.tradera.com/item/1000227/745235488/pelarstativ",
+    "title": "Hasselblad filter Proxar=1m",
+    "url": "https://www.tradera.com/item/301990/745442268/hasselblad-filter-proxar-1m",
+    "priceSek": 50,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/851/656104851_0e52c6cc-33bc-4fa5-9eba-52e13209c7ec.jpg",
+    "brand": "hasselblad"
+   },
+   {
+    "title": "Vintage Pathé-Lux 9,5 mm filmprojektor (1930-tal) med tillbehör – Samlarobjekt!",
+    "url": "https://www.tradera.com/item/302631/745437895/vintage-path%C3%A9-lux-9-5-mm-filmprojektor-1930-tal-med-tillbehor-samlarobjekt-",
+    "priceSek": 2250,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/540/656101540_58bad516-6525-4869-8b0e-f13f8d2c0ed2.jpg",
+    "brand": null
+   },
+   {
+    "title": "Hasselblad Planar 2,8/80 T* + fokuseringsring + filteradapter",
+    "url": "https://www.tradera.com/item/140203/745442250/hasselblad-planar-2-8-80-t-fokuseringsring-filteradapter",
     "priceSek": 8000,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/315/655049315_93be42b0-0318-4dc4-81cf-d0119d1753ef.jpg",
-    "brand": null
-   },
-   {
-    "title": "Vintage kamera",
-    "url": "https://www.tradera.com/item/1408/745279792/vintage-kamera",
-    "priceSek": 1699,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/768/655981768_e92a5fe2-7093-40f4-89df-5a4347f7d40c.jpg",
-    "brand": null
-   },
-   {
-    "title": "Hasselblad Extension Tube H26mm",
-    "url": "https://www.tradera.com/item/341692/745231262/hasselblad-extension-tube-h26mm",
-    "priceSek": 795,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/042/655946042_a7720d40-6871-4106-aa7f-06581b82d104.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/838/656104838_a1067fdb-e61b-4376-9669-7084f1d3bba3.jpg",
     "brand": "hasselblad"
    },
    {
-    "title": "Vintage kamera",
-    "url": "https://www.tradera.com/item/1408/745277536/vintage-kamera",
-    "priceSek": 65,
+    "title": "Digitalkamera Olympus Camedia C-500 Zoom – snabb leverans",
+    "url": "https://www.tradera.com/item/342564/745434863/digitalkamera-olympus-camedia-c-500-zoom-snabb-leverans",
+    "priceSek": 320,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/113/655980113_e395c449-54e9-40ef-aac1-fe1f6ede4376.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/772/654888772_7f02fb5f-4aab-4670-a488-676ff5205166.jpg",
     "brand": null
    },
    {
-    "title": "Bok: Victor Hasselblad av E. Karlsten | Fotografi",
-    "url": "https://www.tradera.com/item/1412/745222773/bok-victor-hasselblad-av-e-karlsten-fotografi",
-    "priceSek": 99,
+    "title": "Hasselblad fokuseringsring",
+    "url": "https://www.tradera.com/item/140203/745442175/hasselblad-fokuseringsring",
+    "priceSek": 100,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/812/655939812_8ae3e8af-181c-4aa5-b556-a2309cd9c027.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/819/656104819_a0e62c8d-2f03-4d5c-9912-2e08a691cda1.jpg",
     "brand": "hasselblad"
    },
    {
-    "title": "Minette Viewer Editor M-2 8mm Filmredigerare Vintage Made in Japan Filmspolare",
-    "url": "https://www.tradera.com/item/1000232/745276167/minette-viewer-editor-m-2-8mm-filmredigerare-vintage-made-in-japan-filmspolare",
-    "priceSek": 359,
+    "title": "Digitalkamera Samsung WB500 – snabb leverans",
+    "url": "https://www.tradera.com/item/342564/745433710/digitalkamera-samsung-wb500-snabb-leverans",
+    "priceSek": 820,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/159/655979159_24d74f79-d269-44c1-ba36-3cff332fcd16.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/995/654887995_f1ea4145-3dfc-46a7-b662-6f27c37aeecb.jpg",
     "brand": null
    }
   ],
   "samlarobjekt": [
    {
-    "title": "Messiah-Extreme Cold Weather / ORIGINAL LP på blå vinyl",
-    "url": "https://www.tradera.com/item/210808/745303006/messiah-extreme-cold-weather-original-lp-pa-bla-vinyl",
-    "priceSek": 799,
+    "title": "Komplett paket LEGO Technic 42103 Dragster",
+    "url": "https://www.tradera.com/item/180405/745450585/komplett-paket-lego-technic-42103-dragster",
+    "priceSek": 129,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/331/656000331_781e6fe8-6332-447f-9c6d-373ac771b2d5.jpg",
-    "brand": null
-   },
-   {
-    "title": "LEGO Minifigur med grå vikingahjälm och dykarutrustning",
-    "url": "https://www.tradera.com/item/340801/745261295/lego-minifigur-med-gra-vikingahjalm-och-dykarutrustning",
-    "priceSek": 215,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/304/655968304_d8d372d6-57d1-4aa2-9cd6-3b21ddbe9d9e.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/830/656111830_812839a1-d6ae-449f-8458-752a810ee41c.jpg",
     "brand": "lego"
    },
    {
-    "title": "Mikael Wiehe: Isolde NY OG FORSEGLET",
-    "url": "https://www.tradera.com/item/210816/745302902/mikael-wiehe-isolde-ny-og-forseglet",
-    "priceSek": 300,
+    "title": "3st MODERN TALKING ••• SEALED ••• Limited Edition (LP) - coloured vinyl",
+    "url": "https://www.tradera.com/item/210828/745452288/3st-modern-talking-sealed-limited-edition-lp-coloured-vinyl",
+    "priceSek": 880,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/325/642175325_0690902f-cbfe-4932-a87d-686fc8cbb70f.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/927/656112927_aa950add-48c0-4466-bf6c-4510887d203d.jpg",
     "brand": null
    },
    {
-    "title": "Lego Duplo vintage retro och Playmobil figurer Brandmän",
-    "url": "https://www.tradera.com/item/340800/745256483/lego-duplo-vintage-retro-och-playmobil-figurer-brandman",
-    "priceSek": 278,
+    "title": "LEGO paket 10402",
+    "url": "https://www.tradera.com/item/180405/745450532/lego-paket-10402",
+    "priceSek": 100,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/159/653782159_325b5e58-9726-4ce2-893a-38412bfbbb1c.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/790/656111790_53f23f3b-42aa-4008-8c48-e1065f118e14.jpg",
     "brand": "lego"
    },
    {
-    "title": "The Cure - Wish (Yellow & Brown Marbled Vinyl)",
-    "url": "https://www.tradera.com/item/302336/745302765/the-cure-wish-yellow-brown-marbled-vinyl-",
-    "priceSek": 881,
+    "title": "LP The Baroque Beatles Book 1963",
+    "url": "https://www.tradera.com/item/210836/745452194/lp-the-baroque-beatles-book-1963",
+    "priceSek": 135,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/151/656000151_35b4ba60-966f-408c-b601-78f71b5d9f86.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/857/656112857_5f505b3f-ac98-4a64-b67f-f26bd1a41a5c.jpg",
     "brand": null
    },
    {
-    "title": "Lego Vintage Minifigure Collection Vol. 1-5",
-    "url": "https://www.tradera.com/item/340801/745237761/lego-vintage-minifigure-collection-vol-1-5",
-    "priceSek": 5250,
+    "title": "Komplett paket LEGO City 60218 Terrängbil Rally",
+    "url": "https://www.tradera.com/item/180405/745450509/komplett-paket-lego-city-60218-terrangbil-rally",
+    "priceSek": 65,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/829/655950829_dfa779fd-1791-4c03-a6e1-e00ff1800a17.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/768/656111768_62e33c34-ce34-4ca4-906a-432633a678d0.jpg",
     "brand": "lego"
    },
    {
-    "title": "Doug Sahm And Band - Doug Sahm And Band Lp Uk Press",
-    "url": "https://www.tradera.com/item/210831/745302552/doug-sahm-and-band-doug-sahm-and-band-lp-uk-press",
-    "priceSek": 200,
+    "title": "1 album/5 singlar – Mari Wilson – Showpeople – vinyl – 60-tal på 80-talet",
+    "url": "https://www.tradera.com/item/340559/745452183/1-album-5-singlar-mari-wilson-showpeople-vinyl-60-tal-pa-80-talet",
+    "priceSek": 250,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/985/655999985_a140dcbf-7b75-4932-a511-7fc39b8acbeb.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/850/656112850_0ec64e40-ec44-4920-9e71-9c0c04424dd1.jpg",
     "brand": null
    },
    {
-    "title": "Vintage LEGO System Tåg Järnväg Blå Spår Parti 1970-tal Räls Kontroller Manual",
-    "url": "https://www.tradera.com/item/180408/745228451/vintage-lego-system-tag-jarnvag-bla-spar-parti-1970-tal-rals-kontroller-manual",
-    "priceSek": 441,
+    "title": "Komplett paket LEGO City 60158 Djungelhelikopter",
+    "url": "https://www.tradera.com/item/180405/745450492/komplett-paket-lego-city-60158-djungelhelikopter",
+    "priceSek": 125,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/982/655943982_2fbe62a6-37d9-4ac0-8981-ffe56dbd925d.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/753/656111753_55af9676-85fd-49b8-8ac0-3b51a955e57e.jpg",
     "brand": "lego"
    },
    {
-    "title": "BLACK OAK ARKANSAS &#x27;High On The Hog&#x27; 1973 Japan LP w/OBI",
-    "url": "https://www.tradera.com/item/210831/745302309/black-oak-arkansas-high-on-the-hog-1973-japan-lp-w-obi",
-    "priceSek": 699,
+    "title": "Shakin&#x27; Stevens - Hot Dog (Vinyl)",
+    "url": "https://www.tradera.com/item/210831/745451763/shakin-stevens-hot-dog-vinyl-",
+    "priceSek": 45,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/796/655999796_f887ed4d-438a-49f7-a8b6-4624b6538cab.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/495/656112495_75120ab6-d57a-480e-97a3-1f0d28913ac2.jpg",
     "brand": null
    },
    {
-    "title": "Brio, Brio vågen,stor mod,retro.",
-    "url": "https://www.tradera.com/item/182102/744138816/brio-brio-vagen-stor-mod-retro-",
-    "priceSek": 31,
-    "bids": 1,
-    "source": "myrorna",
-    "imageUrl": "https://img.tradera.net/250-square/174/655097174_1dd32d73-06e0-48f4-8d15-a8ae6559c02d.jpg",
-    "brand": "brio"
-   },
-   {
-    "title": "Scala LEGO diverse delar i fint skick! Vintage",
-    "url": "https://www.tradera.com/item/180405/745224012/scala-lego-diverse-delar-i-fint-skick-vintage",
-    "priceSek": 90,
+    "title": "Komplett paket LEGO Creator 31058 Dinosaurier",
+    "url": "https://www.tradera.com/item/180405/745427555/komplett-paket-lego-creator-31058-dinosaurier",
+    "priceSek": 100,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/770/655940770_1fd34203-5563-4e8e-8a62-a4a4fb63fb33.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/534/656093534_f1e26de4-623b-435e-b83e-8c606f4af4b2.jpg",
     "brand": "lego"
    },
    {
-    "title": "Stevie Wonder - Journey Through The Secret Life Of Plants - 2-LP",
-    "url": "https://www.tradera.com/item/210815/745302174/stevie-wonder-journey-through-the-secret-life-of-plants-2-lp",
+    "title": "Sven-Ingvars - Våga Vinn & A Vilka Tider (2x LP)",
+    "url": "https://www.tradera.com/item/210816/745451668/sven-ingvars-vaga-vinn-a-vilka-tider-2x-lp-",
+    "priceSek": 150,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/412/656112412_4c242edc-78a2-4f27-9417-844dab0373ba.jpg",
+    "brand": null
+   },
+   {
+    "title": "6 Fantasidjur från LEGO DUPLO",
+    "url": "https://www.tradera.com/item/1000528/745427508/6-fantasidjur-fran-lego-duplo",
+    "priceSek": 100,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/495/656093495_9ea4ef3c-c225-4ccd-97c6-fe8bff4b24d6.jpg",
+    "brand": "lego"
+   },
+   {
+    "title": "Smokie - Bright Lights & Back Alleys - Vinyl LP",
+    "url": "https://www.tradera.com/item/210830/745451363/smokie-bright-lights-back-alleys-vinyl-lp",
     "priceSek": 39,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/694/655999694_8b885d91-4704-407e-893e-eab54c392526.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/228/596322228_e8a3d760-435c-4919-af23-f3f1f69eecb3.jpg",
     "brand": null
    }
   ],
   "bocker-film-spel": [
+   {
+    "title": "Andy Warhol: A Retrospective (1989) Hardcover 1:a upplaga",
+    "url": "https://www.tradera.com/item/341327/745366411/andy-warhol-a-retrospective-1989-hardcover-1-a-upplaga",
+    "priceSek": 1699,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/596/656048596_c6579ead-a5cf-4d5c-9b65-da809a73d86b.jpg",
+    "brand": null
+   },
+   {
+    "title": "M83 - Junk (Vinyl)",
+    "url": "https://www.tradera.com/item/302336/745452579/m83-junk-vinyl-",
+    "priceSek": 400,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/132/656113132_51af228b-d7a1-47ef-893a-9267eff1bac0.jpg",
+    "brand": null
+   },
    {
     "title": "The Good Life – Jay McInerney (Knopf, 2006)",
     "url": "https://www.tradera.com/item/341585/745200014/the-good-life-jay-mcinerney-knopf-2006-",
@@ -2286,6 +2294,15 @@
     "bids": 0,
     "source": "tradera",
     "imageUrl": "https://img.tradera.net/250-square/789/655922789_49bf22d0-22d9-4386-b5a1-4397e7a2371e.jpg",
+    "brand": null
+   },
+   {
+    "title": "Blood Orange - Freetown Sound (Vinyl)",
+    "url": "https://www.tradera.com/item/302336/745452308/blood-orange-freetown-sound-vinyl-",
+    "priceSek": 600,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/946/656112946_517bae71-b88e-4cd9-a6a1-32d785137bd1.jpg",
     "brand": null
    },
    {
@@ -2307,12 +2324,12 @@
     "brand": null
    },
    {
-    "title": "Siw Malmkvist. EP OBS endast omslag.",
-    "url": "https://www.tradera.com/item/210816/745302794/siw-malmkvist-ep-obs-endast-omslag-",
-    "priceSek": 13,
+    "title": "Dubbel EP: The Beatles - Magical Mystery Tour (Stereo, 1967) fint skick",
+    "url": "https://www.tradera.com/item/340559/745452160/dubbel-ep-the-beatles-magical-mystery-tour-stereo-1967-fint-skick",
+    "priceSek": 405,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/179/656000179_6e2760c7-6dca-4338-9726-8b35e1ace43f.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/827/656112827_e4c67827-88cf-4839-b2e9-7d8ea66ef99f.jpg",
     "brand": null
    },
    {
@@ -2325,6 +2342,15 @@
     "brand": null
    },
    {
+    "title": "Mac DeMarco – This Old Dog (Limited, Red Vinyl)",
+    "url": "https://www.tradera.com/item/302336/745452084/mac-demarco-this-old-dog-limited-red-vinyl-",
+    "priceSek": 350,
+    "bids": 0,
+    "source": "tradera",
+    "imageUrl": "https://img.tradera.net/250-square/762/656112762_451b98d4-783e-41b7-88b9-37b804fece2d.jpg",
+    "brand": null
+   },
+   {
     "title": "Joshua Nkomo - The Story of My Life (1st Ed 1984)",
     "url": "https://www.tradera.com/item/341226/744705162/joshua-nkomo-the-story-of-my-life-1st-ed-1984-",
     "priceSek": 699,
@@ -2334,12 +2360,12 @@
     "brand": null
    },
    {
-    "title": "Marillion vinyl 2xLP",
-    "url": "https://www.tradera.com/item/342919/745302444/marillion-vinyl-2xlp",
-    "priceSek": 75,
+    "title": "Grimes - Art Angels Vinyl",
+    "url": "https://www.tradera.com/item/340559/745451817/grimes-art-angels-vinyl",
+    "priceSek": 200,
     "bids": 0,
     "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/882/655999882_0fd4412c-10d3-4c09-a71a-cd648409bb1e.jpg",
+    "imageUrl": "https://img.tradera.net/250-square/548/656112548_39149249-7c3a-4e85-8eea-4b8857b9dfef.jpg",
     "brand": null
    },
    {
@@ -2350,47 +2376,11 @@
     "source": "tradera",
     "imageUrl": "https://img.tradera.net/250-square/239/655528239_d7dbaae3-7d07-43cc-8abb-4b889333f2b5.jpg",
     "brand": null
-   },
-   {
-    "title": "Tina Turner - We Don&#x27;t Need Another Hero (Thunderdome) - 12\" Singel",
-    "url": "https://www.tradera.com/item/340559/745302092/tina-turner-we-don-t-need-another-hero-thunderdome-12-singel",
-    "priceSek": 99,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/625/655999625_557c8159-3d9d-4c09-a155-4f80b1c83006.jpg",
-    "brand": null
-   },
-   {
-    "title": "The Joke&#x27;s Over - Ralph Steadman (2006) Brittisk förstautgåva Hunter S Thompson",
-    "url": "https://www.tradera.com/item/341583/744691486/the-joke-s-over-ralph-steadman-2006-brittisk-forstautgava-hunter-s-thompson",
-    "priceSek": 399,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/183/655526183_260df7a1-cbe9-4d5a-9cd2-5548f0e0979e.jpg",
-    "brand": null
-   },
-   {
-    "title": "Tina Turner - One Of The Living (Special Club Mix) Vinylsingel",
-    "url": "https://www.tradera.com/item/340559/745302069/tina-turner-one-of-the-living-special-club-mix-vinylsingel",
-    "priceSek": 99,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/613/655999613_23ae4318-99bb-45f6-a1cf-4bcad3b9ad00.jpg",
-    "brand": null
-   },
-   {
-    "title": "Harry Potter och Fången från Azkaban av J.K. Rowling, 1999",
-    "url": "https://www.tradera.com/item/341612/744600224/harry-potter-och-fangen-fran-azkaban-av-j-k-rowling-1999",
-    "priceSek": 69,
-    "bids": 0,
-    "source": "tradera",
-    "imageUrl": "https://img.tradera.net/250-square/396/655455396_11cf98a0-c77c-4918-8735-518075d06dce.jpg",
-    "brand": null
    }
   ]
  },
  "counts": {
-  "observations": 2410,
+  "observations": 2407,
   "categories": 15
  }
 }
