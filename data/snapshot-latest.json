@@ -1,21 +1,27 @@
 {
  "version": 1,
- "collectedAt": "2026-09-06T09:25:22.799Z",
+ "collectedAt": "2026-09-07T10:15:05.701Z",
  "markets": [
   "SE"
  ],
  "categories": [
   {
    "categoryId": "glas",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 1,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 1,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -37,15 +43,21 @@
   },
   {
    "categoryId": "antik-design",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 30,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 30,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -157,7 +169,22 @@
   },
   {
    "categoryId": "parfym",
-   "supply": 20,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": -1
+  },
+  {
+   "categoryId": "hem",
+   "supply": 2,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -168,25 +195,10 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 20,
+     "supply": 2,
      "withBids": 0
     }
    ],
-   "heatDelta": 0,
-   "priceDelta": null,
-   "supplyDelta": 0
-  },
-  {
-   "categoryId": "hem",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -379,7 +391,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44294
+   "ms": 44233
   },
   {
    "id": "myrorna",
@@ -387,22 +399,141 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1157
+   "ms": 1062
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 20,
+   "collected": 33,
    "failed": 0,
-   "ms": 1970
+   "ms": 2076
   }
  ],
  "searchSignals": {},
  "samples": {
-  "glas": [],
+  "glas": [
+   {
+    "title": "edward hald taklampa swedish grace orrefors 1920 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1730515-edward-hald-taklampa-swedish-grace-orrefors-1920-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "orrefors"
+   }
+  ],
   "porslin": [],
-  "antik-design": [],
+  "antik-design": [
+   {
+    "title": "bo notini golvlampa glossner co stockholm 1940 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1725567-bo-notini-golvlampa-glossner-co-stockholm-1940-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "harald notini golvlampa modell 15230 arvid bohlmarks lampfabrik stockholm 1940 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1733939-harald-notini-golvlampa-modell-15230-arvid-bohlmarks-lampfabrik-stockholm-1940-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "bertil brisborg ake hultgren bordslampa modell 2043 nordiska kompaniet 1940 50 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1716809-bertil-brisborg-ake-hultgren-bordslampa-modell-2043-nordiska-kompaniet-1940-50-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "harald notini taklampa modell 10918 arvid bohlmarks lampfabrik stockholm 1930 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1726417-harald-notini-taklampa-modell-10918-arvid-bohlmarks-lampfabrik-stockholm-1930-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "bertil brisborg taklampa modell 32072 nordiska kompaniet 1940 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1733943-bertil-brisborg-taklampa-modell-32072-nordiska-kompaniet-1940-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "swedish modern taklampa tillskriven corona belysningskultur stockholm 1940 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1727107-swedish-modern-taklampa-tillskriven-corona-belysningskultur-stockholm-1940-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "harald notini bordslampa modell 6891 arvid bohlmarks lampfabrik stockholm 1920 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1730394-harald-notini-bordslampa-modell-6891-arvid-bohlmarks-lampfabrik-stockholm-1920-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "harald notini taklampa modell 11773 arvid bohlmarks lampfabrik stockholm 1940 50 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1731640-harald-notini-taklampa-modell-11773-arvid-bohlmarks-lampfabrik-stockholm-1940-50-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "swedish modern taklampa 1940 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1733941-swedish-modern-taklampa-1940-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "harald notini golvlampa modell 15597 arvid bohlmarks lampfabrik stockholm 1950 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1731638-harald-notini-golvlampa-modell-15597-arvid-bohlmarks-lampfabrik-stockholm-1950-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "harald notini bordslampa modell 15485 arvid bohlmarks lampfabrik stockholm 1940 50 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1731634-harald-notini-bordslampa-modell-15485-arvid-bohlmarks-lampfabrik-stockholm-1940-50-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "taklampa 1930 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1708535-taklampa-1930-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
   "friluft": [],
   "damklader": [],
   "herrklader": [],
@@ -410,123 +541,33 @@
   "vaskor": [],
   "skor": [],
   "smycken": [],
-  "parfym": [
+  "parfym": [],
+  "hem": [
    {
-    "title": "chanel vaska maxi classic flap bag 2009 2010",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1726547-chanel-vaska-maxi-classic-flap-bag-2009-2010",
+    "title": "harald notini vagglampa modell 8820 arvid bohlmarks lampfabrik stockholm 1950 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1736704-harald-notini-vagglampa-modell-8820-arvid-bohlmarks-lampfabrik-stockholm-1950-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
-    "brand": "chanel"
+    "brand": null
    },
    {
-    "title": "chanel vaska black velvet bag",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1712746-chanel-vaska-black-velvet-bag",
+    "title": "hans bergstrom vagglampa modell 333 atelje lyktan ahus 1940 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1729051-hans-bergstrom-vagglampa-modell-333-atelje-lyktan-ahus-1940-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel vaska grand shopping tote 2014",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1735399-chanel-vaska-grand-shopping-tote-2014",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel vaska double flap bag",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1735545-chanel-vaska-double-flap-bag",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel vaska jumbo flap bag 1994 1996",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1724550-chanel-vaska-jumbo-flap-bag-1994-1996",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel vaska slim vanity bag 2025",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1712791-chanel-vaska-slim-vanity-bag-2025",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel vaska mini flap bag",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1735766-chanel-vaska-mini-flap-bag",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel vaska heart bag 2022",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1712775-chanel-vaska-heart-bag-2022",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel vaska large shopping bag 2017",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1735938-chanel-vaska-large-shopping-bag-2017",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel jacka",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1735748-chanel-jacka",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel vaska 19 medium flap bag 2021",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1735617-chanel-vaska-19-medium-flap-bag-2021",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
-   },
-   {
-    "title": "chanel vaska small 2 55 reissue flap bag 2023",
-    "url": "https://www.bukowskis.com/sv/auctions/E1329/lots/1712772-chanel-vaska-small-2-55-reissue-flap-bag-2023",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "chanel"
+    "brand": null
    }
   ],
-  "hem": [],
   "elektronik-foto": [],
   "samlarobjekt": [],
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 20,
-  "categories": 1
+  "observations": 33,
+  "categories": 3
  }
 }
