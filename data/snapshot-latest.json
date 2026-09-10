@@ -1,33 +1,12 @@
 {
  "version": 1,
- "collectedAt": "2026-09-09T09:43:11.362Z",
+ "collectedAt": "2026-09-10T09:41:53.473Z",
  "markets": [
   "SE"
  ],
  "categories": [
   {
    "categoryId": "glas",
-   "supply": 1,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 1,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": null,
-   "priceDelta": null,
-   "supplyDelta": null
-  },
-  {
-   "categoryId": "porslin",
    "supply": 0,
    "heat": null,
    "bidRate": null,
@@ -42,8 +21,23 @@
    "supplyDelta": -1
   },
   {
+   "categoryId": "porslin",
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": null
+  },
+  {
    "categoryId": "antik-design",
-   "supply": 30,
+   "supply": 3,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -54,13 +48,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 30,
+     "supply": 3,
      "withBids": 0
     }
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": 29
+   "supplyDelta": -0.9
   },
   {
    "categoryId": "friluft",
@@ -184,24 +178,18 @@
   },
   {
    "categoryId": "hem",
-   "supply": 2,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 2,
-     "withBids": 0
-    }
-   ],
+   "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -1
   },
   {
    "categoryId": "elektronik-foto",
@@ -391,7 +379,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44275
+   "ms": 44169
   },
   {
    "id": "myrorna",
@@ -399,35 +387,25 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1281
+   "ms": 1121
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 33,
+   "collected": 3,
    "failed": 0,
-   "ms": 1956
+   "ms": 2025
   }
  ],
  "searchSignals": {},
  "samples": {
-  "glas": [
-   {
-    "title": "edward hald taklampa swedish grace orrefors 1920 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1730515-edward-hald-taklampa-swedish-grace-orrefors-1920-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "orrefors"
-   }
-  ],
+  "glas": [],
   "porslin": [],
   "antik-design": [
    {
-    "title": "bo notini golvlampa glossner co stockholm 1940 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1725567-bo-notini-golvlampa-glossner-co-stockholm-1940-tal",
+    "title": "lars lerin fjallandskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F836/lots/1729216-lars-lerin-fjallandskap",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -435,8 +413,8 @@
     "brand": null
    },
    {
-    "title": "harald notini golvlampa modell 15230 arvid bohlmarks lampfabrik stockholm 1940 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1733939-harald-notini-golvlampa-modell-15230-arvid-bohlmarks-lampfabrik-stockholm-1940-tal",
+    "title": "lars lerin nordligt landskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F836/lots/1729842-lars-lerin-nordligt-landskap",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -444,89 +422,8 @@
     "brand": null
    },
    {
-    "title": "bertil brisborg ake hultgren bordslampa modell 2043 nordiska kompaniet 1940 50 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1716809-bertil-brisborg-ake-hultgren-bordslampa-modell-2043-nordiska-kompaniet-1940-50-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "harald notini taklampa modell 10918 arvid bohlmarks lampfabrik stockholm 1930 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1726417-harald-notini-taklampa-modell-10918-arvid-bohlmarks-lampfabrik-stockholm-1930-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "bertil brisborg taklampa modell 32072 nordiska kompaniet 1940 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1733943-bertil-brisborg-taklampa-modell-32072-nordiska-kompaniet-1940-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "swedish modern taklampa tillskriven corona belysningskultur stockholm 1940 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1727107-swedish-modern-taklampa-tillskriven-corona-belysningskultur-stockholm-1940-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "harald notini bordslampa modell 6891 arvid bohlmarks lampfabrik stockholm 1920 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1730394-harald-notini-bordslampa-modell-6891-arvid-bohlmarks-lampfabrik-stockholm-1920-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "harald notini taklampa modell 11773 arvid bohlmarks lampfabrik stockholm 1940 50 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1731640-harald-notini-taklampa-modell-11773-arvid-bohlmarks-lampfabrik-stockholm-1940-50-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "swedish modern taklampa 1940 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1733941-swedish-modern-taklampa-1940-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "harald notini golvlampa modell 15597 arvid bohlmarks lampfabrik stockholm 1950 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1731638-harald-notini-golvlampa-modell-15597-arvid-bohlmarks-lampfabrik-stockholm-1950-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "harald notini bordslampa modell 15485 arvid bohlmarks lampfabrik stockholm 1940 50 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1731634-harald-notini-bordslampa-modell-15485-arvid-bohlmarks-lampfabrik-stockholm-1940-50-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "taklampa 1930 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1708535-taklampa-1930-tal",
+    "title": "susanne johansson fd simonson spegelvalden",
+    "url": "https://www.bukowskis.com/sv/auctions/F836/lots/1734371-susanne-johansson-fd-simonson-spegelvalden",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -542,32 +439,13 @@
   "skor": [],
   "smycken": [],
   "parfym": [],
-  "hem": [
-   {
-    "title": "harald notini vagglampa modell 8820 arvid bohlmarks lampfabrik stockholm 1950 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1736704-harald-notini-vagglampa-modell-8820-arvid-bohlmarks-lampfabrik-stockholm-1950-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "hans bergstrom vagglampa modell 333 atelje lyktan ahus 1940 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1360/lots/1729051-hans-bergstrom-vagglampa-modell-333-atelje-lyktan-ahus-1940-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   }
-  ],
+  "hem": [],
   "elektronik-foto": [],
   "samlarobjekt": [],
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 33,
-  "categories": 3
+  "observations": 3,
+  "categories": 1
  }
 }
