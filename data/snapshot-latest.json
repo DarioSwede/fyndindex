@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-09-11T09:39:04.857Z",
+ "collectedAt": "2026-09-12T09:18:57.747Z",
  "markets": [
   "SE"
  ],
@@ -22,9 +22,9 @@
      "withBids": 0
     }
    ],
-   "heatDelta": null,
+   "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": 0
   },
   {
    "categoryId": "porslin",
@@ -43,9 +43,9 @@
      "withBids": 0
     }
    ],
-   "heatDelta": null,
+   "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": 0
   },
   {
    "categoryId": "antik-design",
@@ -66,7 +66,7 @@
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": 17.333333333333332
+   "supplyDelta": 0
   },
   {
    "categoryId": "friluft",
@@ -205,9 +205,9 @@
      "withBids": 0
     }
    ],
-   "heatDelta": null,
+   "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": 0
   },
   {
    "categoryId": "elektronik-foto",
@@ -397,7 +397,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44391
+   "ms": 44300
   },
   {
    "id": "myrorna",
@@ -405,7 +405,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1086
+   "ms": 1057
   },
   {
    "id": "bukowskis",
@@ -413,7 +413,7 @@
    "market": "SE",
    "collected": 65,
    "failed": 0,
-   "ms": 2447
+   "ms": 2387
   }
  ],
  "searchSignals": {},
