@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-09-13T10:15:06.657Z",
+ "collectedAt": "2026-09-14T10:36:54.500Z",
  "markets": [
   "SE"
  ],
@@ -18,7 +18,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "porslin",
@@ -33,11 +33,11 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "antik-design",
-   "supply": 1,
+   "supply": 3,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -48,13 +48,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 1,
+     "supply": 3,
      "withBids": 0
     }
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": -0.9818181818181818
+   "supplyDelta": 2
   },
   {
    "categoryId": "friluft",
@@ -178,24 +178,18 @@
   },
   {
    "categoryId": "hem",
-   "supply": 16,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 16,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": 0,
+   "sources": [],
+   "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": 4.333333333333333
+   "supplyDelta": -1
   },
   {
    "categoryId": "elektronik-foto",
@@ -385,7 +379,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44437
+   "ms": 44337
   },
   {
    "id": "myrorna",
@@ -393,15 +387,15 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1172
+   "ms": 1039
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 17,
+   "collected": 3,
    "failed": 0,
-   "ms": 1976
+   "ms": 2125
   }
  ],
  "searchSignals": {},
@@ -410,13 +404,31 @@
   "porslin": [],
   "antik-design": [
    {
-    "title": "margit thoren trasmatta firma svenskt tenn ca 320 x 212 cm",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1737513-margit-thoren-trasmatta-firma-svenskt-tenn-ca-320-x-212-cm",
+    "title": "lars lerin fjallandskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F836/lots/1729216-lars-lerin-fjallandskap",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
-    "brand": "svenskt tenn"
+    "brand": null
+   },
+   {
+    "title": "lars lerin nordligt landskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F836/lots/1729842-lars-lerin-nordligt-landskap",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "susanne johansson fd simonson spegelvalden",
+    "url": "https://www.bukowskis.com/sv/auctions/F836/lots/1734371-susanne-johansson-fd-simonson-spegelvalden",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
    }
   ],
   "friluft": [],
@@ -427,122 +439,13 @@
   "skor": [],
   "smycken": [],
   "parfym": [],
-  "hem": [
-   {
-    "title": "ingrid hellman knafve tillskriven matta relief rya ca 170 x 93 cm",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1737397-ingrid-hellman-knafve-tillskriven-matta-relief-rya-ca-170-x-93-cm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "marta maas fjetterstrom matta skvattram reliefflossa ca 365 x 228 cm signerad ab mmf",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1715948-marta-maas-fjetterstrom-matta-skvattram-reliefflossa-ca-365-x-228-cm-signerad-ab-mmf",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "sigvard bernadotte matta shangri la reliefflossa signerad sb ca 210 x 145 cm",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1737400-sigvard-bernadotte-matta-shangri-la-reliefflossa-signerad-sb-ca-210-x-145-cm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "matta flossa norden 1920 30 tal ca 370 x 280 cm",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1735537-matta-flossa-norden-1920-30-tal-ca-370-x-280-cm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "ingegerd silow matta nejlikan rolakan ca 238 x 168 cm signerad is",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1737399-ingegerd-silow-matta-nejlikan-rolakan-ca-238-x-168-cm-signerad-is",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "kenneth henry cope matta rollakan ca 190 x 149 cm",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1734022-kenneth-henry-cope-matta-rollakan-ca-190-x-149-cm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "margareta akerberg rodloga matta rolakan 250 x 173 cm signerad ma",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1737405-margareta-akerberg-rodloga-matta-rolakan-250-x-173-cm-signerad-ma",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "ingegerd silow matta dellen rolakan ca 283 x 193 cm signerad is",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1737401-ingegerd-silow-matta-dellen-rolakan-ca-283-x-193-cm-signerad-is",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "kenneth henry cope matta rollakan 335 x 258 cm",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1734020-kenneth-henry-cope-matta-rollakan-335-x-258-cm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "ingegerd silow matta orbyhus rolakan ca 243 156 cm signerad is",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1737404-ingegerd-silow-matta-orbyhus-rolakan-ca-243-156-cm-signerad-is",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "martha gahn matta flossa ca 309 x 252 cm signerad mg",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1699721-martha-gahn-matta-flossa-ca-309-x-252-cm-signerad-mg",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "kenneth henry cope matta rollakan ca 230 x 142 cm",
-    "url": "https://www.bukowskis.com/sv/auctions/E1382/lots/1734021-kenneth-henry-cope-matta-rollakan-ca-230-x-142-cm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   }
-  ],
+  "hem": [],
   "elektronik-foto": [],
   "samlarobjekt": [],
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 17,
-  "categories": 2
+  "observations": 3,
+  "categories": 1
  }
 }
