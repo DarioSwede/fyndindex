@@ -1,42 +1,12 @@
 {
  "version": 1,
- "collectedAt": "2026-09-16T09:55:28.630Z",
+ "collectedAt": "2026-09-17T09:58:44.755Z",
  "markets": [
   "SE"
  ],
  "categories": [
   {
    "categoryId": "glas",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [],
-   "heatDelta": null,
-   "priceDelta": null,
-   "supplyDelta": null
-  },
-  {
-   "categoryId": "porslin",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [],
-   "heatDelta": null,
-   "priceDelta": null,
-   "supplyDelta": null
-  },
-  {
-   "categoryId": "antik-design",
    "supply": 3,
    "heat": 0,
    "bidRate": 0,
@@ -52,9 +22,51 @@
      "withBids": 0
     }
    ],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": null
+  },
+  {
+   "categoryId": "porslin",
+   "supply": 5,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 5,
+     "withBids": 0
+    }
+   ],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": null
+  },
+  {
+   "categoryId": "antik-design",
+   "supply": 38,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 38,
+     "withBids": 0
+    }
+   ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": 0
+   "supplyDelta": 11.666666666666666
   },
   {
    "categoryId": "friluft",
@@ -178,15 +190,21 @@
   },
   {
    "categoryId": "hem",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 4,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 4,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -379,7 +397,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44597
+   "ms": 44208
   },
   {
    "id": "myrorna",
@@ -387,25 +405,108 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 900
+   "ms": 1124
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 3,
+   "collected": 50,
    "failed": 0,
-   "ms": 2254
+   "ms": 2595
   }
  ],
  "searchSignals": {},
  "samples": {
-  "glas": [],
-  "porslin": [],
+  "glas": [
+   {
+    "title": "taklampa swedish modern orrefors 1930 40 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1741263-taklampa-swedish-modern-orrefors-1930-40-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "orrefors"
+   },
+   {
+    "title": "tapio wirkkala vas model 3541 iittala finland",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1739175-tapio-wirkkala-vas-model-3541-iittala-finland",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "iittala"
+   },
+   {
+    "title": "edward hald vas fiskgraal orrefors",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1739987-edward-hald-vas-fiskgraal-orrefors",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "orrefors"
+   }
+  ],
+  "porslin": [
+   {
+    "title": "stig lindberg vas veckla gustavsberg",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1740866-stig-lindberg-vas-veckla-gustavsberg",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "gustavsberg"
+   },
+   {
+    "title": "ljusstakar ett par porslin royal copenhagen musselmalet danmark 1900 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1738285-ljusstakar-ett-par-porslin-royal-copenhagen-musselmalet-danmark-1900-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "royal copenhagen"
+   },
+   {
+    "title": "carl harry stalhane fat stengods unikt gustavsberg studio",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1737761-carl-harry-stalhane-fat-stengods-unikt-gustavsberg-studio",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "gustavsberg"
+   },
+   {
+    "title": "stig lindberg springare",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1740484-stig-lindberg-springare",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "stig lindberg"
+   },
+   {
+    "title": "britt louise sundell vaggrelief keramik etikettmarkt och stamplad gustavsberg 1960 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1739475-britt-louise-sundell-vaggrelief-keramik-etikettmarkt-och-stamplad-gustavsberg-1960-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "gustavsberg"
+   }
+  ],
   "antik-design": [
    {
-    "title": "lars lerin fjallandskap",
-    "url": "https://www.bukowskis.com/sv/auctions/F836/lots/1729216-lars-lerin-fjallandskap",
+    "title": "josef frank soffbord sidobord modell b 974 firma svenskt tenn fore 1985",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1740799-josef-frank-soffbord-sidobord-modell-b-974-firma-svenskt-tenn-fore-1985",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "svenskt tenn"
+   },
+   {
+    "title": "jonas bohlin thomas sandell vitrinskap sno for asplund omkring ar 2000",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1737983-jonas-bohlin-thomas-sandell-vitrinskap-sno-for-asplund-omkring-ar-2000",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -413,8 +514,17 @@
     "brand": null
    },
    {
-    "title": "lars lerin nordligt landskap",
-    "url": "https://www.bukowskis.com/sv/auctions/F836/lots/1729842-lars-lerin-nordligt-landskap",
+    "title": "bruno mathsson fatolj pernilla dux 1900 talets slut",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1739474-bruno-mathsson-fatolj-pernilla-dux-1900-talets-slut",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "bruno mathsson"
+   },
+   {
+    "title": "dennis marquart fladdermusfatolj ox denmarq",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1737232-dennis-marquart-fladdermusfatolj-ox-denmarq",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -422,8 +532,71 @@
     "brand": null
    },
    {
-    "title": "susanne johansson fd simonson spegelvalden",
-    "url": "https://www.bukowskis.com/sv/auctions/F836/lots/1734371-susanne-johansson-fd-simonson-spegelvalden",
+    "title": "arne norell fatolj ari norell mobel ab",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1737881-arne-norell-fatolj-ari-norell-mobel-ab",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "anders pehrson golvlampa samt bordslampa bumling atelje lyktan ahus",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1737380-anders-pehrson-golvlampa-samt-bordslampa-bumling-atelje-lyktan-ahus",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "nissen gehl vitrinskap ak 2780 2782 naver collection danmark",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1735910-nissen-gehl-vitrinskap-ak-2780-2782-naver-collection-danmark",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "patricia urquiola eliana gerotto taklampa caboche foscarini italien",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1739885-patricia-urquiola-eliana-gerotto-taklampa-caboche-foscarini-italien",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "carl axel acking taklampa swedish modern 1950 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1735480-carl-axel-acking-taklampa-swedish-modern-1950-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "jannis ellenberger fatolj samt fotpall bremen lounge chair hans k samtida",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1737583-jannis-ellenberger-fatolj-samt-fotpall-bremen-lounge-chair-hans-k-samtida",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "arne hovmand olsen stolar 4 st mogens kold danmark 1960 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1740401-arne-hovmand-olsen-stolar-4-st-mogens-kold-danmark-1960-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "harald notini bordslampa modell 15525 arvid bohlmarks lampfabrik stockholm 1950 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1737574-harald-notini-bordslampa-modell-15525-arvid-bohlmarks-lampfabrik-stockholm-1950-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -439,13 +612,50 @@
   "skor": [],
   "smycken": [],
   "parfym": [],
-  "hem": [],
+  "hem": [
+   {
+    "title": "gallerimatta kelim ca 294 x 92 cm",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1736721-gallerimatta-kelim-ca-294-x-92-cm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "matta kelim 292 x 252 cm",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1740629-matta-kelim-292-x-252-cm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "ilsalestalon mattolutomo matta rolakan kaukaba finland signerad ils ca 215 x 125 cm",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1735290-ilsalestalon-mattolutomo-matta-rolakan-kaukaba-finland-signerad-ils-ca-215-x-125-cm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "pia wallen matta thailand 1980 tal ca 245 x 170 cm",
+    "url": "https://www.bukowskis.com/sv/auctions/E1417/lots/1739044-pia-wallen-matta-thailand-1980-tal-ca-245-x-170-cm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
   "elektronik-foto": [],
   "samlarobjekt": [],
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 3,
-  "categories": 1
+  "observations": 50,
+  "categories": 4
  }
 }
