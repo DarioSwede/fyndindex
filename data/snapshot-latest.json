@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-09-18T09:44:06.715Z",
+ "collectedAt": "2026-09-19T09:29:21.078Z",
  "markets": [
   "SE"
  ],
@@ -18,7 +18,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "porslin",
@@ -33,7 +33,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "antik-design",
@@ -48,7 +48,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "friluft",
@@ -142,24 +142,18 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 5,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 5,
-     "withBids": 0
-    }
-   ],
+   "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -1
   },
   {
    "categoryId": "parfym",
@@ -189,7 +183,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "elektronik-foto",
@@ -379,7 +373,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44256
+   "ms": 44316
   },
   {
    "id": "myrorna",
@@ -387,15 +381,15 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1154
+   "ms": 1100
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 5,
+   "collected": 0,
    "failed": 0,
-   "ms": 1785
+   "ms": 2839
   }
  ],
  "searchSignals": {},
@@ -409,53 +403,7 @@
   "barnklader": [],
   "vaskor": [],
   "skor": [],
-  "smycken": [
-   {
-    "title": "tennisarmband platina med briljantslipade diamanter totalt ca 4 80 ct",
-    "url": "https://www.bukowskis.com/sv/auctions/F838/lots/1559057-tennisarmband-platina-med-briljantslipade-diamanter-totalt-ca-4-80-ct",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "helky juvonen brosch silver westerback helsingfors 1971",
-    "url": "https://www.bukowskis.com/sv/auctions/F838/lots/1729254-helky-juvonen-brosch-silver-westerback-helsingfors-1971",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "vivianna torun bulow hube ett par orhangen sterlingsilver for georg jensen danmark",
-    "url": "https://www.bukowskis.com/sv/auctions/F838/lots/1731120-vivianna-torun-bulow-hube-ett-par-orhangen-sterlingsilver-for-georg-jensen-danmark",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "georg jensen"
-   },
-   {
-    "title": "zoltan popovits brosch silver tra lapponia 1991",
-    "url": "https://www.bukowskis.com/sv/auctions/F838/lots/1729219-zoltan-popovits-brosch-silver-tra-lapponia-1991",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "tva ringar 18k guld med runda briljantslipade diamanter magic for georg jensen",
-    "url": "https://www.bukowskis.com/sv/auctions/F838/lots/1730465-tva-ringar-18k-guld-med-runda-briljantslipade-diamanter-magic-for-georg-jensen",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "georg jensen"
-   }
-  ],
+  "smycken": [],
   "parfym": [],
   "hem": [],
   "elektronik-foto": [],
@@ -463,7 +411,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 5,
-  "categories": 1
+  "observations": 0,
+  "categories": 0
  }
 }
