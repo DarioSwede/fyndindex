@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-09-30T11:09:52.628Z",
+ "collectedAt": "2026-10-01T11:36:31.958Z",
  "markets": [
   "SE"
  ],
@@ -37,7 +37,7 @@
   },
   {
    "categoryId": "antik-design",
-   "supply": 2,
+   "supply": 5,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -48,13 +48,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 2,
+     "supply": 5,
      "withBids": 0
     }
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": 0
+   "supplyDelta": 1.5
   },
   {
    "categoryId": "friluft",
@@ -379,7 +379,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44301
+   "ms": 44266
   },
   {
    "id": "myrorna",
@@ -387,15 +387,15 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1075
+   "ms": 1291
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 2,
+   "collected": 5,
    "failed": 0,
-   "ms": 2090
+   "ms": 1868
   }
  ],
  "searchSignals": {},
@@ -404,8 +404,8 @@
   "porslin": [],
   "antik-design": [
    {
-    "title": "silverplaketter 17 st svenska gymnastik och idrottsriksforbund svenskt masterskap cg hallberg 1900 talets forsta ha",
-    "url": "https://www.bukowskis.com/sv/auctions/E1435/lots/1742548-silverplaketter-17-st-svenska-gymnastik-och-idrottsriksforbund-svenskt-masterskap-cg-hallberg-1900-talets-forsta-ha",
+    "title": "marta lindblom carl otto lundgren vaggskap signerat och daterat 1899",
+    "url": "https://www.bukowskis.com/sv/auctions/F833/lots/1733111-marta-lindblom-carl-otto-lundgren-vaggskap-signerat-och-daterat-1899",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -413,8 +413,35 @@
     "brand": null
    },
    {
-    "title": "silverplaketter 41 st svenska gymnastik och idrottsriksforbund distrikts masterskap cg hallberg 1900 talets forsta",
-    "url": "https://www.bukowskis.com/sv/auctions/E1435/lots/1742547-silverplaketter-41-st-svenska-gymnastik-och-idrottsriksforbund-distrikts-masterskap-cg-hallberg-1900-talets-forsta",
+    "title": "lotte laserstein maskeradsallskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F833/lots/1726910-lotte-laserstein-maskeradsallskap",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "ebba orstadius skanskt slattlandskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F833/lots/1743186-ebba-orstadius-skanskt-slattlandskap",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "charlotte wahlstrom varlandskap med bjorkar och vitsippor",
+    "url": "https://www.bukowskis.com/sv/auctions/F833/lots/1723235-charlotte-wahlstrom-varlandskap-med-bjorkar-och-vitsippor",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "ebba orstadius landskap med bjorkar",
+    "url": "https://www.bukowskis.com/sv/auctions/F833/lots/1743359-ebba-orstadius-landskap-med-bjorkar",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -436,7 +463,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 2,
+  "observations": 5,
   "categories": 1
  }
 }
