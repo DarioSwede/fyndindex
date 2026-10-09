@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-10-08T12:00:58.159Z",
+ "collectedAt": "2026-10-09T11:53:19.949Z",
  "markets": [
   "SE"
  ],
@@ -18,32 +18,26 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "porslin",
-   "supply": 75,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 75,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": 0,
+   "sources": [],
+   "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": 24
+   "supplyDelta": -1
   },
   {
    "categoryId": "antik-design",
-   "supply": 2,
+   "supply": 3,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -54,13 +48,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 2,
+     "supply": 3,
      "withBids": 0
     }
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": -0.9583333333333334
+   "supplyDelta": 0.5
   },
   {
    "categoryId": "friluft",
@@ -195,7 +189,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "elektronik-foto",
@@ -385,7 +379,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44172
+   "ms": 44232
   },
   {
    "id": "myrorna",
@@ -393,134 +387,25 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1150
+   "ms": 1099
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 77,
+   "collected": 3,
    "failed": 0,
-   "ms": 2743
+   "ms": 1811
   }
  ],
  "searchSignals": {},
  "samples": {
   "glas": [],
-  "porslin": [
-   {
-    "title": "tyra lundgren skulptur i form av hackspett stengods utford i egen atelje",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1728678-tyra-lundgren-skulptur-i-form-av-hackspett-stengods-utford-i-egen-atelje",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "edgar bockman vaser 2 st stengods omkring 1920",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1745262-edgar-bockman-vaser-2-st-stengods-omkring-1920",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "wilhelm kage vas fajans gustavsberg studio 1942",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1737619-wilhelm-kage-vas-fajans-gustavsberg-studio-1942",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "carl harry stalhane vas stengods rorstrand",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1745323-carl-harry-stalhane-vas-stengods-rorstrand",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "stig lindberg vaser 2 st samt en skal fajans gustavsberg studio",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1745266-stig-lindberg-vaser-2-st-samt-en-skal-fajans-gustavsberg-studio",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "stig lindberg skalar 2 st gustavsberg studio",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1745328-stig-lindberg-skalar-2-st-gustavsberg-studio",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "stig lindberg skalar 2 st stengods gustavsbergs studio 1969 samt sk drejargods ca 1970",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1735454-stig-lindberg-skalar-2-st-stengods-gustavsbergs-studio-1969-samt-sk-drejargods-ca-1970",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "stig lindberg vas veckla gustavsberg",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1745335-stig-lindberg-vas-veckla-gustavsberg",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "gunnar nylund skalar 7 st stengods rorstrand 1900 talets mitt",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1739712-gunnar-nylund-skalar-7-st-stengods-rorstrand-1900-talets-mitt",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "stig lindberg vas gnurgla stengods gustavsberg studio",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1716078-stig-lindberg-vas-gnurgla-stengods-gustavsberg-studio",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "berndt friberg vas gustavsberg studio",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1743170-berndt-friberg-vas-gustavsberg-studio",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "stig lindberg skal samt miniatyrer 3 st stengods gustavsbergs studio 1963 81",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1728669-stig-lindberg-skal-samt-miniatyrer-3-st-stengods-gustavsbergs-studio-1963-81",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gustavsberg"
-   }
-  ],
+  "porslin": [],
   "antik-design": [
    {
-    "title": "gertrud lonegren bordslampa rorstrand",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1745433-gertrud-lonegren-bordslampa-rorstrand",
+    "title": "anton genberg alvlandskap med fabodar",
+    "url": "https://www.bukowskis.com/sv/auctions/F841/lots/1739029-anton-genberg-alvlandskap-med-fabodar",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -528,8 +413,17 @@
     "brand": null
    },
    {
-    "title": "gertrud lonegren bordslampa rorstrand",
-    "url": "https://www.bukowskis.com/sv/auctions/E1304/lots/1745428-gertrud-lonegren-bordslampa-rorstrand",
+    "title": "per julius hostlandskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F841/lots/1740723-per-julius-hostlandskap",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "carl olof eric lindin landskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F841/lots/1745440-carl-olof-eric-lindin-landskap",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -551,7 +445,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 77,
-  "categories": 2
+  "observations": 3,
+  "categories": 1
  }
 }
