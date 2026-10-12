@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-10-11T11:23:51.738Z",
+ "collectedAt": "2026-10-12T13:08:20.889Z",
  "markets": [
   "SE"
  ],
@@ -18,7 +18,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "porslin",
@@ -33,11 +33,11 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "antik-design",
-   "supply": 4,
+   "supply": 1,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -48,13 +48,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 4,
+     "supply": 1,
      "withBids": 0
     }
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": -0.9166666666666666
+   "supplyDelta": -0.75
   },
   {
    "categoryId": "friluft",
@@ -189,7 +189,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "elektronik-foto",
@@ -379,7 +379,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44365
+   "ms": 44099
   },
   {
    "id": "myrorna",
@@ -387,15 +387,15 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1167
+   "ms": 1309
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 4,
+   "collected": 1,
    "failed": 0,
-   "ms": 2163
+   "ms": 1900
   }
  ],
  "searchSignals": {},
@@ -404,35 +404,8 @@
   "porslin": [],
   "antik-design": [
    {
-    "title": "mauno markkula fartyg i bergslandskap",
-    "url": "https://www.bukowskis.com/sv/auctions/F875/lots/1745725-mauno-markkula-fartyg-i-bergslandskap",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "juhani linnovaara stenigt landskap",
-    "url": "https://www.bukowskis.com/sv/auctions/F875/lots/1724280-juhani-linnovaara-stenigt-landskap",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "helge dahlman pointilistiskt landskap",
-    "url": "https://www.bukowskis.com/sv/auctions/F875/lots/1742227-helge-dahlman-pointilistiskt-landskap",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "yrjo saarinen landskap vid loppijarvi",
-    "url": "https://www.bukowskis.com/sv/auctions/F875/lots/1728389-yrjo-saarinen-landskap-vid-loppijarvi",
+    "title": "werner janson fatoljen",
+    "url": "https://www.bukowskis.com/sv/auctions/E1447/lots/1746202-werner-janson-fatoljen",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -454,7 +427,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 4,
+  "observations": 1,
   "categories": 1
  }
 }
