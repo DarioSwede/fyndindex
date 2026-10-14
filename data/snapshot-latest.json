@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-10-13T12:41:45.472Z",
+ "collectedAt": "2026-10-14T10:10:01.600Z",
  "markets": [
   "SE"
  ],
@@ -37,24 +37,18 @@
   },
   {
    "categoryId": "antik-design",
-   "supply": 1,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 1,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": 0,
+   "sources": [],
+   "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": 0
+   "supplyDelta": -1
   },
   {
    "categoryId": "friluft",
@@ -379,7 +373,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44213
+   "ms": 44099
   },
   {
    "id": "myrorna",
@@ -387,32 +381,22 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1140
+   "ms": 1291
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 1,
+   "collected": 0,
    "failed": 0,
-   "ms": 1872
+   "ms": 1812
   }
  ],
  "searchSignals": {},
  "samples": {
   "glas": [],
   "porslin": [],
-  "antik-design": [
-   {
-    "title": "werner janson fatoljen",
-    "url": "https://www.bukowskis.com/sv/auctions/E1447/lots/1746202-werner-janson-fatoljen",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   }
-  ],
+  "antik-design": [],
   "friluft": [],
   "damklader": [],
   "herrklader": [],
@@ -427,7 +411,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 1,
-  "categories": 1
+  "observations": 0,
+  "categories": 0
  }
 }
