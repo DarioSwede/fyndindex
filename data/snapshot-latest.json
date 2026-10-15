@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-10-14T10:10:01.600Z",
+ "collectedAt": "2026-10-15T09:52:54.127Z",
  "markets": [
   "SE"
  ],
@@ -48,7 +48,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "friluft",
@@ -373,7 +373,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44099
+   "ms": 43964
   },
   {
    "id": "myrorna",
@@ -381,7 +381,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1291
+   "ms": 1456
   },
   {
    "id": "bukowskis",
@@ -389,7 +389,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1812
+   "ms": 2435
   }
  ],
  "searchSignals": {},
