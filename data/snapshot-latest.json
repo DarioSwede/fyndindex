@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-10-25T09:47:46.704Z",
+ "collectedAt": "2026-10-26T11:03:24.335Z",
  "markets": [
   "SE"
  ],
@@ -37,15 +37,21 @@
   },
   {
    "categoryId": "antik-design",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 4,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 4,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -373,7 +379,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 43969
+   "ms": 43855
   },
   {
    "id": "myrorna",
@@ -381,22 +387,59 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1384
+   "ms": 1399
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 0,
+   "collected": 4,
    "failed": 0,
-   "ms": 2488
+   "ms": 2425
   }
  ],
  "searchSignals": {},
  "samples": {
   "glas": [],
   "porslin": [],
-  "antik-design": [],
+  "antik-design": [
+   {
+    "title": "christian berg landskap med olivlundar grekland",
+    "url": "https://www.bukowskis.com/sv/auctions/F901/lots/1743976-christian-berg-landskap-med-olivlundar-grekland",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "anna berg kustlandskap no 1",
+    "url": "https://www.bukowskis.com/sv/auctions/F901/lots/1743546-anna-berg-kustlandskap-no-1",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "sven jonson surrealistiskt landskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F901/lots/1742915-sven-jonson-surrealistiskt-landskap",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "madeleine pyk landskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F901/lots/1747659-madeleine-pyk-landskap",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
   "friluft": [],
   "damklader": [],
   "herrklader": [],
@@ -411,7 +454,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 0,
-  "categories": 0
+  "observations": 4,
+  "categories": 1
  }
 }
