@@ -1,13 +1,13 @@
 {
  "version": 1,
- "collectedAt": "2026-10-29T11:30:16.522Z",
+ "collectedAt": "2026-10-30T11:23:11.280Z",
  "markets": [
   "SE"
  ],
  "categories": [
   {
    "categoryId": "glas",
-   "supply": 1,
+   "supply": 5,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -18,17 +18,17 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 1,
+     "supply": 5,
      "withBids": 0
     }
    ],
-   "heatDelta": null,
+   "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": 4
   },
   {
    "categoryId": "porslin",
-   "supply": 3,
+   "supply": 9,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -39,17 +39,17 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 3,
+     "supply": 9,
      "withBids": 0
     }
    ],
-   "heatDelta": null,
+   "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": 2
   },
   {
    "categoryId": "antik-design",
-   "supply": 39,
+   "supply": 30,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -60,13 +60,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 39,
+     "supply": 30,
      "withBids": 0
     }
    ],
-   "heatDelta": null,
+   "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -0.23076923076923078
   },
   {
    "categoryId": "friluft",
@@ -160,15 +160,21 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 2,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 2,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -190,7 +196,7 @@
   },
   {
    "categoryId": "hem",
-   "supply": 4,
+   "supply": 5,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -201,13 +207,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 4,
+     "supply": 5,
      "withBids": 0
     }
    ],
-   "heatDelta": null,
+   "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": 0.25
   },
   {
    "categoryId": "elektronik-foto",
@@ -397,7 +403,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 43983
+   "ms": 44014
   },
   {
    "id": "myrorna",
@@ -405,34 +411,79 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1381
+   "ms": 1404
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 47,
+   "collected": 51,
    "failed": 0,
-   "ms": 2184
+   "ms": 2170
   }
  ],
  "searchSignals": {},
  "samples": {
   "glas": [
    {
-    "title": "bertil vallien vas kosta boda",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1749298-bertil-vallien-vas-kosta-boda",
+    "title": "kaj franck karaff kremls klockor signerad k franck nuutajarvi notsjo 59",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1741465-kaj-franck-karaff-kremls-klockor-signerad-k-franck-nuutajarvi-notsjo-59",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
-    "brand": "kosta boda"
+    "brand": null
+   },
+   {
+    "title": "tapio wirkkala konstforemal fjader 3869 signerad tapio wirkkala iittala 55",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1746556-tapio-wirkkala-konstforemal-fjader-3869-signerad-tapio-wirkkala-iittala-55",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "iittala"
+   },
+   {
+    "title": "tapio wirkkala skulptur fisk signerad tapio wirkkala iittala 56",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1733459-tapio-wirkkala-skulptur-fisk-signerad-tapio-wirkkala-iittala-56",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "iittala"
+   },
+   {
+    "title": "oiva toikka karaffer 3 st oz pro arte signerad oiva toikka nuutajarvi i produktion 1995 1996",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1737897-oiva-toikka-karaffer-3-st-oz-pro-arte-signerad-oiva-toikka-nuutajarvi-i-produktion-1995-1996",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "kaj franck karaff kremls klockor signerad k franck nuutajarvi notsjo 61",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1734591-kaj-franck-karaff-kremls-klockor-signerad-k-franck-nuutajarvi-notsjo-61",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
    }
   ],
   "porslin": [
    {
-    "title": "gunnar cyren figuriner 5 st dansk designs japan",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1748385-gunnar-cyren-figuriner-5-st-dansk-designs-japan",
+    "title": "birger kaipiainen dekortionstallrik signerad kaipiainen arabia",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1732445-birger-kaipiainen-dekortionstallrik-signerad-kaipiainen-arabia",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "arabia"
+   },
+   {
+    "title": "rut bryk vaggrelief stengods signerad bryk",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1748681-rut-bryk-vaggrelief-stengods-signerad-bryk",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -440,8 +491,8 @@
     "brand": null
    },
    {
-    "title": "bordslampa stengods 1900 talets slut",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1743781-bordslampa-stengods-1900-talets-slut",
+    "title": "birger kaipiainen dekorationsfat stengods signerat kaipiainen",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1743904-birger-kaipiainen-dekorationsfat-stengods-signerat-kaipiainen",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -449,28 +500,64 @@
     "brand": null
    },
    {
-    "title": "lisa larson figuriner 2 st larsons ungar gustavsberg",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1742695-lisa-larson-figuriner-2-st-larsons-ungar-gustavsberg",
+    "title": "taisto kaasinen skulptur stengods signerad kaasinen arabia finland",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1746943-taisto-kaasinen-skulptur-stengods-signerad-kaasinen-arabia-finland",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
-    "brand": "gustavsberg"
+    "brand": "arabia"
+   },
+   {
+    "title": "friedl holzer kjellberg bordslampa keramik signerad arabia f h kj",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1717947-friedl-holzer-kjellberg-bordslampa-keramik-signerad-arabia-f-h-kj",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "arabia"
+   },
+   {
+    "title": "birger kaipiainen skulptur bukett signerad kaipiainen arabia",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1750480-birger-kaipiainen-skulptur-bukett-signerad-kaipiainen-arabia",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "arabia"
+   },
+   {
+    "title": "rut bryk dekorationsfat signerad rut bryk 44 arabia",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1743961-rut-bryk-dekorationsfat-signerad-rut-bryk-44-arabia",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "arabia"
+   },
+   {
+    "title": "rut bryk vaggrelief stengods signerad bryk",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1743692-rut-bryk-vaggrelief-stengods-signerad-bryk",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "kati tuominen niittyla dekorationsfat stengods signerad ktn finland",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1750448-kati-tuominen-niittyla-dekorationsfat-stengods-signerad-ktn-finland",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
    }
   ],
   "antik-design": [
    {
-    "title": "bruno mathsson fatolj pernilla firma karl mahtsson varnamo 1944",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1750486-bruno-mathsson-fatolj-pernilla-firma-karl-mahtsson-varnamo-1944",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "bruno mathsson"
-   },
-   {
-    "title": "titti fabiani bokskap 3 moduler book",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1748525-titti-fabiani-bokskap-3-moduler-book",
+    "title": "alvar aalto fatolj modell 34 huonekalu ja rakennustyotehdas a b 1940 1950 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1751052-alvar-aalto-fatolj-modell-34-huonekalu-ja-rakennustyotehdas-a-b-1940-1950-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -478,17 +565,8 @@
     "brand": null
    },
    {
-    "title": "estrid ericson askfat tenn firma svenskt tenn stockholm 1948",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1750475-estrid-ericson-askfat-tenn-firma-svenskt-tenn-stockholm-1948",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "svenskt tenn"
-   },
-   {
-    "title": "mattias stahlbom golvlampa last zero",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1749601-mattias-stahlbom-golvlampa-last-zero",
+    "title": "paavo tynell bordslampa modell 5066 for taito 1940 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1747630-paavo-tynell-bordslampa-modell-5066-for-taito-1940-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -496,8 +574,8 @@
     "brand": null
    },
    {
-    "title": "stol 1800 1900 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1751822-stol-1800-1900-tal",
+    "title": "paavo tynell golvlampa modell k10 10 idman 1900 talets mitt",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1724307-paavo-tynell-golvlampa-modell-k10-10-idman-1900-talets-mitt",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -505,8 +583,8 @@
     "brand": null
    },
    {
-    "title": "fatolj samtida",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1751276-fatolj-samtida",
+    "title": "yrjo kukkapuro fatoljer ett par saturnus haimi 1980",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1745965-yrjo-kukkapuro-fatoljer-ett-par-saturnus-haimi-1980",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -514,17 +592,8 @@
     "brand": null
    },
    {
-    "title": "bruno mathsson vilfatolj modell 36 karl mathsson varnamo 1938",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1750924-bruno-mathsson-vilfatolj-modell-36-karl-mathsson-varnamo-1938",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "bruno mathsson"
-   },
-   {
-    "title": "harald notini bordslampa modell 15470 arvid bohlmarks lampfabrik stockholm 1940 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1750580-harald-notini-bordslampa-modell-15470-arvid-bohlmarks-lampfabrik-stockholm-1940-tal",
+    "title": "matti martikka fatolj 1960 1970 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1750568-matti-martikka-fatolj-1960-1970-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -532,8 +601,8 @@
     "brand": null
    },
    {
-    "title": "bordslampa 1960 70 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1751244-bordslampa-1960-70-tal",
+    "title": "fatoljer ett par 1900 talets mitt",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1749750-fatoljer-ett-par-1900-talets-mitt",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -541,8 +610,8 @@
     "brand": null
    },
    {
-    "title": "skrivbord 1900 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1750937-skrivbord-1900-tal",
+    "title": "taklampa modell er 108 itsu finland 1900 talets mitt",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1741512-taklampa-modell-er-108-itsu-finland-1900-talets-mitt",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -550,8 +619,8 @@
     "brand": null
    },
    {
-    "title": "gunnel svensson golvlampa manhattan 16 for bsweden sent 1900 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1750675-gunnel-svensson-golvlampa-manhattan-16-for-bsweden-sent-1900-tal",
+    "title": "paavo tynell taklampa modell 9029 3 taito oy 1900 talets mitt",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1746211-paavo-tynell-taklampa-modell-9029-3-taito-oy-1900-talets-mitt",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -559,13 +628,40 @@
     "brand": null
    },
    {
-    "title": "firma svenskt tenn brevkniv samt sigillstamp tenn",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1748391-firma-svenskt-tenn-brevkniv-samt-sigillstamp-tenn",
+    "title": "carl gustaf hiort af ornas fatoljer ett par pedro for puunveisto oy trasnideri ab 1900 talets mitt",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1751897-carl-gustaf-hiort-af-ornas-fatoljer-ett-par-pedro-for-puunveisto-oy-trasnideri-ab-1900-talets-mitt",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
-    "brand": "svenskt tenn"
+    "brand": null
+   },
+   {
+    "title": "paavo tynell golvlampa modell 9609 idman 1900 talets mitt",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1740247-paavo-tynell-golvlampa-modell-9609-idman-1900-talets-mitt",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "lisa johansson pape taklampa for orno 1940 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1750885-lisa-johansson-pape-taklampa-for-orno-1940-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "paavo tynell golvlampa modell 9628 for idman 1900 talets mitt",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1751647-paavo-tynell-golvlampa-modell-9628-for-idman-1900-talets-mitt",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
    }
   ],
   "friluft": [],
@@ -574,12 +670,31 @@
   "barnklader": [],
   "vaskor": [],
   "skor": [],
-  "smycken": [],
+  "smycken": [
+   {
+    "title": "tapio wirkkala armband viking armband 18k guld 1960 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1710080-tapio-wirkkala-armband-viking-armband-18k-guld-1960-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "bjorn weckstrom armband astaire silver gra granit lapponia 1987",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1735086-bjorn-weckstrom-armband-astaire-silver-gra-granit-lapponia-1987",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
   "parfym": [],
   "hem": [
    {
-    "title": "matta antik savonnerie centraleuropa omkring ar 1900 ca 818 x 550 cm",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1751625-matta-antik-savonnerie-centraleuropa-omkring-ar-1900-ca-818-x-550-cm",
+    "title": "paavo tynell vagglampa modell 9459 idman 1960 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1747651-paavo-tynell-vagglampa-modell-9459-idman-1960-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -587,8 +702,8 @@
     "brand": null
    },
    {
-    "title": "alice crawley matta indocine layered 3 x 4 m",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1749039-alice-crawley-matta-indocine-layered-3-x-4-m",
+    "title": "hargarnsmatta 1930 tal circa 196 x 300cm",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1728074-hargarnsmatta-1930-tal-circa-196-x-300cm",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -596,8 +711,8 @@
     "brand": null
    },
    {
-    "title": "matta tekke turkmen semaintik ca 144 x 114 cm",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1743790-matta-tekke-turkmen-semaintik-ca-144-x-114-cm",
+    "title": "toini nystrom hargarnsmatta aaltonens mattvaveri kiikka finland ca 305 x 200 cm",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1737327-toini-nystrom-hargarnsmatta-aaltonens-mattvaveri-kiikka-finland-ca-305-x-200-cm",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -605,8 +720,17 @@
     "brand": null
    },
    {
-    "title": "ljusstake 2000 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1418/lots/1742683-ljusstake-2000-tal",
+    "title": "greta skogster lehtinen hargarnsmatta aaltonens mattvaveri kiikka finland ca 295 x 195 cm",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1745802-greta-skogster-lehtinen-hargarnsmatta-aaltonens-mattvaveri-kiikka-finland-ca-295-x-195-cm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "hargarnsmatta 1930 tal circa 204 x 307 cm",
+    "url": "https://www.bukowskis.com/sv/auctions/F743/lots/1728075-hargarnsmatta-1930-tal-circa-204-x-307-cm",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -619,7 +743,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 47,
-  "categories": 4
+  "observations": 51,
+  "categories": 5
  }
 }
