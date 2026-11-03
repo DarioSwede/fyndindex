@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-11-02T13:28:02.261Z",
+ "collectedAt": "2026-11-03T12:45:54.515Z",
  "markets": [
   "SE"
  ],
@@ -18,7 +18,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "porslin",
@@ -33,7 +33,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "antik-design",
@@ -48,7 +48,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "friluft",
@@ -142,18 +142,24 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 54,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 54,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "parfym",
@@ -183,7 +189,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "elektronik-foto",
@@ -373,7 +379,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 43883
+   "ms": 45657
   },
   {
    "id": "myrorna",
@@ -381,15 +387,15 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1412
+   "ms": 1444
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 0,
+   "collected": 54,
    "failed": 0,
-   "ms": 1620
+   "ms": 2176
   }
  ],
  "searchSignals": {},
@@ -403,7 +409,116 @@
   "barnklader": [],
   "vaskor": [],
   "skor": [],
-  "smycken": [],
+  "smycken": [
+   {
+    "title": "omega seamaster armbandsur 33 5 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1738600-omega-seamaster-armbandsur-33-5-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "omega"
+   },
+   {
+    "title": "omega armbandsur 17 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1736025-omega-armbandsur-17-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "omega"
+   },
+   {
+    "title": "omega fickur savonett 52 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1742321-omega-fickur-savonett-52-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "omega"
+   },
+   {
+    "title": "must de cartier tank armbandsur 20 5 x 20 28 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1744777-must-de-cartier-tank-armbandsur-20-5-x-20-28-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "tag heuer carrera calibre 16 kronograf armbandsur 41 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1737366-tag-heuer-carrera-calibre-16-kronograf-armbandsur-41-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "girard perregaux armbandsur 18k guld 34 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1741915-girard-perregaux-armbandsur-18k-guld-34-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "zenith savonett fickur 52 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1746076-zenith-savonett-fickur-52-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "heinz te laake armbandsur 30 x 30 37 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1740906-heinz-te-laake-armbandsur-30-x-30-37-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "omega fickur 51 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1736646-omega-fickur-51-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "omega"
+   },
+   {
+    "title": "iwc vin spritcentralen armbandsur 33 5 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1733974-iwc-vin-spritcentralen-armbandsur-33-5-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "rolex datejust armbandsur 26 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1739068-rolex-datejust-armbandsur-26-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "piaget armbandsur 19 5 mm",
+    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1750868-piaget-armbandsur-19-5-mm",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
   "parfym": [],
   "hem": [],
   "elektronik-foto": [],
@@ -411,7 +526,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 0,
-  "categories": 0
+  "observations": 54,
+  "categories": 1
  }
 }
