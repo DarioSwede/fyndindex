@@ -1,21 +1,27 @@
 {
  "version": 1,
- "collectedAt": "2026-11-05T13:10:03.824Z",
+ "collectedAt": "2026-11-06T12:55:34.731Z",
  "markets": [
   "SE"
  ],
  "categories": [
   {
    "categoryId": "glas",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 4,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 4,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -37,15 +43,21 @@
   },
   {
    "categoryId": "antik-design",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 45,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 45,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -142,24 +154,18 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 54,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 54,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": 0,
+   "sources": [],
+   "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": 0
+   "supplyDelta": -1
   },
   {
    "categoryId": "parfym",
@@ -178,15 +184,21 @@
   },
   {
    "categoryId": "hem",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 1,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 1,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -379,7 +391,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44047
+   "ms": 44003
   },
   {
    "id": "myrorna",
@@ -387,59 +399,62 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1557
+   "ms": 1500
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 54,
+   "collected": 50,
    "failed": 0,
-   "ms": 1934
+   "ms": 2005
   }
  ],
  "searchSignals": {},
  "samples": {
-  "glas": [],
+  "glas": [
+   {
+    "title": "carlos pebaque skal charrua gullaskruf 1990",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1742886-carlos-pebaque-skal-charrua-gullaskruf-1990",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "skruf"
+   },
+   {
+    "title": "pietro chiesa vas glas cartoccio q fontana arte italien",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1753762-pietro-chiesa-vas-glas-cartoccio-q-fontana-arte-italien",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "pietro chiesa vas glas cartoccio fontana arte italien",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1753763-pietro-chiesa-vas-glas-cartoccio-fontana-arte-italien",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "gunnel sahlin vas sun vase kosta boda",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1742053-gunnel-sahlin-vas-sun-vase-kosta-boda",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "kosta boda"
+   }
+  ],
   "porslin": [],
-  "antik-design": [],
-  "friluft": [],
-  "damklader": [],
-  "herrklader": [],
-  "barnklader": [],
-  "vaskor": [],
-  "skor": [],
-  "smycken": [
+  "antik-design": [
    {
-    "title": "omega seamaster armbandsur 33 5 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1738600-omega-seamaster-armbandsur-33-5-mm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "omega"
-   },
-   {
-    "title": "omega armbandsur 17 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1736025-omega-armbandsur-17-mm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "omega"
-   },
-   {
-    "title": "omega fickur savonett 52 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1742321-omega-fickur-savonett-52-mm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "omega"
-   },
-   {
-    "title": "must de cartier tank armbandsur 20 5 x 20 28 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1744777-must-de-cartier-tank-armbandsur-20-5-x-20-28-mm",
+    "title": "folkform golvlampa skyline orsjo belysning",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1707265-folkform-golvlampa-skyline-orsjo-belysning",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -447,8 +462,8 @@
     "brand": null
    },
    {
-    "title": "tag heuer carrera calibre 16 kronograf armbandsur 41 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1737366-tag-heuer-carrera-calibre-16-kronograf-armbandsur-41-mm",
+    "title": "gamfratesi soffbord ts gubi danmark 2000 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1731079-gamfratesi-soffbord-ts-gubi-danmark-2000-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -456,8 +471,8 @@
     "brand": null
    },
    {
-    "title": "girard perregaux armbandsur 18k guld 34 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1741915-girard-perregaux-armbandsur-18k-guld-34-mm",
+    "title": "jacques adnet spegel adnet rectangulaire s gubi",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1731763-jacques-adnet-spegel-adnet-rectangulaire-s-gubi",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -465,8 +480,8 @@
     "brand": null
    },
    {
-    "title": "zenith savonett fickur 52 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1746076-zenith-savonett-fickur-52-mm",
+    "title": "thomas sandell vaggskap brollopsskap efter 1990",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1751298-thomas-sandell-vaggskap-brollopsskap-efter-1990",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -474,8 +489,8 @@
     "brand": null
    },
    {
-    "title": "heinz te laake armbandsur 30 x 30 37 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1740906-heinz-te-laake-armbandsur-30-x-30-37-mm",
+    "title": "rodolfo dordoni fatoljer ett par k waiting kartell",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1747683-rodolfo-dordoni-fatoljer-ett-par-k-waiting-kartell",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -483,17 +498,8 @@
     "brand": null
    },
    {
-    "title": "omega fickur 51 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1736646-omega-fickur-51-mm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "omega"
-   },
-   {
-    "title": "iwc vin spritcentralen armbandsur 33 5 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1733974-iwc-vin-spritcentralen-armbandsur-33-5-mm",
+    "title": "jean prouve matbord em table vitra",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1746478-jean-prouve-matbord-em-table-vitra",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -501,8 +507,8 @@
     "brand": null
    },
    {
-    "title": "rolex datejust armbandsur 26 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1739068-rolex-datejust-armbandsur-26-mm",
+    "title": "thomas sandell vaggskap brollopsskap efter 1990",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1747372-thomas-sandell-vaggskap-brollopsskap-efter-1990",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -510,8 +516,44 @@
     "brand": null
    },
    {
-    "title": "piaget armbandsur 19 5 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1750868-piaget-armbandsur-19-5-mm",
+    "title": "jonas bohlin stol sto numrerad 19 70 jonas bohlin design ab stockholm efter 1990",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1747367-jonas-bohlin-stol-sto-numrerad-19-70-jonas-bohlin-design-ab-stockholm-efter-1990",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "paolo piva soffbord alanda b b italia samtida",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1753759-paolo-piva-soffbord-alanda-b-b-italia-samtida",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "mats theselius fatolj aluminiumfatolj kallemo varnamo efter 1990",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1738449-mats-theselius-fatolj-aluminiumfatolj-kallemo-varnamo-efter-1990",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "borge lindau stol prototyp hovding o serie bla station 1987",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1739352-borge-lindau-stol-prototyp-hovding-o-serie-bla-station-1987",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "studio toer taklampa flock of light 21 moooi efter 2020",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1750834-studio-toer-taklampa-flock-of-light-21-moooi-efter-2020",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -519,14 +561,31 @@
     "brand": null
    }
   ],
+  "friluft": [],
+  "damklader": [],
+  "herrklader": [],
+  "barnklader": [],
+  "vaskor": [],
+  "skor": [],
+  "smycken": [],
   "parfym": [],
-  "hem": [],
+  "hem": [
+   {
+    "title": "jonas bohlin vagglampa espresso sent 1900 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1364/lots/1753206-jonas-bohlin-vagglampa-espresso-sent-1900-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
   "elektronik-foto": [],
   "samlarobjekt": [],
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 54,
-  "categories": 1
+  "observations": 50,
+  "categories": 3
  }
 }
