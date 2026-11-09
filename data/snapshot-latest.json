@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-11-08T11:55:27.082Z",
+ "collectedAt": "2026-11-09T13:52:11.433Z",
  "markets": [
   "SE"
  ],
@@ -18,7 +18,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "porslin",
@@ -48,7 +48,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "friluft",
@@ -142,7 +142,7 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 54,
+   "supply": 12,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -153,13 +153,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 54,
+     "supply": 12,
      "withBids": 0
     }
    ],
-   "heatDelta": null,
+   "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -0.7777777777777778
   },
   {
    "categoryId": "parfym",
@@ -189,7 +189,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "elektronik-foto",
@@ -379,7 +379,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44189
+   "ms": 44094
   },
   {
    "id": "myrorna",
@@ -387,15 +387,15 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1411
+   "ms": 1384
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 54,
+   "collected": 12,
    "failed": 0,
-   "ms": 1867
+   "ms": 1686
   }
  ],
  "searchSignals": {},
@@ -411,35 +411,8 @@
   "skor": [],
   "smycken": [
    {
-    "title": "omega seamaster armbandsur 33 5 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1738600-omega-seamaster-armbandsur-33-5-mm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "omega"
-   },
-   {
-    "title": "omega armbandsur 17 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1736025-omega-armbandsur-17-mm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "omega"
-   },
-   {
-    "title": "omega fickur savonett 52 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1742321-omega-fickur-savonett-52-mm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "omega"
-   },
-   {
-    "title": "must de cartier tank armbandsur 20 5 x 20 28 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1744777-must-de-cartier-tank-armbandsur-20-5-x-20-28-mm",
+    "title": "lars larsson co armband 18k guld med froparlor stockholm 1882",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1752489-lars-larsson-co-armband-18k-guld-med-froparlor-stockholm-1882",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -447,8 +420,8 @@
     "brand": null
    },
    {
-    "title": "tag heuer carrera calibre 16 kronograf armbandsur 41 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1737366-tag-heuer-carrera-calibre-16-kronograf-armbandsur-41-mm",
+    "title": "ole lynggard armband i svart lader med tre avtagbara berlocker sweet drops 18k guld och sterlingsilver",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1751938-ole-lynggard-armband-i-svart-lader-med-tre-avtagbara-berlocker-sweet-drops-18k-guld-och-sterlingsilver",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -456,8 +429,8 @@
     "brand": null
    },
    {
-    "title": "girard perregaux armbandsur 18k guld 34 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1741915-girard-perregaux-armbandsur-18k-guld-34-mm",
+    "title": "tennisarmband med briljantslipade diamanter totalt 3 01 ct",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1754999-tennisarmband-med-briljantslipade-diamanter-totalt-3-01-ct",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -465,8 +438,8 @@
     "brand": null
    },
    {
-    "title": "zenith savonett fickur 52 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1746076-zenith-savonett-fickur-52-mm",
+    "title": "armring armbandsur bo dolk 18k vitguld med briljantslipade diamanter 1970 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1701119-armring-armbandsur-bo-dolk-18k-vitguld-med-briljantslipade-diamanter-1970-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -474,8 +447,8 @@
     "brand": null
    },
    {
-    "title": "heinz te laake armbandsur 30 x 30 37 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1740906-heinz-te-laake-armbandsur-30-x-30-37-mm",
+    "title": "karl andersson armband 18k guld med rubiner stockholm omkring ar 1900",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1751323-karl-andersson-armband-18k-guld-med-rubiner-stockholm-omkring-ar-1900",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -483,17 +456,8 @@
     "brand": null
    },
    {
-    "title": "omega fickur 51 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1736646-omega-fickur-51-mm",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "omega"
-   },
-   {
-    "title": "iwc vin spritcentralen armbandsur 33 5 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1733974-iwc-vin-spritcentralen-armbandsur-33-5-mm",
+    "title": "tennisarmband 18k vitguld med runda briljantslipade diamanter",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1701141-tennisarmband-18k-vitguld-med-runda-briljantslipade-diamanter",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -501,8 +465,8 @@
     "brand": null
    },
    {
-    "title": "rolex datejust armbandsur 26 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1739068-rolex-datejust-armbandsur-26-mm",
+    "title": "armband 18k guld satinerat",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1701126-armband-18k-guld-satinerat",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -510,8 +474,44 @@
     "brand": null
    },
    {
-    "title": "piaget armbandsur 19 5 mm",
-    "url": "https://www.bukowskis.com/sv/auctions/F801/lots/1750868-piaget-armbandsur-19-5-mm",
+    "title": "armband 14k vitguld med multifargade turmaliner och briljantslipade diamanter",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1754996-armband-14k-vitguld-med-multifargade-turmaliner-och-briljantslipade-diamanter",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "armband 18k guld med en diamant per borup design danmark",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1732579-armband-18k-guld-med-en-diamant-per-borup-design-danmark",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "bjorn weckstrom armband kaskad 14k guld lapponia 1972",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1750188-bjorn-weckstrom-armband-kaskad-14k-guld-lapponia-1972",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "ole lynggard armband i gratt lader med tre avtagbara berlocker sweet drops 18k guld",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1751937-ole-lynggard-armband-i-gratt-lader-med-tre-avtagbara-berlocker-sweet-drops-18k-guld",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "armband av 14k guld",
+    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1730221-armband-av-14k-guld",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -526,7 +526,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 54,
+  "observations": 12,
   "categories": 1
  }
 }
