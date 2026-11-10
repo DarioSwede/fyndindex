@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-11-09T13:52:11.433Z",
+ "collectedAt": "2026-11-10T13:27:05.423Z",
  "markets": [
   "SE"
  ],
@@ -142,24 +142,18 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 12,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 12,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": 0,
+   "sources": [],
+   "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -0.7777777777777778
+   "supplyDelta": -1
   },
   {
    "categoryId": "parfym",
@@ -379,7 +373,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44094
+   "ms": 43958
   },
   {
    "id": "myrorna",
@@ -387,15 +381,15 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1384
+   "ms": 1458
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 12,
+   "collected": 0,
    "failed": 0,
-   "ms": 1686
+   "ms": 1805
   }
  ],
  "searchSignals": {},
@@ -409,116 +403,7 @@
   "barnklader": [],
   "vaskor": [],
   "skor": [],
-  "smycken": [
-   {
-    "title": "lars larsson co armband 18k guld med froparlor stockholm 1882",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1752489-lars-larsson-co-armband-18k-guld-med-froparlor-stockholm-1882",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "ole lynggard armband i svart lader med tre avtagbara berlocker sweet drops 18k guld och sterlingsilver",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1751938-ole-lynggard-armband-i-svart-lader-med-tre-avtagbara-berlocker-sweet-drops-18k-guld-och-sterlingsilver",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "tennisarmband med briljantslipade diamanter totalt 3 01 ct",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1754999-tennisarmband-med-briljantslipade-diamanter-totalt-3-01-ct",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "armring armbandsur bo dolk 18k vitguld med briljantslipade diamanter 1970 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1701119-armring-armbandsur-bo-dolk-18k-vitguld-med-briljantslipade-diamanter-1970-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "karl andersson armband 18k guld med rubiner stockholm omkring ar 1900",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1751323-karl-andersson-armband-18k-guld-med-rubiner-stockholm-omkring-ar-1900",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "tennisarmband 18k vitguld med runda briljantslipade diamanter",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1701141-tennisarmband-18k-vitguld-med-runda-briljantslipade-diamanter",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "armband 18k guld satinerat",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1701126-armband-18k-guld-satinerat",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "armband 14k vitguld med multifargade turmaliner och briljantslipade diamanter",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1754996-armband-14k-vitguld-med-multifargade-turmaliner-och-briljantslipade-diamanter",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "armband 18k guld med en diamant per borup design danmark",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1732579-armband-18k-guld-med-en-diamant-per-borup-design-danmark",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "bjorn weckstrom armband kaskad 14k guld lapponia 1972",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1750188-bjorn-weckstrom-armband-kaskad-14k-guld-lapponia-1972",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "ole lynggard armband i gratt lader med tre avtagbara berlocker sweet drops 18k guld",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1751937-ole-lynggard-armband-i-gratt-lader-med-tre-avtagbara-berlocker-sweet-drops-18k-guld",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "armband av 14k guld",
-    "url": "https://www.bukowskis.com/sv/auctions/F910/lots/1730221-armband-av-14k-guld",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   }
-  ],
+  "smycken": [],
   "parfym": [],
   "hem": [],
   "elektronik-foto": [],
@@ -526,7 +411,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 12,
-  "categories": 1
+  "observations": 0,
+  "categories": 0
  }
 }
