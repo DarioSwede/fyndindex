@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-11-10T13:27:05.423Z",
+ "collectedAt": "2026-11-11T12:41:57.772Z",
  "markets": [
   "SE"
  ],
@@ -153,7 +153,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "parfym",
@@ -373,7 +373,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 43958
+   "ms": 44129
   },
   {
    "id": "myrorna",
@@ -381,7 +381,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1458
+   "ms": 1492
   },
   {
    "id": "bukowskis",
@@ -389,7 +389,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1805
+   "ms": 2016
   }
  ],
  "searchSignals": {},
