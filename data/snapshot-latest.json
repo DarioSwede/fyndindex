@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-11-13T13:04:19.921Z",
+ "collectedAt": "2026-11-14T12:09:09.242Z",
  "markets": [
   "SE"
  ],
@@ -18,7 +18,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "porslin",
@@ -48,7 +48,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "friluft",
@@ -183,7 +183,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "elektronik-foto",
@@ -373,7 +373,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44003
+   "ms": 43971
   },
   {
    "id": "myrorna",
@@ -381,7 +381,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1473
+   "ms": 1462
   },
   {
    "id": "bukowskis",
@@ -389,7 +389,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1838
+   "ms": 1825
   }
  ],
  "searchSignals": {},
