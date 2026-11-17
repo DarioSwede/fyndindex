@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-11-16T13:36:35.948Z",
+ "collectedAt": "2026-11-17T14:20:53.533Z",
  "markets": [
   "SE"
  ],
@@ -22,6 +22,27 @@
   },
   {
    "categoryId": "porslin",
+   "supply": 1,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 1,
+     "withBids": 0
+    }
+   ],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": null
+  },
+  {
+   "categoryId": "antik-design",
    "supply": 0,
    "heat": null,
    "bidRate": null,
@@ -33,28 +54,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
-  },
-  {
-   "categoryId": "antik-design",
-   "supply": 28,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 28,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": null,
-   "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -1
   },
   {
    "categoryId": "friluft",
@@ -148,15 +148,21 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 3,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 3,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -178,24 +184,18 @@
   },
   {
    "categoryId": "hem",
-   "supply": 2,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 2,
-     "withBids": 0
-    }
-   ],
+   "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -1
   },
   {
    "categoryId": "elektronik-foto",
@@ -385,7 +385,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 43965
+   "ms": 44027
   },
   {
    "id": "myrorna",
@@ -393,143 +393,42 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1476
+   "ms": 1343
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 30,
+   "collected": 4,
    "failed": 0,
-   "ms": 1990
+   "ms": 1729
   }
  ],
  "searchSignals": {},
  "samples": {
   "glas": [],
-  "porslin": [],
-  "antik-design": [
+  "porslin": [
    {
-    "title": "spegellampett for tva ljus sverige omkring ar 1800 sengustaviansk",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1756498-spegellampett-for-tva-ljus-sverige-omkring-ar-1800-sengustaviansk",
+    "title": "wilhelm kage skal argenta modell 996 gustavsberg",
+    "url": "https://www.bukowskis.com/sv/auctions/F913/lots/1757498-wilhelm-kage-skal-argenta-modell-996-gustavsberg",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "karmstol stockholmsarbete 1700 talets mitt rokoko",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1736597-karmstol-stockholmsarbete-1700-talets-mitt-rokoko",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "spegellampett for tva ljus sent 1700 tal gustaviansk",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1753153-spegellampett-for-tva-ljus-sent-1700-tal-gustaviansk",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "skap sverige rokoko 1700 talets senare del",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1753955-skap-sverige-rokoko-1700-talets-senare-del",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "spegellampetter ett par gustaviansk stil 1800 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1734410-spegellampetter-ett-par-gustaviansk-stil-1800-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "byra troligen nordtyskland 1700 talets forsta halft senbarock",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1752197-byra-troligen-nordtyskland-1700-talets-forsta-halft-senbarock",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "stol sverige 1700 talets mitt senbarock",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1757995-stol-sverige-1700-talets-mitt-senbarock",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "stolar fyra stycken omkring ar 1900 sengustaviansk stil",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1757179-stolar-fyra-stycken-omkring-ar-1900-sengustaviansk-stil",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "stol barock 1700 talets forsta halft",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1739236-stol-barock-1700-talets-forsta-halft",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "byra tillskriven jonas hultsten mastare i stockholm 1773 94 gustaviansk",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1732935-byra-tillskriven-jonas-hultsten-mastare-i-stockholm-1773-94-gustaviansk",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "stolar ett par rokokostil 1900 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1735914-stolar-ett-par-rokokostil-1900-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "skap sverige fredrik i s tid 1700 talets forsta halft senbarock",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1757304-skap-sverige-fredrik-i-s-tid-1700-talets-forsta-halft-senbarock",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
+    "brand": "gustavsberg"
    }
   ],
+  "antik-design": [],
   "friluft": [],
   "damklader": [],
   "herrklader": [],
   "barnklader": [],
   "vaskor": [],
   "skor": [],
-  "smycken": [],
-  "parfym": [],
-  "hem": [
+  "smycken": [
    {
-    "title": "ljusstake stockholmsarbete fredrik ludvig rungs art 1700 talets slut sengustaviansk",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1752390-ljusstake-stockholmsarbete-fredrik-ludvig-rungs-art-1700-talets-slut-sengustaviansk",
+    "title": "fickur silver london 1700 talets mitt rokoko",
+    "url": "https://www.bukowskis.com/sv/auctions/F913/lots/1720337-fickur-silver-london-1700-talets-mitt-rokoko",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -537,8 +436,17 @@
     "brand": null
    },
    {
-    "title": "adventsljusstake juleboda munka",
-    "url": "https://www.bukowskis.com/sv/auctions/E1452/lots/1757119-adventsljusstake-juleboda-munka",
+    "title": "fickur med slagverk silver berjot a paris 1800 talets forsta halft",
+    "url": "https://www.bukowskis.com/sv/auctions/F913/lots/1750889-fickur-med-slagverk-silver-berjot-a-paris-1800-talets-forsta-halft",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "fickur zenith silver",
+    "url": "https://www.bukowskis.com/sv/auctions/F913/lots/1739241-fickur-zenith-silver",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -546,12 +454,14 @@
     "brand": null
    }
   ],
+  "parfym": [],
+  "hem": [],
   "elektronik-foto": [],
   "samlarobjekt": [],
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 30,
+  "observations": 4,
   "categories": 2
  }
 }
