@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-11-17T14:20:53.533Z",
+ "collectedAt": "2026-11-18T13:55:21.613Z",
  "markets": [
   "SE"
  ],
@@ -37,24 +37,30 @@
      "withBids": 0
     }
    ],
-   "heatDelta": null,
+   "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": 0
   },
   {
    "categoryId": "antik-design",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 1,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 1,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "friluft",
@@ -88,15 +94,21 @@
   },
   {
    "categoryId": "herrklader",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 1,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 1,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -148,24 +160,18 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 3,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 3,
-     "withBids": 0
-    }
-   ],
+   "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -1
   },
   {
    "categoryId": "parfym",
@@ -195,7 +201,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "elektronik-foto",
@@ -229,15 +235,21 @@
   },
   {
    "categoryId": "bocker-film-spel",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 1,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 1,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -385,7 +397,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44027
+   "ms": 44120
   },
   {
    "id": "myrorna",
@@ -393,7 +405,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1343
+   "ms": 1492
   },
   {
    "id": "bukowskis",
@@ -401,7 +413,7 @@
    "market": "SE",
    "collected": 4,
    "failed": 0,
-   "ms": 1729
+   "ms": 2134
   }
  ],
  "searchSignals": {},
@@ -409,59 +421,61 @@
   "glas": [],
   "porslin": [
    {
-    "title": "wilhelm kage skal argenta modell 996 gustavsberg",
-    "url": "https://www.bukowskis.com/sv/auctions/F913/lots/1757498-wilhelm-kage-skal-argenta-modell-996-gustavsberg",
+    "title": "sakeflaska tokkuri glaserat stengods japan showa 1926 1989",
+    "url": "https://www.bukowskis.com/sv/auctions/F848/lots/1731413-sakeflaska-tokkuri-glaserat-stengods-japan-showa-1926-1989",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
-    "brand": "gustavsberg"
+    "brand": null
    }
   ],
-  "antik-design": [],
+  "antik-design": [
+   {
+    "title": "golvlampa brons japan meiji",
+    "url": "https://www.bukowskis.com/sv/auctions/F848/lots/1741177-golvlampa-brons-japan-meiji",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
   "friluft": [],
   "damklader": [],
-  "herrklader": [],
+  "herrklader": [
+   {
+    "title": "utagawa hiroshige 1797 1858 utagawa kunisada 1786 1864 elegant genji at the salt kilns at suma",
+    "url": "https://www.bukowskis.com/sv/auctions/F848/lots/1754854-utagawa-hiroshige-1797-1858-utagawa-kunisada-1786-1864-elegant-genji-at-the-salt-kilns-at-suma",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "gant"
+   }
+  ],
   "barnklader": [],
   "vaskor": [],
   "skor": [],
-  "smycken": [
-   {
-    "title": "fickur silver london 1700 talets mitt rokoko",
-    "url": "https://www.bukowskis.com/sv/auctions/F913/lots/1720337-fickur-silver-london-1700-talets-mitt-rokoko",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "fickur med slagverk silver berjot a paris 1800 talets forsta halft",
-    "url": "https://www.bukowskis.com/sv/auctions/F913/lots/1750889-fickur-med-slagverk-silver-berjot-a-paris-1800-talets-forsta-halft",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "fickur zenith silver",
-    "url": "https://www.bukowskis.com/sv/auctions/F913/lots/1739241-fickur-zenith-silver",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   }
-  ],
+  "smycken": [],
   "parfym": [],
   "hem": [],
   "elektronik-foto": [],
   "samlarobjekt": [],
-  "bocker-film-spel": []
+  "bocker-film-spel": [
+   {
+    "title": "utagawa toyokuni i kabukiskadespelaren segawa roko i rollen som otori 1800 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/F848/lots/1757700-utagawa-toyokuni-i-kabukiskadespelaren-segawa-roko-i-rollen-som-otori-1800-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "sega"
+   }
+  ]
  },
  "counts": {
   "observations": 4,
-  "categories": 2
+  "categories": 4
  }
 }
