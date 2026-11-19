@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-11-18T13:55:21.613Z",
+ "collectedAt": "2026-11-19T14:24:09.432Z",
  "markets": [
   "SE"
  ],
@@ -22,7 +22,22 @@
   },
   {
    "categoryId": "porslin",
-   "supply": 1,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": -1
+  },
+  {
+   "categoryId": "antik-design",
+   "supply": 18,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -33,34 +48,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 1,
+     "supply": 18,
      "withBids": 0
     }
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": 0
-  },
-  {
-   "categoryId": "antik-design",
-   "supply": 1,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 1,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": null,
-   "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": 17
   },
   {
    "categoryId": "friluft",
@@ -94,24 +88,18 @@
   },
   {
    "categoryId": "herrklader",
-   "supply": 1,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 1,
-     "withBids": 0
-    }
-   ],
+   "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -1
   },
   {
    "categoryId": "barnklader",
@@ -171,7 +159,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "parfym",
@@ -190,15 +178,21 @@
   },
   {
    "categoryId": "hem",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 1,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 1,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -220,21 +214,6 @@
   },
   {
    "categoryId": "samlarobjekt",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [],
-   "heatDelta": null,
-   "priceDelta": null,
-   "supplyDelta": null
-  },
-  {
-   "categoryId": "bocker-film-spel",
    "supply": 1,
    "heat": 0,
    "bidRate": 0,
@@ -253,6 +232,21 @@
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
+  },
+  {
+   "categoryId": "bocker-film-spel",
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": -1
   }
  ],
  "movers": [],
@@ -397,7 +391,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44120
+   "ms": 46853
   },
   {
    "id": "myrorna",
@@ -405,35 +399,124 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1492
+   "ms": 1357
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 4,
+   "collected": 20,
    "failed": 0,
-   "ms": 2134
+   "ms": 1835
   }
  ],
  "searchSignals": {},
  "samples": {
   "glas": [],
-  "porslin": [
+  "porslin": [],
+  "antik-design": [
    {
-    "title": "sakeflaska tokkuri glaserat stengods japan showa 1926 1989",
-    "url": "https://www.bukowskis.com/sv/auctions/F848/lots/1731413-sakeflaska-tokkuri-glaserat-stengods-japan-showa-1926-1989",
+    "title": "bordslampa italien 1900 talets slut",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1748860-bordslampa-italien-1900-talets-slut",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
     "brand": null
-   }
-  ],
-  "antik-design": [
+   },
    {
-    "title": "golvlampa brons japan meiji",
-    "url": "https://www.bukowskis.com/sv/auctions/F848/lots/1741177-golvlampa-brons-japan-meiji",
+    "title": "spegelsskap sminkskap italien 1900 talets slut",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1753539-spegelsskap-sminkskap-italien-1900-talets-slut",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "bordslampa murano italien 1900 talets senare halft",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1753535-bordslampa-murano-italien-1900-talets-senare-halft",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "barbeiri marianelli bordslampa bikini tronconi italien 1980 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1748151-barbeiri-marianelli-bordslampa-bikini-tronconi-italien-1980-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "ferruccio laviani bordslampa bourgie kartell italien",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1743780-ferruccio-laviani-bordslampa-bourgie-kartell-italien",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "bordslampa italien 1900 talets slut",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1748874-bordslampa-italien-1900-talets-slut",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "paola navone fatolj ghost 04 gervasoni italien omkring 2000",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1750409-paola-navone-fatolj-ghost-04-gervasoni-italien-omkring-2000",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "achille pier giacomo castiglioni bordslampa snoopy flos limited edition 50 ars jubileum italien 2017",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1759119-achille-pier-giacomo-castiglioni-bordslampa-snoopy-flos-limited-edition-50-ars-jubileum-italien-2017",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "tito agnoli fatoljer 3 st korium for matteo grassi italien 1900 talets andra halft",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1755516-tito-agnoli-fatoljer-3-st-korium-for-matteo-grassi-italien-1900-talets-andra-halft",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "isao hosoe bordslampa for luxo italien",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1753530-isao-hosoe-bordslampa-for-luxo-italien",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "giancarlo piretti fallstol plia for castelli italien formgivna 1967",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1753543-giancarlo-piretti-fallstol-plia-for-castelli-italien-formgivna-1967",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "gae aulenti bordslampa pipistrello martinelli luce italien modellen formgiven 1965",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1743782-gae-aulenti-bordslampa-pipistrello-martinelli-luce-italien-modellen-formgiven-1965",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -443,39 +526,39 @@
   ],
   "friluft": [],
   "damklader": [],
-  "herrklader": [
-   {
-    "title": "utagawa hiroshige 1797 1858 utagawa kunisada 1786 1864 elegant genji at the salt kilns at suma",
-    "url": "https://www.bukowskis.com/sv/auctions/F848/lots/1754854-utagawa-hiroshige-1797-1858-utagawa-kunisada-1786-1864-elegant-genji-at-the-salt-kilns-at-suma",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gant"
-   }
-  ],
+  "herrklader": [],
   "barnklader": [],
   "vaskor": [],
   "skor": [],
   "smycken": [],
   "parfym": [],
-  "hem": [],
-  "elektronik-foto": [],
-  "samlarobjekt": [],
-  "bocker-film-spel": [
+  "hem": [
    {
-    "title": "utagawa toyokuni i kabukiskadespelaren segawa roko i rollen som otori 1800 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/F848/lots/1757700-utagawa-toyokuni-i-kabukiskadespelaren-segawa-roko-i-rollen-som-otori-1800-tal",
+    "title": "enzo catellani vagglampa luna piena catellani smith italien 2000 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1747495-enzo-catellani-vagglampa-luna-piena-catellani-smith-italien-2000-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
     "imageUrl": null,
-    "brand": "sega"
+    "brand": null
    }
-  ]
+  ],
+  "elektronik-foto": [],
+  "samlarobjekt": [
+   {
+    "title": "brioni",
+    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1754804-brioni",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "brio"
+   }
+  ],
+  "bocker-film-spel": []
  },
  "counts": {
-  "observations": 4,
-  "categories": 4
+  "observations": 20,
+  "categories": 3
  }
 }
