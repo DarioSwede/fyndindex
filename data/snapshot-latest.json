@@ -1,43 +1,13 @@
 {
  "version": 1,
- "collectedAt": "2026-11-19T14:24:09.432Z",
+ "collectedAt": "2026-11-20T13:59:14.595Z",
  "markets": [
   "SE"
  ],
  "categories": [
   {
    "categoryId": "glas",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [],
-   "heatDelta": null,
-   "priceDelta": null,
-   "supplyDelta": null
-  },
-  {
-   "categoryId": "porslin",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [],
-   "heatDelta": null,
-   "priceDelta": null,
-   "supplyDelta": -1
-  },
-  {
-   "categoryId": "antik-design",
-   "supply": 18,
+   "supply": 1,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -48,13 +18,55 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 18,
+     "supply": 1,
+     "withBids": 0
+    }
+   ],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": null
+  },
+  {
+   "categoryId": "porslin",
+   "supply": 6,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 6,
+     "withBids": 0
+    }
+   ],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": null
+  },
+  {
+   "categoryId": "antik-design",
+   "supply": 16,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 16,
      "withBids": 0
     }
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": 17
+   "supplyDelta": -0.1111111111111111
   },
   {
    "categoryId": "friluft",
@@ -99,7 +111,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "barnklader",
@@ -178,24 +190,18 @@
   },
   {
    "categoryId": "hem",
-   "supply": 1,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 1,
-     "withBids": 0
-    }
-   ],
+   "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -1
   },
   {
    "categoryId": "elektronik-foto",
@@ -214,24 +220,18 @@
   },
   {
    "categoryId": "samlarobjekt",
-   "supply": 1,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 1,
-     "withBids": 0
-    }
-   ],
+   "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -1
   },
   {
    "categoryId": "bocker-film-spel",
@@ -246,7 +246,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   }
  ],
  "movers": [],
@@ -391,7 +391,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 46853
+   "ms": 44103
   },
   {
    "id": "myrorna",
@@ -399,25 +399,90 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1357
+   "ms": 1506
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 20,
+   "collected": 23,
    "failed": 0,
-   "ms": 1835
+   "ms": 2089
   }
  ],
  "searchSignals": {},
  "samples": {
-  "glas": [],
-  "porslin": [],
+  "glas": [
+   {
+    "title": "karaffer 2 st 1800 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744116-karaffer-2-st-1800-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
+  "porslin": [
+   {
+    "title": "gustavsberg jardiniere 1904",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744090-gustavsberg-jardiniere-1904",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "gustavsberg"
+   },
+   {
+    "title": "tallrikar 8 st ryssland omkring 1800",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744086-tallrikar-8-st-ryssland-omkring-1800",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "tyra lundgren vas arabia lidkoping 1920 30 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1752072-tyra-lundgren-vas-arabia-lidkoping-1920-30-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "arabia"
+   },
+   {
+    "title": "karott med lock nysilver ag dufva omkring ar 1900",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743878-karott-med-lock-nysilver-ag-dufva-omkring-ar-1900",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "meissen figuriner 3 st bland annat meissen tyskland 1800 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743819-meissen-figuriner-3-st-bland-annat-meissen-tyskland-1800-tal",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "kaffeservis 15 delar mestadels limoges frankrike 1800 talets andra halft",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744122-kaffeservis-15-delar-mestadels-limoges-frankrike-1800-talets-andra-halft",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
   "antik-design": [
    {
-    "title": "bordslampa italien 1900 talets slut",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1748860-bordslampa-italien-1900-talets-slut",
+    "title": "slaglaspistol signerad baloche a paris 1750 70",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1757845-slaglaspistol-signerad-baloche-a-paris-1750-70",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -425,8 +490,8 @@
     "brand": null
    },
    {
-    "title": "spegelsskap sminkskap italien 1900 talets slut",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1753539-spegelsskap-sminkskap-italien-1900-talets-slut",
+    "title": "spegel sydeuropeisk 1700 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743855-spegel-sydeuropeisk-1700-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -434,8 +499,8 @@
     "brand": null
    },
    {
-    "title": "bordslampa murano italien 1900 talets senare halft",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1753535-bordslampa-murano-italien-1900-talets-senare-halft",
+    "title": "karmstolar ett par directoire frankrike sent 1700 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743989-karmstolar-ett-par-directoire-frankrike-sent-1700-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -443,8 +508,8 @@
     "brand": null
    },
    {
-    "title": "barbeiri marianelli bordslampa bikini tronconi italien 1980 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1748151-barbeiri-marianelli-bordslampa-bikini-tronconi-italien-1980-tal",
+    "title": "karmstolar ett par directoire frankrike sent 1700 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743991-karmstolar-ett-par-directoire-frankrike-sent-1700-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -452,8 +517,8 @@
     "brand": null
    },
    {
-    "title": "ferruccio laviani bordslampa bourgie kartell italien",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1743780-ferruccio-laviani-bordslampa-bourgie-kartell-italien",
+    "title": "axel larsson byra bodafors 1959",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743917-axel-larsson-byra-bodafors-1959",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -461,8 +526,8 @@
     "brand": null
    },
    {
-    "title": "bordslampa italien 1900 talets slut",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1748874-bordslampa-italien-1900-talets-slut",
+    "title": "stolar 4 st funkis gemla fabrikers ab dio 1930 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744075-stolar-4-st-funkis-gemla-fabrikers-ab-dio-1930-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -470,8 +535,8 @@
     "brand": null
    },
    {
-    "title": "paola navone fatolj ghost 04 gervasoni italien omkring 2000",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1750409-paola-navone-fatolj-ghost-04-gervasoni-italien-omkring-2000",
+    "title": "skap barock omkring ar 1700",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743729-skap-barock-omkring-ar-1700",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -479,8 +544,8 @@
     "brand": null
    },
    {
-    "title": "achille pier giacomo castiglioni bordslampa snoopy flos limited edition 50 ars jubileum italien 2017",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1759119-achille-pier-giacomo-castiglioni-bordslampa-snoopy-flos-limited-edition-50-ars-jubileum-italien-2017",
+    "title": "karmstol senbarock 1700 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743907-karmstol-senbarock-1700-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -488,8 +553,8 @@
     "brand": null
    },
    {
-    "title": "tito agnoli fatoljer 3 st korium for matteo grassi italien 1900 talets andra halft",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1755516-tito-agnoli-fatoljer-3-st-korium-for-matteo-grassi-italien-1900-talets-andra-halft",
+    "title": "handspegel och fyra borstar silver tidigt 1900 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743884-handspegel-och-fyra-borstar-silver-tidigt-1900-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -497,8 +562,8 @@
     "brand": null
    },
    {
-    "title": "isao hosoe bordslampa for luxo italien",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1753530-isao-hosoe-bordslampa-for-luxo-italien",
+    "title": "kabinettskap barockstil 1800 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743916-kabinettskap-barockstil-1800-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -506,8 +571,8 @@
     "brand": null
    },
    {
-    "title": "giancarlo piretti fallstol plia for castelli italien formgivna 1967",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1753543-giancarlo-piretti-fallstol-plia-for-castelli-italien-formgivna-1967",
+    "title": "okand konstnar kustlandskap 1700 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743947-okand-konstnar-kustlandskap-1700-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -515,8 +580,8 @@
     "brand": null
    },
    {
-    "title": "gae aulenti bordslampa pipistrello martinelli luce italien modellen formgiven 1965",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1743782-gae-aulenti-bordslampa-pipistrello-martinelli-luce-italien-modellen-formgiven-1965",
+    "title": "stol senbarock 1700 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743906-stol-senbarock-1700-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -532,33 +597,13 @@
   "skor": [],
   "smycken": [],
   "parfym": [],
-  "hem": [
-   {
-    "title": "enzo catellani vagglampa luna piena catellani smith italien 2000 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1747495-enzo-catellani-vagglampa-luna-piena-catellani-smith-italien-2000-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   }
-  ],
+  "hem": [],
   "elektronik-foto": [],
-  "samlarobjekt": [
-   {
-    "title": "brioni",
-    "url": "https://www.bukowskis.com/sv/auctions/E1461/lots/1754804-brioni",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "brio"
-   }
-  ],
+  "samlarobjekt": [],
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 20,
+  "observations": 23,
   "categories": 3
  }
 }
