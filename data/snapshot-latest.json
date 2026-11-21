@@ -1,34 +1,28 @@
 {
  "version": 1,
- "collectedAt": "2026-11-20T13:59:14.595Z",
+ "collectedAt": "2026-11-21T13:27:01.812Z",
  "markets": [
   "SE"
  ],
  "categories": [
   {
    "categoryId": "glas",
-   "supply": 1,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 1,
-     "withBids": 0
-    }
-   ],
+   "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
+   "supplyDelta": -1
   },
   {
    "categoryId": "porslin",
-   "supply": 6,
+   "supply": 3,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -39,34 +33,34 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 6,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": null,
-   "priceDelta": null,
-   "supplyDelta": null
-  },
-  {
-   "categoryId": "antik-design",
-   "supply": 16,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 16,
+     "supply": 3,
      "withBids": 0
     }
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": -0.1111111111111111
+   "supplyDelta": -0.5
+  },
+  {
+   "categoryId": "antik-design",
+   "supply": 7,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 7,
+     "withBids": 0
+    }
+   ],
+   "heatDelta": 0,
+   "priceDelta": null,
+   "supplyDelta": -0.5625
   },
   {
    "categoryId": "friluft",
@@ -160,15 +154,21 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 0,
-   "heat": null,
-   "bidRate": null,
-   "weightedBidRate": null,
+   "supply": 10,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [],
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 10,
+     "withBids": 0
+    }
+   ],
    "heatDelta": null,
    "priceDelta": null,
    "supplyDelta": null
@@ -201,7 +201,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "elektronik-foto",
@@ -231,7 +231,7 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": -1
+   "supplyDelta": null
   },
   {
    "categoryId": "bocker-film-spel",
@@ -391,7 +391,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44103
+   "ms": 44261
   },
   {
    "id": "myrorna",
@@ -399,43 +399,24 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1506
+   "ms": 1235
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 23,
+   "collected": 20,
    "failed": 0,
-   "ms": 2089
+   "ms": 2087
   }
  ],
  "searchSignals": {},
  "samples": {
-  "glas": [
-   {
-    "title": "karaffer 2 st 1800 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744116-karaffer-2-st-1800-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   }
-  ],
+  "glas": [],
   "porslin": [
    {
-    "title": "gustavsberg jardiniere 1904",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744090-gustavsberg-jardiniere-1904",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "gustavsberg"
-   },
-   {
-    "title": "tallrikar 8 st ryssland omkring 1800",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744086-tallrikar-8-st-ryssland-omkring-1800",
+    "title": "tallrik sankt george ordens servis alexander iii s tid 1881 1894 kejserliga porslinsmanufakturen st petersburg",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1757541-tallrik-sankt-george-ordens-servis-alexander-iii-s-tid-1881-1894-kejserliga-porslinsmanufakturen-st-petersburg",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -443,17 +424,8 @@
     "brand": null
    },
    {
-    "title": "tyra lundgren vas arabia lidkoping 1920 30 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1752072-tyra-lundgren-vas-arabia-lidkoping-1920-30-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": "arabia"
-   },
-   {
-    "title": "karott med lock nysilver ag dufva omkring ar 1900",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743878-karott-med-lock-nysilver-ag-dufva-omkring-ar-1900",
+    "title": "carl palm te och kaffeservis 4 delar silver s t petersburg 1840",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1735989-carl-palm-te-och-kaffeservis-4-delar-silver-s-t-petersburg-1840",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -461,17 +433,8 @@
     "brand": null
    },
    {
-    "title": "meissen figuriner 3 st bland annat meissen tyskland 1800 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743819-meissen-figuriner-3-st-bland-annat-meissen-tyskland-1800-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "kaffeservis 15 delar mestadels limoges frankrike 1800 talets andra halft",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744122-kaffeservis-15-delar-mestadels-limoges-frankrike-1800-talets-andra-halft",
+    "title": "tallrik st andreas servisen kejserliga porslinsmanufakturen alexander ii s tid st petersburg 1855 1881",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1757536-tallrik-st-andreas-servisen-kejserliga-porslinsmanufakturen-alexander-ii-s-tid-st-petersburg-1855-1881",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -481,8 +444,8 @@
   ],
   "antik-design": [
    {
-    "title": "slaglaspistol signerad baloche a paris 1750 70",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1757845-slaglaspistol-signerad-baloche-a-paris-1750-70",
+    "title": "veikko marttinen landskap med hus",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1750397-veikko-marttinen-landskap-med-hus",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -490,8 +453,8 @@
     "brand": null
    },
    {
-    "title": "spegel sydeuropeisk 1700 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743855-spegel-sydeuropeisk-1700-tal",
+    "title": "pottskap 1700 talets slut sengustavianskt",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1754049-pottskap-1700-talets-slut-sengustavianskt",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -499,8 +462,8 @@
     "brand": null
    },
    {
-    "title": "karmstolar ett par directoire frankrike sent 1700 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743989-karmstolar-ett-par-directoire-frankrike-sent-1700-tal",
+    "title": "tove jansson landskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1748081-tove-jansson-landskap",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -508,8 +471,8 @@
     "brand": null
    },
    {
-    "title": "karmstolar ett par directoire frankrike sent 1700 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743991-karmstolar-ett-par-directoire-frankrike-sent-1700-tal",
+    "title": "juho kyyhkynen forslandskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1756424-juho-kyyhkynen-forslandskap",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -517,8 +480,8 @@
     "brand": null
    },
    {
-    "title": "axel larsson byra bodafors 1959",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743917-axel-larsson-byra-bodafors-1959",
+    "title": "akseli gallen kallela sommarlandskap fran ruovesi",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1743121-akseli-gallen-kallela-sommarlandskap-fran-ruovesi",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -526,8 +489,8 @@
     "brand": null
    },
    {
-    "title": "stolar 4 st funkis gemla fabrikers ab dio 1930 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1744075-stolar-4-st-funkis-gemla-fabrikers-ab-dio-1930-tal",
+    "title": "byra 1700 talets senare halft rokoko",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1758789-byra-1700-talets-senare-halft-rokoko",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -535,53 +498,8 @@
     "brand": null
    },
    {
-    "title": "skap barock omkring ar 1700",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743729-skap-barock-omkring-ar-1700",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "karmstol senbarock 1700 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743907-karmstol-senbarock-1700-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "handspegel och fyra borstar silver tidigt 1900 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743884-handspegel-och-fyra-borstar-silver-tidigt-1900-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "kabinettskap barockstil 1800 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743916-kabinettskap-barockstil-1800-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "okand konstnar kustlandskap 1700 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743947-okand-konstnar-kustlandskap-1700-tal",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "stol senbarock 1700 tal",
-    "url": "https://www.bukowskis.com/sv/auctions/E1446/lots/1743906-stol-senbarock-1700-tal",
+    "title": "fanny churberg angslandskap",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1740531-fanny-churberg-angslandskap",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -595,7 +513,98 @@
   "barnklader": [],
   "vaskor": [],
   "skor": [],
-  "smycken": [],
+  "smycken": [
+   {
+    "title": "clips brosch diamanter 18k vitguld hovjuvelerare friedlander berlin 1900 talets borjan",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1754812-clips-brosch-diamanter-18k-vitguld-hovjuvelerare-friedlander-berlin-1900-talets-borjan",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "armband gammal och rosenslipade diamanter 14k 56 guld st petersburg 1882 1899",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1743951-armband-gammal-och-rosenslipade-diamanter-14k-56-guld-st-petersburg-1882-1899",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "armband parlor diamanter platina a tillander helsingfors",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1738400-armband-parlor-diamanter-platina-a-tillander-helsingfors",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "tiffany co halsband tiffany keys platina kuddslipad gul diamant briljantslipade diamanter",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1742836-tiffany-co-halsband-tiffany-keys-platina-kuddslipad-gul-diamant-briljantslipade-diamanter",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "smyckesset 3 delar brosch hange och orhangen parlor 14k guld tillander helsingfors 1968",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1741194-smyckesset-3-delar-brosch-hange-och-orhangen-parlor-14k-guld-tillander-helsingfors-1968",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "armband flatat av 18k guldtrad italien",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1723313-armband-flatat-av-18k-guldtrad-italien",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "cartier armband 8 de cartier briljantslipade diamanter 18k vitguld 2001",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1741577-cartier-armband-8-de-cartier-briljantslipade-diamanter-18k-vitguld-2001",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "cartier brosch fyrklover gron emalj rosenslipade diamanter 18k guld frankrike",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1757514-cartier-brosch-fyrklover-gron-emalj-rosenslipade-diamanter-18k-guld-frankrike",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "armband 18k guld emalj italien",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1738409-armband-18k-guld-emalj-italien",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "armband briljantslipade diamanter 18k vitguld timanttikoru helsingfors 1967",
+    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1757515-armband-briljantslipade-diamanter-18k-vitguld-timanttikoru-helsingfors-1967",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   }
+  ],
   "parfym": [],
   "hem": [],
   "elektronik-foto": [],
@@ -603,7 +612,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 23,
+  "observations": 20,
   "categories": 3
  }
 }
