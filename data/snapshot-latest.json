@@ -1,6 +1,6 @@
 {
  "version": 1,
- "collectedAt": "2026-11-23T15:55:58.630Z",
+ "collectedAt": "2026-11-24T15:50:54.305Z",
  "markets": [
   "SE"
  ],
@@ -391,7 +391,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44066
+   "ms": 44099
   },
   {
    "id": "myrorna",
@@ -399,7 +399,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1393
+   "ms": 1396
   },
   {
    "id": "bukowskis",
@@ -407,7 +407,7 @@
    "market": "SE",
    "collected": 20,
    "failed": 0,
-   "ms": 2104
+   "ms": 2549
   }
  ],
  "searchSignals": {},
