@@ -1,12 +1,33 @@
 {
  "version": 1,
- "collectedAt": "2026-11-25T15:33:38.061Z",
+ "collectedAt": "2026-11-26T15:08:53.252Z",
  "markets": [
   "SE"
  ],
  "categories": [
   {
    "categoryId": "glas",
+   "supply": 4,
+   "heat": 0,
+   "bidRate": 0,
+   "weightedBidRate": 0,
+   "priceMedian": null,
+   "priceP10": null,
+   "priceP90": null,
+   "searchInterest": null,
+   "sources": [
+    {
+     "source": "bukowskis",
+     "supply": 4,
+     "withBids": 0
+    }
+   ],
+   "heatDelta": null,
+   "priceDelta": null,
+   "supplyDelta": null
+  },
+  {
+   "categoryId": "porslin",
    "supply": 0,
    "heat": null,
    "bidRate": null,
@@ -18,49 +39,22 @@
    "sources": [],
    "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": null
-  },
-  {
-   "categoryId": "porslin",
-   "supply": 3,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
-   "priceMedian": null,
-   "priceP10": null,
-   "priceP90": null,
-   "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 3,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": 0,
-   "priceDelta": null,
-   "supplyDelta": 0
+   "supplyDelta": -1
   },
   {
    "categoryId": "antik-design",
-   "supply": 7,
-   "heat": 0,
-   "bidRate": 0,
-   "weightedBidRate": 0,
+   "supply": 0,
+   "heat": null,
+   "bidRate": null,
+   "weightedBidRate": null,
    "priceMedian": null,
    "priceP10": null,
    "priceP90": null,
    "searchInterest": null,
-   "sources": [
-    {
-     "source": "bukowskis",
-     "supply": 7,
-     "withBids": 0
-    }
-   ],
-   "heatDelta": 0,
+   "sources": [],
+   "heatDelta": null,
    "priceDelta": null,
-   "supplyDelta": 0
+   "supplyDelta": -1
   },
   {
    "categoryId": "friluft",
@@ -154,7 +148,7 @@
   },
   {
    "categoryId": "smycken",
-   "supply": 10,
+   "supply": 46,
    "heat": 0,
    "bidRate": 0,
    "weightedBidRate": 0,
@@ -165,13 +159,13 @@
    "sources": [
     {
      "source": "bukowskis",
-     "supply": 10,
+     "supply": 46,
      "withBids": 0
     }
    ],
    "heatDelta": 0,
    "priceDelta": null,
-   "supplyDelta": 0
+   "supplyDelta": 3.6
   },
   {
    "categoryId": "parfym",
@@ -391,7 +385,7 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 44096
+   "ms": 44243
   },
   {
    "id": "myrorna",
@@ -399,24 +393,23 @@
    "market": "SE",
    "collected": 0,
    "failed": 0,
-   "ms": 1351
+   "ms": 1314
   },
   {
    "id": "bukowskis",
    "label": "Bukowskis",
    "market": "SE",
-   "collected": 20,
+   "collected": 50,
    "failed": 0,
-   "ms": 2056
+   "ms": 2277
   }
  ],
  "searchSignals": {},
  "samples": {
-  "glas": [],
-  "porslin": [
+  "glas": [
    {
-    "title": "tallrik sankt george ordens servis alexander iii s tid 1881 1894 kejserliga porslinsmanufakturen st petersburg",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1757541-tallrik-sankt-george-ordens-servis-alexander-iii-s-tid-1881-1894-kejserliga-porslinsmanufakturen-st-petersburg",
+    "title": "rey urban collier sterlingsilver och fasettslipad bergkristall stockholm 1977",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1755067-rey-urban-collier-sterlingsilver-och-fasettslipad-bergkristall-stockholm-1977",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -424,8 +417,8 @@
     "brand": null
    },
    {
-    "title": "carl palm te och kaffeservis 4 delar silver s t petersburg 1840",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1735989-carl-palm-te-och-kaffeservis-4-delar-silver-s-t-petersburg-1840",
+    "title": "wiwen nilsson ring sterlingsilver med trappslipad bergkristall lund 1950",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1754470-wiwen-nilsson-ring-sterlingsilver-med-trappslipad-bergkristall-lund-1950",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -433,8 +426,17 @@
     "brand": null
    },
    {
-    "title": "tallrik st andreas servisen kejserliga porslinsmanufakturen alexander ii s tid st petersburg 1855 1881",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1757536-tallrik-st-andreas-servisen-kejserliga-porslinsmanufakturen-alexander-ii-s-tid-st-petersburg-1855-1881",
+    "title": "vivianna torun bulow hube halsring med hange sterlingsilver och bergkristall",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1724995-vivianna-torun-bulow-hube-halsring-med-hange-sterlingsilver-och-bergkristall",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": null
+   },
+   {
+    "title": "wiwen nilsson ett par orhangen silver med trappslipad bergkristall lund 1940",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1742543-wiwen-nilsson-ett-par-orhangen-silver-med-trappslipad-bergkristall-lund-1940",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -442,71 +444,8 @@
     "brand": null
    }
   ],
-  "antik-design": [
-   {
-    "title": "veikko marttinen landskap med hus",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1750397-veikko-marttinen-landskap-med-hus",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "pottskap 1700 talets slut sengustavianskt",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1754049-pottskap-1700-talets-slut-sengustavianskt",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "tove jansson landskap",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1748081-tove-jansson-landskap",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "juho kyyhkynen forslandskap",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1756424-juho-kyyhkynen-forslandskap",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "akseli gallen kallela sommarlandskap fran ruovesi",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1743121-akseli-gallen-kallela-sommarlandskap-fran-ruovesi",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "byra 1700 talets senare halft rokoko",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1758789-byra-1700-talets-senare-halft-rokoko",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "fanny churberg angslandskap",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1740531-fanny-churberg-angslandskap",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   }
-  ],
+  "porslin": [],
+  "antik-design": [],
   "friluft": [],
   "damklader": [],
   "herrklader": [],
@@ -515,8 +454,17 @@
   "skor": [],
   "smycken": [
    {
-    "title": "clips brosch diamanter 18k vitguld hovjuvelerare friedlander berlin 1900 talets borjan",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1754812-clips-brosch-diamanter-18k-vitguld-hovjuvelerare-friedlander-berlin-1900-talets-borjan",
+    "title": "regitze overgaard armring silver georg jensen",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1756173-regitze-overgaard-armring-silver-georg-jensen",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "georg jensen"
+   },
+   {
+    "title": "karl ingemar johansson armband silver goteborg 1972",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1748437-karl-ingemar-johansson-armband-silver-goteborg-1972",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -524,8 +472,17 @@
     "brand": null
    },
    {
-    "title": "armband gammal och rosenslipade diamanter 14k 56 guld st petersburg 1882 1899",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1743951-armband-gammal-och-rosenslipade-diamanter-14k-56-guld-st-petersburg-1882-1899",
+    "title": "bjorn weckstrom collier pandora silver lapponia 1985",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1756163-bjorn-weckstrom-collier-pandora-silver-lapponia-1985",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "pandora"
+   },
+   {
+    "title": "bjorn weckstrom armband aniara silver lapponia 1983",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1749394-bjorn-weckstrom-armband-aniara-silver-lapponia-1983",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -533,8 +490,17 @@
     "brand": null
    },
    {
-    "title": "armband parlor diamanter platina a tillander helsingfors",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1738400-armband-parlor-diamanter-platina-a-tillander-helsingfors",
+    "title": "bjorn weckstrom ring pandora silver lapponia 1985",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1756162-bjorn-weckstrom-ring-pandora-silver-lapponia-1985",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "pandora"
+   },
+   {
+    "title": "brosch skalbagge silver a tillander helsingfors 1953",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1751048-brosch-skalbagge-silver-a-tillander-helsingfors-1953",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -542,8 +508,44 @@
     "brand": null
    },
    {
-    "title": "tiffany co halsband tiffany keys platina kuddslipad gul diamant briljantslipade diamanter",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1742836-tiffany-co-halsband-tiffany-keys-platina-kuddslipad-gul-diamant-briljantslipade-diamanter",
+    "title": "georg jensen hange med kedja arssmycke 1997 sterlingsilver",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1752481-georg-jensen-hange-med-kedja-arssmycke-1997-sterlingsilver",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "georg jensen"
+   },
+   {
+    "title": "bjorn weckstrom ring pandora silver lapponia 1984",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1749395-bjorn-weckstrom-ring-pandora-silver-lapponia-1984",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "pandora"
+   },
+   {
+    "title": "vivianna torun bulow hube ring savannah 18k guld med fasettslipad citrin for georg jensen",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1756664-vivianna-torun-bulow-hube-ring-savannah-18k-guld-med-fasettslipad-citrin-for-georg-jensen",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "georg jensen"
+   },
+   {
+    "title": "georg jensen halsring silver",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1756174-georg-jensen-halsring-silver",
+    "priceSek": null,
+    "bids": 0,
+    "source": "bukowskis",
+    "imageUrl": null,
+    "brand": "georg jensen"
+   },
+   {
+    "title": "wiwen nilsson brosch sterlingsilver lund 1965",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1754241-wiwen-nilsson-brosch-sterlingsilver-lund-1965",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -551,53 +553,8 @@
     "brand": null
    },
    {
-    "title": "smyckesset 3 delar brosch hange och orhangen parlor 14k guld tillander helsingfors 1968",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1741194-smyckesset-3-delar-brosch-hange-och-orhangen-parlor-14k-guld-tillander-helsingfors-1968",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "armband flatat av 18k guldtrad italien",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1723313-armband-flatat-av-18k-guldtrad-italien",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "cartier armband 8 de cartier briljantslipade diamanter 18k vitguld 2001",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1741577-cartier-armband-8-de-cartier-briljantslipade-diamanter-18k-vitguld-2001",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "cartier brosch fyrklover gron emalj rosenslipade diamanter 18k guld frankrike",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1757514-cartier-brosch-fyrklover-gron-emalj-rosenslipade-diamanter-18k-guld-frankrike",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "armband 18k guld emalj italien",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1738409-armband-18k-guld-emalj-italien",
-    "priceSek": null,
-    "bids": 0,
-    "source": "bukowskis",
-    "imageUrl": null,
-    "brand": null
-   },
-   {
-    "title": "armband briljantslipade diamanter 18k vitguld timanttikoru helsingfors 1967",
-    "url": "https://www.bukowskis.com/sv/auctions/F744/lots/1757515-armband-briljantslipade-diamanter-18k-vitguld-timanttikoru-helsingfors-1967",
+    "title": "broscher 4 st silver a tillander 1940 tal",
+    "url": "https://www.bukowskis.com/sv/auctions/E1451/lots/1751684-broscher-4-st-silver-a-tillander-1940-tal",
     "priceSek": null,
     "bids": 0,
     "source": "bukowskis",
@@ -612,7 +569,7 @@
   "bocker-film-spel": []
  },
  "counts": {
-  "observations": 20,
-  "categories": 3
+  "observations": 50,
+  "categories": 2
  }
 }
